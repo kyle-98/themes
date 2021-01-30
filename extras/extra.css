@@ -14,7 +14,7 @@
     --interactive-hover: #dcddde;
     --interactive-active: #fff;
     --interactive-muted: #4f545c;
-    --background-primary: transparent;
+    --background-primary: red;
     --background-secondary: rgba(0,0,0,.7);
     --background-secondary-alt: #292b2f;
     --background-tertiary: var(--dark-transparent);
