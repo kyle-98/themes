@@ -1,8 +1,5 @@
 :root {
     --dark-transparent: rgba(0,0,0,.3);
-    --spotify-color: #1db95479;
-    --game-color:  #7289da79;
-    --wordmark-image: url('https://i.imgur.com/qOvxhS4.png');
 }
 
 .theme-dark {
@@ -17,7 +14,7 @@
     --interactive-active: #fff;
     --interactive-muted: #4f545c;
     --background-primary: transparent;
-    --background-secondary: rgba(0,0,0,.7);
+    --background-secondary: rgba(0,0,0,.1);
     --background-secondary-alt: #292b2f;
     --background-tertiary: var(--dark-transparent);
     --background-accent: #4f545c;
@@ -97,16 +94,22 @@
 #app-mount .container-3XJ8ns {
     background-color: rgba(0,0,0,.9);
 }
+#app-mount .headerXbox-3G-4PF {
+    background: var(--xbox-color);
+}
+#app-mount .headerStreaming-2FjmGz {
+    background: var(--twitch-color);
+}
 
 /* Upload Area */
 #app-mount .uploadModal-2ifh8j {
-    background-color: rgba(0,0,0,.8)
+    background-color: rgba(0,0,0,.2)
 }
 #app-mount .uploadModal-2ifh8j .inner-3nWsbo .channelTextAreaUpload-3t7EIx {
-    background-color: rgba(14, 14, 14, 0.9);
+    background-color: rgba(14, 14, 14, .4);
 }
 #app-mount .uploadModal-2ifh8j .footer-3mqk7D.hasSpoilers-1IRtQC {
-    background-color: rgba(0,0,0,.8)
+    background-color: rgba(0,0,0,.2)
 }
 
 /* Nitro Tab */
@@ -134,19 +137,19 @@
 
 /* Emoji auto complete */
 #app-mount .autocomplete-1vrmpx {
-    background-color: rgba(0,0,0,.9);
+    background-color: rgba(0,0,0,.7);
 }
 
 /*Folder settings */
 #app-mount .root-1gCeng {
-    background-color: rgba(0,0,0,.7);
+    background-color: rgba(0,0,0,.2);
 }
 #app-mount .footer-2gL1pp {
-    background-color: rgba(0,0,0,.7);
+    background-color: rgba(0,0,0,.2);
 }
 /* color picker */
 #app-mount .colorPickerCustom-2CWBn2 {
-    background-color: rgba(0,0,0,.9);
+    background-color: rgba(0,0,0,.2);
 }
 
 
@@ -169,7 +172,7 @@
     color:white;
 }
 #app-mount .container-UC8Ug1 {
-    background-color: rgba(14, 13, 13, 0.8)
+    background-color: rgba(14, 13, 13, 0.4)
 }
 
 /* Explore tab */
@@ -194,4 +197,21 @@
 /* members list */
 #app-mount .addMembersButton-1eG9YC {
     display: none;
+}
+
+/* Search bar (slightly busted) */
+#app-mount .container-3ayLPN {
+    background-color: rgba(0,0,0,.5);
+}
+#app-mount .calendarPicker-2yf6Ci .react-datepicker {
+    background-color: rgba(0,0,0,.5);
+}
+#app-mount .calendarPicker-2yf6Ci .react-datepicker__header {
+    background-color: transparent;
+}
+#app-mount .calendarPicker-2yf6Ci .react-datepicker__day--outside-month {
+    background-color: rgba(0,0,0,.5);
+}
+#app-mount .focused-2bY0OD{
+    background-color: rgba(0,0,0,.5);
 }
