@@ -1,0 +1,19 @@
+/**
+
+ * @name Dark Theme
+ * @version 6.9
+ * @description Dark mode for discord.
+ * @source https://www.walmart.com
+ * @author kyle
+ * @donate https://i.imgur.com/UbIm2sU.png
+**/
+
+@import url("https://kyle-98.github.io/themes/extras/extra.css");
+
+:root {
+    --background-image: url('https://wallpapercave.com/wp/wp4862612.jpg');
+    --background-blur: 5px;
+
+}
+
+
