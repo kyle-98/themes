@@ -1,1 +1,105 @@
+.theme-dark {
+    --header-primary: #fff;
+    --header-secondary: #b9bbbe;
+    --text-normal: #dcddde;
+    --text-muted: #72767d;
+    --text-link: #00b0f4;
+    --channels-default: #8e9297;
+    --interactive-normal: #b9bbbe;
+    --interactive-hover: #dcddde;
+    --interactive-active: #fff;
+    --interactive-muted: #4f545c;
+    --background-primary: transparent;
+    --background-secondary: rgba(0,0,0,.7);
+    --background-secondary-alt: #292b2f;
+    --background-tertiary: var(--dark-transparent);
+    --background-accent: #4f545c;
+    --background-floating: #18191c;
+    --background-mobile-primary: #36393f;
+    --background-mobile-secondary: #2f3136;
+    --background-modifier-hover: rgba(79,84,92,0.16);
+    --background-modifier-active: rgba(79,84,92,0.24);
+    --background-modifier-selected: rgba(79,84,92,0.32);
+    --background-modifier-accent: hsla(0,0%,100%,0.06);
+    --background-mentioned: rgba(250,166,26,0.05);
+    --background-mentioned-hover: rgba(250,166,26,0.08);
+    --background-message-hover: rgba(4,4,5,0.07);
+    --background-help-warning: rgba(250,166,26,0.1);
+    --background-help-info: rgba(0,176,244,0.1);
+    --channeltextarea-background: rgba(0,0,0, .3);
+}
+
+
+/* main app */
+#app-mount .layers-3iHuyZ::before {
+    content: "";
+    background: var(--background-image);
+    height: calc(100vh + (var(--background-blur)) * 2);
+    width: calc(100vw + (var(--background-blur)) * 2);
+    filter: blur(var(--background-blur));
+    
+  }
+
+.panels-j1Uci_ {
+    background-color: var(--dark-transparent);
+}
+
+.wordmarkWindows-1v0lYD {
+    color:white;
+}
+
+.theme-dark .container-1D34oG {
+    background-color: transparent;
+}
+/* Dynamic Scrollbar */
+.auto-Ge5KZx::-webkit-scrollbar-thumb, .auto-Ge5KZx::-webkit-scrollbar-track {
+    background-color: var(--dark-transparent);
+}
+
+/* User popouts */
+.theme-dark .headerNormal-T_seeN {
+    background-color: rgba(0,0,0,.8);
+}
+.theme-dark .body-3iLsc4 {
+    background-color: rgba(0,0,0,.7)
+}
+.theme-dark .footer-1fjuF6 {
+    background-color: rgba(0,0,0,.7);
+}
+.protip-YaFfgO {
+    visibility: hidden;
+    margin-bottom: -15px;
+}
+.headerSpotify-zpWxgT {
+    background: #1db95479;
+}
+.headerPlaying-j0WQBV {
+    background: #7289da79;
+}
+
+/* Upload Area */
+.theme-dark .uploadModal-2ifh8j {
+    background-color: rgba(0,0,0,.8)
+}
+.uploadModal-2ifh8j .inner-3nWsbo .channelTextAreaUpload-3t7EIx {
+    background-color: rgba(14, 14, 14, 0.9);
+}
+.uploadModal-2ifh8j .footer-3mqk7D.hasSpoilers-1IRtQC {
+    background-color: rgba(0,0,0,.8)
+}
+
+/* Nitro Tab */
+.applicationStore-1pNvnv {
+    background-color: var(--dark-transparent);
+}
+.buttonText-3LvUCc {
+    visibility: hidden;
+    margin: -60px;
+    margin-right: 10px;
+    padding: 5px;
+}
+.buttonText-3LvUCc:after{
+    content:"This is a scam";
+    visibility: visible;  
+}
 
