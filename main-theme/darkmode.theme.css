@@ -13,6 +13,7 @@
 :root {
     --background-image: url('https://wallpapercave.com/wp/wp4862612.jpg');
     --background-blur: 5px;
+    --background-darken: .5;
     /* change the color of user popout playing */
     --spotify-color: #417e56d5;
     --game-color:  #626d97d5;
