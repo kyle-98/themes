@@ -37,11 +37,11 @@
 #app-mount .layers-3iHuyZ::before {
     content: "";
     background: var(--background-image);
+    height: calc(100vh + (var(--background-blur)) * 2);
+    width: calc(100vw + (var(--background-blur)) * 2);    
     background-position: center;
     background-size: cover;
-    height: calc(100vh + (var(--background-blur)) * 2);
-    width: calc(100vw + (var(--background-blur)) * 2);
-    filter: blur(var(--background-blur));
+    filter: blur(var(--background-blur)) brightness(var(--background-darken));
   }
 
 #app-mount .panels-j1Uci_ {
