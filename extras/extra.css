@@ -236,3 +236,8 @@
 #app-mount .numberBadge-2s8kKX {
     background-color: var(--badge-color) !important;
 }
+
+/* Sidebar Width */
+.sidebar-2K8pFh   {
+    width: var(--sidebar-width); 
+}
