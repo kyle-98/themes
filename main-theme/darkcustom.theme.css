@@ -14,15 +14,24 @@
     --background-image: url('https://wallpapercave.com/wp/wp4862612.jpg');
     --background-blur: 5px;
     --background-darken: 1;
+    
+    /* https://www.hexcolortool.com/ */
+
     /* change the color of user popout playing */
     --spotify-color: #417e56d5;
     --game-color:  #626d97d5;
     --xbox-color: #226622d5;
     --twitch-color: #5a477ad5;
 
+    /* badge/notification color*/
+    --badge-color: #f04747a9;
+
     /* image next to wordmark (leave blank to remove) */
     --wordmark-image: url('https://i.imgur.com/qOvxhS4.png');
 
+    /* Image for connection to server (leave both blank to have default)*/
+    --connect-image: url('https://cdn.discordapp.com/emojis/685208553249701900.png?v=1');
+    --connect-disable: none;
 }
 
 
