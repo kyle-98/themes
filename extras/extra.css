@@ -129,10 +129,16 @@
 
 /* emoji picker */
 #app-mount .inspector-S2gM3e {
-    background-color: var(--dark-transparent);
+    background-color: rgba(0,0,0,.4);
 }
 #app-mount .emojiItem-14v6tW.emojiItemSelected-1aLkfV {
-    background-color:rgba(41, 38, 38, 0.9);
+    background-color:rgba(41, 38, 38, 0.7);
+}
+#app-mount .emojiPickerInExpressionPicker-3IzIcv .emojiPicker-3PwZFl {
+    background-color: var(--dark-transparent);
+}
+#app-mount .contentWrapper-SvZHNd {
+    background-color: rgba(0,0,0,.4);
 }
 
 /* Emoji auto complete */
@@ -214,4 +220,19 @@
 }
 #app-mount .focused-2bY0OD{
     background-color: rgba(0,0,0,.5);
+}
+
+/*Connection Indicator */
+#app-mount .ping-2NgC8E{
+    background: var(--connect-image) 100% no-repeat;
+    background-size: 25px;
+    padding: 5px;
+    padding-left: 10px;  
+}
+#app-mount .rtcConnectionQualityFine-2J6i8z .pingForeground-2uAOZ3 {
+    display: var(--connect-disable);
+}
+
+#app-mount .numberBadge-2s8kKX {
+    background-color: var(--badge-color) !important;
 }
