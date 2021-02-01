@@ -11,10 +11,10 @@
 @import url("https://kyle-98.github.io/themes/extras/extra.css");
 
 :root {
-    --background-image: url('https://wallpapercave.com/wp/wp4862612.jpg');
+    --background-image: url('https://i.imgur.com/F1ib7Go.jpg');
     --background-blur: 5px;
     --background-darken: 1;
-    
+
     /* https://www.hexcolortool.com/ */
 
     /* change the color of user popout playing */
@@ -31,7 +31,14 @@
 
     /* Image for connection to server (leave both blank to have default)*/
     --connect-image: url('https://cdn.discordapp.com/emojis/685208553249701900.png?v=1');
-    --connect-disable: none;
+    --connect-disable: none; 
+
+    /* Sidebar Width (240px is default) */
+    --sidebar-width: 240px;
+
+    /* Sidebar width (members list) (240 is default) */
+    --members-width: 240px;
+
 }
 
 
