@@ -136,14 +136,15 @@
 }
 #app-mount .emojiPickerInExpressionPicker-3IzIcv .emojiPicker-3PwZFl {
     background-color: var(--dark-transparent);
+    box-shadow: 0 0 5px 2px rgb(0, 0, 0);
 }
 #app-mount .contentWrapper-SvZHNd {
     background-color: rgba(0,0,0,.4);
 }
-
 /* Emoji auto complete */
 #app-mount .autocomplete-1vrmpx {
     background-color: rgba(0,0,0,.7);
+    box-shadow: 0 0 10px 2px rgb(0, 0, 0);
 }
 
 /*Folder settings */
@@ -186,7 +187,8 @@
     background-color: transparent;
 }
 #app-mount .menu-3sdvDG {
-    background-color:rgba(0, 0, 0, 1)
+    background-color:rgba(0, 0, 0, .8);
+    box-shadow: 0 0 5px 2px rgb(0, 0, 0);
 }
 
 /* now playing (friend's list) */
@@ -250,3 +252,13 @@
 #app-mount .members-1998pB, .members-1998pB>div {
     width: var(--members-width);
 }
+
+#app-mount .tooltipPointer-3ZfirK {
+    border-top-color: rgba(0,0,0,.4);
+}
+
+#app-mount .tooltip-2QfLtc {
+    background-color: rgba(0,0,0, .8);
+    box-shadow: 0 0 5px 2px rgb(0, 0, 0);
+}
+
