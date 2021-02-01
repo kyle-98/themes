@@ -237,7 +237,16 @@
     background-color: var(--badge-color) !important;
 }
 
-/* Sidebar Width */
-.sidebar-2K8pFh   {
+/* Sidebar Width (channels) */
+#app-mount .sidebar-2K8pFh   {
     width: var(--sidebar-width); 
+}
+
+/* side width (users) */
+#app-mount .membersWrap-2h-GB4{
+    width: var(--members-width);
+    min-width: 0px;
+}
+#app-mount .members-1998pB, .members-1998pB>div {
+    width: var(--members-width);
 }
