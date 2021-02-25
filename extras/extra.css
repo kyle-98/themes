@@ -262,3 +262,7 @@
     box-shadow: 0 0 5px 2px rgb(0, 0, 0);
 }
 
+#app-mount .jumpToPresentBar-G1R9s6 {
+    background-color: rgba(0 ,0, 0, .6);
+    box-shadow: 1px -8px 12px -4px rgba(0 ,0, 0, .8);
+}
