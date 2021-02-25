@@ -39,6 +39,8 @@
     /* Sidebar width (members list) (240 is default) */
     --members-width: 240px;
 
+    /*Discord Nitro Billing Bullshit (To enable nitro change to block) */
+    --nitro-garbage: none;
 }
 
 
