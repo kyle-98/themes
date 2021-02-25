@@ -274,3 +274,10 @@
 #app-mount .emojiAliasInput-1y-NBz .emojiInput-1aLNse {
     background-color: rgba(0, 0, 0, .3);
 }
+
+#app-mount .clickable-1JJAn8[id="private-channels-1"] {
+    display: none;
+}
+#app-mount .item-PXvHYJ[aria-controls="Discord Nitro-tab"], [aria-controls="Billing-tab"] {
+   display: none;
+}
