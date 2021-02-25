@@ -276,8 +276,8 @@
 }
 
 #app-mount .clickable-1JJAn8[id="private-channels-1"] {
-    display: none;
+    display: var(--nitro-garbage);
 }
 #app-mount .item-PXvHYJ[aria-controls="Discord Nitro-tab"], [aria-controls="Billing-tab"] {
-   display: none;
+   display: var(--nitro-garbage);
 }
