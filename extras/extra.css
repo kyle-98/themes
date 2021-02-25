@@ -266,3 +266,11 @@
     background-color: rgba(0 ,0, 0, .6);
     box-shadow: 1px -8px 12px -4px rgba(0 ,0, 0, .8);
 }
+
+#app-mount .card-FDVird:before {
+    background-color: var(--dark-transparent);
+    border-color:  rgba(0, 0, 0, .6);
+}
+#app-mount .emojiAliasInput-1y-NBz .emojiInput-1aLNse {
+    background-color: rgba(0, 0, 0, .3);
+}
