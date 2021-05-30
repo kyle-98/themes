@@ -41,6 +41,12 @@
 
     /*Discord Nitro Billing Bullshit (To enable nitro change to block) */
     --nitro-garbage: none;
+    
+    /* Disable Stage Button Under Home Tab */
+    --stage-garbage: none;
+
+    /* Channel Sidebar Header Color */
+    --channel-sidebar-header: white;
 }
 
 
