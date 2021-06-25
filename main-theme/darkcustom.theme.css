@@ -48,6 +48,9 @@
 
     /* Channel Sidebar Header Color */
     --channel-sidebar-header: white;
+    
+    /* Change your custom profile background (search " .popoutBanner-19WKGg " in this document and change to your discord username for this work) */
+    --profile-background: url("https://i.imgur.com/kGzY6r6.png");
 }
 
 
