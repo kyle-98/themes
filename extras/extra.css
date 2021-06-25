@@ -380,4 +380,7 @@
 }
 #app-mount .integration-3kMeY4 {
     background-color: rgba(0 ,0, 0, .4);
+    
+#app-mount .userPopout-xaxa6l[aria-label="kyle"] .headerNormal-3KXFBt .popoutBanner-19WKGg{ 
+    background: var(--profile-background) no-repeat !important;
 }
