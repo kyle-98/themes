@@ -104,9 +104,6 @@
 #app-mount .headerStreaming-2FjmGz {
     background: var(--twitch-color);
 }
-#app-mount .headerTop-2y3V6H {
-    background-color: rgba(0,0,0,.65);
-}
 #app-mount .avatar-22FtUu {
     background-color: rgba(0, 0, 0, 0.315);
 }
@@ -117,8 +114,33 @@
     border-color: rgba(255, 255, 255, 0.507);
 }
 #app-mount .input-2_SIlA {
-    background-color: rgba(255, 255, 255, 0.068);
-    
+    background-color: rgba(255, 255, 255, 0.068); 
+}
+#app-mount .headerTop-3vNv-a {
+    background-color: rgba(0, 0, 0, 0.8);
+}
+#app-mount .customStatus-oN4ZZY {
+    background-color: rgba(0, 0, 0, 0.8);
+}
+#app-mount .aboutMeSection-1Fw5Ia {
+    background-color: rgba(0, 0, 0, 0.8);
+}
+
+/* Custom User Banner */
+#app-mount .userPopout-xaxa6l[data-user-id="143941453733822464"] .headerNormal-3KXFBt .popoutBanner-19WKGg{ 
+    background: var(--profile-background) no-repeat !important;
+    height: 120px !important;
+}
+#app-mount .avatar-37jOim[data-user-id="143941453733822464"] {
+    margin-top: 50px;
+}
+#app-mount .userPopout-xaxa6l[data-user-id="143941453733822464"] .avatarHint-2A3RNb {
+    margin-top: 50px;
+}
+#app-mount .root-3QyAh1[data-user-id="143941453733822464"] .topSection-y3p-_D .profileBanner-33-uE1 {
+    background: var(--profile-background) center no-repeat !important;
+    background-size: cover !important;
+    height: 240px;
 }
 
 /*Main User PopOut */
@@ -380,11 +402,4 @@
 }
 #app-mount .integration-3kMeY4 {
     background-color: rgba(0 ,0, 0, .4);
-    
-#app-mount .userPopout-xaxa6l[aria-label="kyle"] .headerNormal-3KXFBt .popoutBanner-19WKGg{ 
-    background: var(--profile-background) no-repeat !important;
 }
-    
-#app-mount .root-3QyAh1[data-user-id="143941453733822464"] .topSection-y3p-_D .profileBanner-33-uE1 {
-    background: var(--profile-background) center no-repeat !important;
-    background-size: cover !important;
