@@ -75,9 +75,6 @@
 #app-mount .headerNormal-T_seeN {
     background-color: rgba(0,0,0,.8);
 }
-#app-mount .body-3iLsc4 {
-    background-color: rgba(0,0,0,.9)
-}
 #app-mount .footer-1fjuF6 {
     background-color: rgba(0,0,0,.9);
 }
@@ -123,6 +120,9 @@
     background-color: rgba(0, 0, 0, 0.8);
 }
 #app-mount .aboutMeSection-1Fw5Ia {
+    background-color: rgba(0, 0, 0, 0.8);
+}
+#app-mount .body-3HBlXn {
     background-color: rgba(0, 0, 0, 0.8);
 }
 
