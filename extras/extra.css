@@ -126,7 +126,7 @@
     background-color: rgba(0, 0, 0, 0.8);
 }
 
-/* Custom User Banner */
+/* Custom User Banner 
 #app-mount .userPopout-xaxa6l[data-user-id="143941453733822464"] .headerNormal-3KXFBt .popoutBanner-19WKGg{ 
     background: var(--profile-background) no-repeat !important;
     height: 120px !important;
@@ -142,6 +142,7 @@
     background-size: cover !important;
     height: 240px;
 }
+*/
 
 /*Main User PopOut */
 #app-mount .infoScroller-3EYYns {
