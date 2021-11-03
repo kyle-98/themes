@@ -334,12 +334,10 @@
     background-color: rgba(0, 0, 0, .3);
 }
 
-#app-mount .clickable-1JJAn8[id="private-channels-2"] {
+#app-mount .clickable-1JJAn8[id="private-channels-1"] {
     display: var(--nitro-garbage);
 }
-#app-mount .channel-2QD9_O[id="private-channels-1"] {
-    display: var(--stage-garbage);
-}
+
 #app-mount .item-PXvHYJ[aria-controls="Discord Nitro-tab"], [aria-controls="Billing-tab"], [aria-controls="Nitro Server Boost-tab"] {
     display: var(--nitro-garbage);
 }
