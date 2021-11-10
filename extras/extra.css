@@ -334,7 +334,7 @@
     background-color: rgba(0, 0, 0, .3);
 }
 
-#app-mount .clickable-1JJAn8[id="private-channels-1"] {
+#app-mount .clickable-1JJAn8[data-list-item-id="private-channels-uid_431___nitro"] {
     display: var(--nitro-garbage);
 }
 
