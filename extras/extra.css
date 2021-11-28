@@ -117,15 +117,17 @@
     background-color: rgba(0, 0, 0, 0.8);
 }
 #app-mount .customStatus-oN4ZZY {
-    background-color: rgba(0, 0, 0, 0.8);
+    /*background-color: rgba(0, 0, 0, 0.8); */
 }
 #app-mount .aboutMeSection-1Fw5Ia {
-    background-color: rgba(0, 0, 0, 0.8);
+    /*background-color: rgba(0, 0, 0, 0.8);*/
 }
 #app-mount .body-3HBlXn {
     background-color: rgba(0, 0, 0, 0.8);
 }
-
+#app-mount .bodyInnerWrapper-26fQXj {
+    background-color:  rgba(0, 0, 0, 0);
+}
 /* Custom User Banner 
 #app-mount .userPopout-xaxa6l[data-user-id="143941453733822464"] .headerNormal-3KXFBt .popoutBanner-19WKGg{ 
     background: var(--profile-background) no-repeat !important;
