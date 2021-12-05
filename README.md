@@ -1,3 +1,3 @@
-# themes
+# Discord themes
 
 monkaS
