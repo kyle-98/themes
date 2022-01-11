@@ -34,7 +34,7 @@
 }
 
 /* main app */
-#app-mount .layers-3iHuyZ::before {
+#app-mount .layers-OrUESM::before {
     content: "";
     background: var(--background-image);
     height: calc(100vh + (var(--background-blur)) * 2);
@@ -44,13 +44,13 @@
     filter: blur(var(--background-blur)) brightness(var(--background-darken));
   }
 
-#app-mount .panels-j1Uci_ {
+#app-mount .panels-3wFtMD {
     background-color: var(--dark-transparent);
 }
-#app-mount .container-1D34oG {
+#app-mount .container-2cd8Mz {
     background-color: transparent;
 }
-#app-mount .wordmarkWindows-1v0lYD {
+#app-mount .wordmarkWindows-2dq6rw {
     color:white;
     background-image: var(--wordmark-image);
     background-position:65px;
@@ -58,16 +58,16 @@
     background-repeat: no-repeat;
     width: 65px;
 }
-#app-mount .wrapper-1BJsBx.selected-bZ3Lue .childWrapper-anI2G9, .wrapper-1BJsBx:hover .childWrapper-anI2G9 {
+#app-mount .wrapper-3kah-n.selected-1Drb7Z .childWrapper-1j_1ub, .wrapper-3kah-n:hover .childWrapper-1j_1ub {
     background-color: white;
     color:black;
 }
-#app-mount .container-1D34oG {
+#app-mount .container-2cd8Mz {
     background-color: transparent;
 }
 
 /* Dynamic Scrollbar */
-#app-mount .auto-Ge5KZx::-webkit-scrollbar-thumb, .auto-Ge5KZx::-webkit-scrollbar-track {
+#app-mount .auto-2K3UW5::-webkit-scrollbar-thumb, .auto-2K3UW5::-webkit-scrollbar-track {
     background-color: var(--dark-transparent);
 }
 
@@ -88,11 +88,11 @@
 #app-mount .headerPlaying-j0WQBV {
     background: var(--game-color);
 }
-#app-mount .container-3XJ8ns {
+#app-mount .container-2O1UgZ {
     background-color: rgba(0, 0, 0, 0.952);
     box-shadow: 0 0 30px 2px rgba(255, 255, 255, 0.082);
 }
-#app-mount .inner-2P4tQO {
+#app-mount .inner-2pOSmK {
     background-color: rgba(255, 255, 255, 0.055);
 }
 #app-mount .headerXbox-3G-4PF {
@@ -104,42 +104,42 @@
 #app-mount .avatar-22FtUu {
     background-color: rgba(0, 0, 0, 0.315);
 }
-#app-mount .textarea-2r0oV8 {
+#app-mount .textarea-_59yqs {
     background-color: rgba(255, 255, 255, 0.034);
 }
-#app-mount .input-cIJ7To.focused-1mmYsC, .input-cIJ7To:focus {
+#app-mount .input-2g-os5.focused-1AtTHC, .input-2g-os5:focus {
     border-color: rgba(255, 255, 255, 0.507);
 }
-#app-mount .input-2_SIlA {
+#app-mount .input-2z42oC {
     background-color: rgba(255, 255, 255, 0.068); 
 }
-#app-mount .headerTop-3vNv-a {
+#app-mount .headerTop-3GPUSF {
     background-color: rgba(0, 0, 0, 0.8);
 }
-#app-mount .customStatus-oN4ZZY {
+#app-mount .customStatus-3XAoF9 {
     /*background-color: rgba(0, 0, 0, 0.8); */
 }
-#app-mount .aboutMeSection-1Fw5Ia {
+#app-mount .aboutMeSection-PUghFQ {
     /*background-color: rgba(0, 0, 0, 0.8);*/
 }
-#app-mount .body-3HBlXn {
+#app-mount .body-2wLx-E {
     background-color: rgba(0, 0, 0, 0.8);
 }
-#app-mount .bodyInnerWrapper-26fQXj {
+#app-mount .bodyInnerWrapper-2bQs1k {
     background-color:  rgba(0, 0, 0, 0);
 }
 /* Custom User Banner 
-#app-mount .userPopout-xaxa6l[data-user-id="143941453733822464"] .headerNormal-3KXFBt .popoutBanner-19WKGg{ 
+#app-mount .userPopout-2j1gM4[data-user-id="143941453733822464"] .headerNormal-3Zn_yu .popoutBanner-3cqRD9{ 
     background: var(--profile-background) no-repeat !important;
     height: 120px !important;
 }
-#app-mount .avatar-37jOim[data-user-id="143941453733822464"] {
+#app-mount .avatar-2Vndt_[data-user-id="143941453733822464"] {
     margin-top: 50px;
 }
-#app-mount .userPopout-xaxa6l[data-user-id="143941453733822464"] .avatarHint-2A3RNb {
+#app-mount .userPopout-2j1gM4[data-user-id="143941453733822464"] .avatarHint-k7pYop {
     margin-top: 50px;
 }
-#app-mount .root-3QyAh1[data-user-id="143941453733822464"] .topSection-y3p-_D .profileBanner-33-uE1 {
+#app-mount .root-8LYsGj[data-user-id="143941453733822464"] .topSection-13QKHs .profileBanner-1owKI5 {
     background: var(--profile-background) center no-repeat !important;
     background-size: cover !important;
     height: 240px;
@@ -159,176 +159,176 @@
 }
 
 /* Upload Area */
-#app-mount .uploadModal-2ifh8j {
+#app-mount .uploadModal-2ie9O_ {
     background-color: rgba(0,0,0,.2)
 }
-#app-mount .uploadModal-2ifh8j .inner-3nWsbo .channelTextAreaUpload-3t7EIx {
+#app-mount .uploadModal-2ie9O_ .inner-rBP-MS .channelTextAreaUpload-30SRDh {
     background-color: rgba(14, 14, 14, .4);
 }
-#app-mount .uploadModal-2ifh8j .footer-3mqk7D.hasSpoilers-1IRtQC {
+#app-mount .uploadModal-2ie9O_ .footer-VCsJQY.hasSpoilers-33hwf_ {
     background-color: rgba(0,0,0,.2)
 }
 
 /* Nitro Tab */
-#app-mount .applicationStore-1pNvnv {
+#app-mount .applicationStore-2nk7Lo {
     background-color: var(--dark-transparent);
 }
-#app-mount .buttonText-3LvUCc {
+#app-mount .buttonText-1c-l_x {
     visibility: hidden;
     margin: -60px;
     margin-right: 10px;
     padding: 5px;
 }
-#app-mount .buttonText-3LvUCc:after{
+#app-mount .buttonText-1c-l_x:after{
     content:"This is a scam";
     visibility: visible;  
 }
 
 /* emoji picker */
-#app-mount .inspector-S2gM3e {
+#app-mount .inspector-DFKXwB {
     background-color: rgba(0,0,0,.4);
 }
-#app-mount .emojiItem-14v6tW.emojiItemSelected-1aLkfV {
+#app-mount .emojiItem-277VFM.emojiItemSelected-2Lg50V {
     background-color:rgba(41, 38, 38, 0.7);
 }
-#app-mount .emojiPickerInExpressionPicker-3IzIcv .emojiPicker-3PwZFl {
+#app-mount .emojiPickerInExpressionPicker-2nOwH8 .emojiPicker-6YCk8a {
     background-color: var(--dark-transparent);
     box-shadow: 0 0 5px 2px rgb(0, 0, 0);
 }
-#app-mount .contentWrapper-SvZHNd {
+#app-mount .contentWrapper-3vHNP2 {
     background-color: rgba(0,0,0,.4);
 }
 /* Emoji auto complete */
-#app-mount .autocomplete-1vrmpx {
+#app-mount .autocomplete-3NRXG8 {
     background-color: rgba(0,0,0,.7);
     box-shadow: 0 0 10px 2px rgb(0, 0, 0);
 }
 
 /*Folder settings */
-#app-mount .root-1gCeng {
+#app-mount .root-g14mjS {
     background-color: rgba(0,0,0,.2);
 }
-#app-mount .footer-2gL1pp {
+#app-mount .footer-31IekZ {
     background-color: rgba(0,0,0,.2);
 }
 /* color picker */
-#app-mount .colorPickerCustom-2CWBn2 {
+#app-mount .colorPickerCustom-1swUKF {
     background-color: rgba(0,0,0,.2);
 }
 
 
 /* get rid of shitty gift button */
-#app-mount .buttons-3JBrkn [aria-label="Send a gift"]{
+#app-mount .buttons-uaqb-5 [aria-label="Send a gift"]{
     display: none !important;
 }
 
 /* Create Server */
-#app-mount .colorHeaderPrimary-26Jzh- {
+#app-mount .colorHeaderPrimary-jN_yGr {
     color: white;
 }
-#app-mount .colorHeaderSecondary-3Sp3Ft {
+#app-mount .colorHeaderSecondary-g5teka {
     color: white;
 }
-#app-mount .close-hZ94c6 {
+#app-mount .close-1mLglB {
     color:white;
 }
-#app-mount .colorStandard-2KCXvj {
+#app-mount .colorStandard-21JIj7 {
     color:white;
 }
-#app-mount .container-UC8Ug1 {
+#app-mount .container-x8Y1ix {
     background-color: rgba(14, 13, 13, 0.4)
 }
 
 /* Explore tab */
-#app-mount .pageWrapper-1PgVDX {
+#app-mount .pageWrapper-2PwDoS {
     background-color: transparent;
 }
-#app-mount .menu-3sdvDG {
+#app-mount .menu-1QACrS {
     background-color:rgba(0, 0, 0, .9);
     box-shadow: 0 0 5px 2px rgb(0, 0, 0);
 }
 
 /* now playing (friend's list) */
-#app-mount .nowPlayingColumn-2sl4cE {
+#app-mount .nowPlayingColumn-1eCBCN {
     background-color: var(--dark-transparent);
 }
-#app-mount .inset-3sAvek {
+#app-mount .inset-SbsSFp {
     background-color: rgba(0,0,0,.9);
 }
-#app-mount .itemCard-v9viV7:first-of-type {
+#app-mount .itemCard-3Etziu:first-of-type {
     background-color: rgba(0,0,0,.3);
 }
 
 /* members list */
-#app-mount .addMembersButton-1eG9YC {
+#app-mount .addMembersButton-2qS1qa {
     display: none;
 }
 
 /* Search bar (slightly busted) */
-#app-mount .container-3ayLPN {
+#app-mount .container-2McqkF {
     background-color: rgba(0,0,0,.5);
 }
-#app-mount .calendarPicker-2yf6Ci .react-datepicker {
+#app-mount .calendarPicker-sDhzdi .react-datepicker {
     background-color: rgba(0,0,0,.9);
 }
-#app-mount .calendarPicker-2yf6Ci .react-datepicker__header {
+#app-mount .calendarPicker-sDhzdi .react-datepicker__header {
     background-color: transparent;
 }
-#app-mount .calendarPicker-2yf6Ci .react-datepicker__day--outside-month {
+#app-mount .calendarPicker-sDhzdi .react-datepicker__day--outside-month {
     background-color: rgba(0,0,0,.5);
 }
-#app-mount .focused-2bY0OD{
+#app-mount .focused-2FU0YH{
     background-color: rgba(0,0,0,.5);
 }
-#app-mount .datePicker--XZbmJ .datePickerHint-3Q1Udw {
+#app-mount .datePicker-70cO23 .datePickerHint-17MnA8 {
     background-color: rgba(0,0,0,.9);
     
 }
 
 /*Connection Indicator */
-#app-mount .ping-2NgC8E{
+#app-mount .ping-2IpLcU{
     background: var(--connect-image) 100% no-repeat;
     background-size: 25px;
     padding: 5px;
     padding-left: 10px;  
 }
-#app-mount .rtcConnectionQualityFine-2J6i8z .pingForeground-2uAOZ3 {
+#app-mount .rtcConnectionQualityFine-3zZrSa .pingForeground-1BRBTc {
     display: var(--connect-disable);
 }
 
-#app-mount .numberBadge-2s8kKX {
+#app-mount .numberBadge-37OJ3S {
     background-color: var(--badge-color) !important;
 }
 
 /* Sidebar Width (channels) */
-#app-mount .sidebar-2K8pFh   {
+#app-mount .sidebar-1tnWFu   {
     width: var(--sidebar-width); 
 }
 
 /* side width (users) */
-#app-mount .membersWrap-2h-GB4{
+#app-mount .membersWrap-3NUR2t{
     width: var(--members-width);
     min-width: 0px;
 }
-#app-mount .members-1998pB, .members-1998pB>div {
+#app-mount .members-3WRCEx, .members-3WRCEx>div {
     width: var(--members-width);
 }
 
-#app-mount .tooltipPointer-3ZfirK {
+#app-mount .tooltipPointer-3L49xb {
     border-top-color: rgba(0,0,0,.4);
 }
 
-#app-mount .tooltip-2QfLtc {
+#app-mount .tooltip-14MtrL {
     background-color: rgba(0,0,0, .8);
     box-shadow: 0 0 5px 2px rgb(0, 0, 0);
 }
 
-#app-mount .jumpToPresentBar-G1R9s6 {
+#app-mount .jumpToPresentBar-1cEnH0 {
     background-color: rgba(0 ,0, 0, .6);
     box-shadow: 1px -8px 12px -4px rgba(0 ,0, 0, .8);
 }
 
-#app-mount .card-FDVird:before {
+#app-mount .card-2ART2V:before {
     background-color: var(--dark-transparent);
     border-color:  rgba(0, 0, 0, .6);
 }
@@ -336,41 +336,41 @@
     background-color: rgba(0, 0, 0, .3);
 }
 
-#app-mount .clickable-1JJAn8[href="/store"] {
+#app-mount .clickable-28SzVr[href="/store"] {
     display: var(--nitro-garbage);
 }
 
-#app-mount .item-PXvHYJ[aria-controls="Discord Nitro-tab"], [aria-controls="Billing-tab"], [aria-controls="Nitro Server Boost-tab"] {
+#app-mount .item-3XjbnG[aria-controls="Discord Nitro-tab"], [aria-controls="Billing-tab"], [aria-controls="Nitro Server Boost-tab"] {
     display: var(--nitro-garbage);
 }
 
 
 /*Channels Sidebar */
-#app-mount .name-3l27Hl {
+#app-mount .name-3BUDLf {
     color:var(--channel-sidebar-header);
 }
 
 /* Server Dropdown Settings */
-#app-mount .item-1tOPte[id="guild-header-popout-premium-subscribe"] {
+#app-mount .item-1OdjEX[id="guild-header-popout-premium-subscribe"] {
     margin-top: -40px;
 }
 
-#app-mount .icon-22AiRD {
+#app-mount .icon-2xnN2Y {
     color: white;
 }
 
 /*Search Bar Things */
-#app-mount .resultsGroup-r_nuzN {
+#app-mount .resultsGroup-1BPR25 {
     background-color: rgba(0,0,0,.8);
 }
-#app-mount .option-96V44q:after {
+#app-mount .option-2KkUJO:after {
     background-color:transparent;
     background-image: none;
 }
-#app-mount .option-96V44q.selected-rZcOL- {
+#app-mount .option-2KkUJO.selected-rZcOL- {
     background-color: #5c6fb1;
 }
-#app-mount .searchAnswer-3Dz2-q, .theme-dark .searchFilter-2ESiM3 {
+#app-mount .searchAnswer-23w-CH, .theme-dark .searchFilter-2UfsDk {
     background-color: #5c6fb1;
 }
 
@@ -378,34 +378,34 @@
     background-color: rgba(0,0,0,.7)
 }
 
-#app-mount .cozy-3raOZG .timestamp-3ZCmNB {
+#app-mount .cozy-VmLDNB .timestamp-p1Df1m {
     color:rgb(214, 214, 214);
 }
 
-#app-mount .messagesPopout-24nkyi {
+#app-mount .messagesPopout-eVzQcI {
     background-color: rgba(0 ,0, 0, .9);
 }
-#app-mount .header-ykumBX {
+#app-mount .header-1w9Q93 {
     background-color: rgba(0 ,0, 0, .8);
 }
 
-#app-mount .accountList-33MS45 {
+#app-mount .accountList-305sx3 {
     background-color: rgba(0 ,0, 0, .4);
 }
-#app-mount .connectionHeader-2MDqhu {
+#app-mount .connectionHeader-2rV1ze {
     background-color: rgba(0 ,0, 0, .4);
 }
-#app-mount .connectionOptionsWrapper-3KIj1Z {
+#app-mount .connectionOptionsWrapper-1ipqUo {
     background-color: rgba(0 ,0, 0, .2);
 }
-#app-mount .integrationsWrapper-VkM_zO {
+#app-mount .integrationsWrapper-3a2pGd {
     background-color: rgba(0 ,0, 0, .2);
 }
-#app-mount .integration-3kMeY4 {
+#app-mount .integration-1f5IUi {
     background-color: rgba(0 ,0, 0, .4);
 }
 
 /*Remove Thread near Upload Modal */
-#app-mount .item-1tOPte[id="channel-attach-THREAD"] {
+#app-mount .item-1OdjEX[id="channel-attach-THREAD"] {
     display: none;
 }
