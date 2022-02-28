@@ -409,3 +409,8 @@
 #app-mount .item-1OdjEX[id="channel-attach-THREAD"] {
     display: none;
 }
+
+/* Remove Gif Text Under Gifs */
+#app-mount .altText-sAs-Ao{
+    display: none;
+}
