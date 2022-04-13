@@ -414,3 +414,45 @@
 #app-mount .altText-sAs-Ao{
     display: none;
 }
+
+/* Threads popout fix */
+#app-mount .browser-mnQ1T7{
+    background-color:  rgba(0,0,0,.8);
+    border-radius: 5px;
+}
+
+/* background for pinned & inbox */
+#app-mount .messagesPopoutWrap-3zryHW{
+    background-color:  rgba(0,0,0,.8);
+}
+
+/* Headers for Inbox Messages */
+#app-mount .channelHeader-DFRX8q{
+    background-color:  rgba(0,0,0,.8);
+    border-radius: 10px;
+}
+
+/* fix settings background brightness */
+#app-mount .standardSidebarView-E9Pc3j{
+    background-color: rgba(0,0,0,.4);
+}
+
+/* Gif and emote picker background */
+#app-mount .contentWrapper-3vHNP2{
+    background-color:  rgba(0,0,0,.8);
+}
+
+/* fix emojis in custom status */
+#app-mount .body-2wLx-E{
+    padding-top: 5px;
+}
+
+/* Fix for auto complete darkness */
+#app-mount .scroller-18M1mG[data-list-id="channel-autocomplete"]{
+    background-color:  rgba(0,0,0,.6);
+}
+
+/* Delete Sticker picker in emote menu */
+#app-mount .navButton-1XuvI-[id="sticker-picker-tab"]{
+    display:  none;
+}
