@@ -456,3 +456,7 @@
 #app-mount .navButton-1XuvI-[id="sticker-picker-tab"]{
     display:  none;
 }
+
+#app-mount .anchor-1MIwyf[href="https://support.discord.com"]{
+    display: none;
+}
