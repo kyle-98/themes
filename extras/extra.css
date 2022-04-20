@@ -222,6 +222,10 @@
     display: none !important;
 }
 
+#app-mount .buttons-uaqb-5 [aria-label="Send a gift"]{
+    display: none !important;
+}
+
 /* Create Server */
 #app-mount .colorHeaderPrimary-jN_yGr {
     color: white;
