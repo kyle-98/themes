@@ -464,3 +464,11 @@
 #app-mount .anchor-1MIwyf[href="https://support.discord.com"]{
     display: none;
 }
+
+#app-mount .closeIcon-1NwtbI path{
+    fill: rgb(237, 74, 82) !important;
+}
+
+#app-mount .colorDefault-CDqZdO[id="user-context-block"],[id="user-context-remove-friend"]{
+    color:  rgb(237, 74, 82);
+}
