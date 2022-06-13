@@ -1,0 +1,21 @@
+/**
+
+ * @name Coral Theme Dev Version
+ * @version v0.1
+ * @description Coral Theme.
+ * @source https://www.walmart.com
+ * @author kyle
+ * @donate https://media.tenor.com/images/b2b14fc1521dbb60f5ba331c34db3f99/tenor.png
+
+**/
+
+@import url();
+
+
+:root{
+    --coral-theme-light-blue: #131C26;
+    --coral-theme-dark-blue: #0D1620;
+    --coral-theme-darker-blue: #09111B;
+    --coral-theme-light-pink: #FF84AC;
+    --coral-theme-dark-pink: #D98BA1;
+}
