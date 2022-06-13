@@ -1,0 +1,233 @@
+.theme-dark{
+    --header-primary: #fff;
+    --header-secondary: #b9bbbe;
+    --text-normal: #dcddde;
+    --text-muted: #a3a6aa;
+    --text-link: hsl(197,calc(var(--saturation-factor, 1)*100%),47.8%);
+    --text-link-low-saturation: hsl(197,calc(var(--saturation-factor, 1)*100%),52.9%);
+    --text-positive: hsl(139,calc(var(--saturation-factor, 1)*51.6%),52.2%);
+    --text-warning: hsl(38,calc(var(--saturation-factor, 1)*95.7%),54.1%);
+    --text-danger: hsl(359,calc(var(--saturation-factor, 1)*82%),73.9%);
+    --text-brand: hsl(235,calc(var(--saturation-factor, 1)*86.1%),77.5%);
+    --interactive-normal: #b9bbbe;
+    --interactive-hover: #dcddde;
+    --interactive-active: #fff;
+    --interactive-muted: #4f545c;
+    --background-primary: #36393f;
+    --background-secondary: #2f3136;
+    --background-secondary-alt: #292b2f;
+    --background-tertiary: #202225;
+    --background-accent: #4f545c;
+    --background-floating: #18191c;
+    --background-nested-floating: #2f3136;
+    --background-mobile-primary: #36393f;
+    --background-mobile-secondary: #2f3136;
+    --chat-background: #36393f;
+    --chat-border: #202225;
+    --chat-input-container-background: #36393f;
+}
+
+/* Main text background */
+#app-mount .content-1jQy2l{
+    background-color: var(--coral-theme-light-blue);
+}
+
+/* Line under home button */
+#app-mount .scroller-3X7KbA {
+    background-color: var(--coral-theme-light-blue);
+}
+
+/* Servers List */
+#app-mount .guildSeparator-a4uisj{
+    background-color: var(--coral-theme-dark-pink);
+}
+
+/* selected home icon */
+#app-mount .wrapper-3kah-n.selected-1Drb7Z .childWrapper-1j_1ub, .wrapper-3kah-n:hover .childWrapper-1j_1ub{
+    background-color: var(--coral-theme-light-pink);
+}
+
+/* Un-selected home icon */
+#app-mount .childWrapper-1j_1ub{
+    background-color: var(--coral-theme-dark-pink);
+}
+
+/* Terrible shadow line around message box */
+#app-mount .form-3gdLxP:before{
+    background: none;
+}
+
+/* Add/Explore Server Buttons */
+#app-mount .circleIconButton-1VxDrg{
+    color: var(--coral-theme-dark-pink);
+    background-color: var(--coral-theme-dark-blue);
+}
+
+/* Add/Explore Server Buttons (Selected) */
+#app-mount .circleIconButton-1VxDrg.selected-2r1Hvo{
+    color: var(--coral-theme-light-pink);
+}
+
+/* Expanded Folder background */
+#app-mount .expandedFolderBackground-1kSAf6{
+    background-color: var(--coral-theme-dark-blue);
+}
+
+/* Folder Icon Color */
+#app-mount .expandedFolderIconWrapper-3RwQpD svg path{
+    color: var(--coral-theme-light-pink);
+}
+
+/* Open Folder Background */
+#app-mount .folder-241Joy{
+    background-color: var(--coral-theme-darker-blue);
+}
+
+/* Slected Server Pill */
+#app-mount .item-2LIpTv{
+    background-color: var(--coral-theme-light-pink);
+}
+
+/* Chat box */
+#app-mount .scrollableContainer-15eg7h{
+    background-color: var(--coral-theme-darker-blue);
+    /*box-shadow: 0 0 0px .5px var(--coral-theme-light-pink);*/
+    border-style: solid;
+    border-color: var(--coral-theme-dark-pink);
+    border-width: 1px;
+}
+
+/* Attachment Button Fill Color */
+#app-mount .attachButtonPlus-3IYelE {
+    fill: var(--coral-theme-dark-pink);
+}
+#app-mount .attachButtonPlus-3IYelE:hover{
+    fill: var(--coral-theme-light-pink);
+}
+
+/* Disable Gift Nitro Button */
+#app-mount .buttons-uaqb-5 [aria-label="Send a gift"]{
+    display: none;
+}
+
+/* Message Bar button Colors */
+#app-mount .buttonWrapper-3YFQGJ svg path{
+    fill: var(--coral-theme-dark-pink);
+}
+#app-mount .buttonWrapper-3YFQGJ svg path:hover{
+    fill: var(--coral-theme-light-pink);
+}
+
+
+/* Hover Tools (Basic) Background */
+#app-mount .wrapper-2vIMkT{
+    background-color: var(--coral-theme-darker-blue);
+}
+
+/* Hover Tools (Basic) Icons */
+#app-mount .button-3bklZh{
+    color: var(--coral-theme-dark-pink);
+}
+
+/* Hover Tools (Advanced) Background */
+#app-mount .scroller-1bVxF5{
+    background-color: var(--coral-theme-darker-blue);
+    border-radius: 5px;
+}
+
+/* Danger Text For Deleting Message Prompt */
+#app-mount .colorDanger-3n-KnP, .colorDanger-3n-KnP .checkbox-hADx5o, .colorDanger-3n-KnP .radioSelection-1UHp0b{
+    color: var(--status-danger) !important;
+}
+
+/* Color Other Popout ToolTips for Messages */
+#app-mount .colorDefault-CDqZdO{
+    color: var(--coral-theme-dark-pink);
+}
+
+/* Color Other Popout ToolTips for Messages */
+#app-mount .colorDefault-CDqZdO.focused-3qFvc8{
+    background-color: var(--coral-theme-light-blue);
+    color: var(--coral-theme-light-pink);
+    fill: var(--coral-theme-dark-pink);
+}
+
+/* Members List */
+#app-mount .members-3WRCEx, .members-3WRCEx>div{
+    background-color: var(--coral-theme-dark-blue);
+}
+
+/* Channels List */
+#app-mount .container-1NXEtd{
+    background-color: var(--coral-theme-dark-blue);
+}
+
+/* Categories and Role Header Colors */
+#app-mount .container-q97qHp {
+    color: var(--coral-theme-dark-pink);
+}
+
+/* Highlighted Channel Background Color */
+#app-mount .modeSelected-3DmyhH .content-1gYQeQ, .modeSelected-3DmyhH:hover .content-1gYQeQ{
+    background-color: var(--coral-theme-light-blue);
+
+}
+
+/* Highlighted Text Channel */
+#app-mount .modeConnected-NrO4cP .name-28HaxV, .modeConnected-NrO4cP:hover .name-28HaxV, .modeSelected-3DmyhH .name-28HaxV, .modeSelected-3DmyhH:hover .name-28HaxV, .modeUnread-3Cxepe .name-28HaxV, .modeUnread-3Cxepe:hover .name-28HaxV, .modeUnreadNormal-1mi6BE .name-28HaxV, .modeUnreadNormal-1mi6BE:hover .name-28HaxV, .notInteractive-2tFrlE.modeConnected-NrO4cP .name-28HaxV, .notInteractive-2tFrlE.modeSelected-3DmyhH .name-28HaxV{
+    color: var(--coral-theme-light-pink) !important;
+}
+
+/* Channel Tooltip Icon Color */
+#app-mount .actionIcon-2sw4Sl{
+    color: var(--coral-theme-light-pink);
+}
+
+/* Server Options Bottom Border */
+#app-mount .header-3OsQeK{
+    border-bottom: 1px solid var(--coral-theme-dark-pink);
+}
+
+/* Popout emojis (Right Clicking a Message) */
+#app-mount .button-1zW0-r{
+    background-color: var(--coral-theme-dark-pink);
+}
+
+/* Popout emojis (Right Clicking a Message) */
+#app-mount .button-1zW0-r:hover{
+    background-color: var(--coral-theme-light-pink);
+}
+
+/* Reply Bar Background Color */
+#app-mount .replyBar-1oi75v, .threadSuggestionBar-3ExSyc{
+    background: var(--coral-theme-darker-blue);
+    /*border-top: 1px solid var(--coral-theme-dark-pink);*/
+    border-style: solid;
+    border-color: var(--coral-theme-dark-pink);
+    border-width: 1px;
+    border-bottom: none;
+
+}
+
+/* Get rid of top border for message bar when reply bar is active */
+#app-mount .hasConnectedBar-1vN2JH{
+    border-top: none;
+}
+
+/* Get Rid of Background Behind Reply Bar */
+#app-mount .channelTextArea-1FufC0{
+    background: none;
+}
+
+/* Get Rid of Background Behind Reply Bar */
+#app-mount .attachedBars-2BCP3l{
+    background: none;
+}
+
+/* Close Button For Reply Bar */
+#app-mount .closeIcon-1bRhE8 path{
+    color: var(--coral-theme-dark-pink);
+}
+#app-mount .closeIcon-1bRhE8 path:hover{
+    color: var(--coral-theme-light-pink);
+}
