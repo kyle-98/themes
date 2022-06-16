@@ -231,3 +231,102 @@
 #app-mount .closeIcon-1bRhE8 path:hover{
     color: var(--coral-theme-light-pink);
 }
+
+
+/* Mute, Deafen, Settings icons */
+#app-mount .button-12Fmur:hover{
+    background-color: var(--coral-theme-darker-blue);
+    color: var(--coral-theme-dark-pink);
+}
+#app-mount .button-12Fmur[aria-checked="true"] {
+    color: var(--coral-theme-light-pink);
+}
+#app-mount .avatarWrapper-1B9FTW:hover{
+    background-color: var(--coral-theme-darker-blue);
+}
+
+/* Self Popout */
+#app-mount .menu-2-eHMB,.scroller-1bVxF5{
+    box-shadow: 0 0 5px 1px black !important;
+}
+
+/* Time Stamps */
+#app-mount .timestamp-6-ptG3{
+    background-color: var(--coral-theme-light-blue);
+}
+
+/* Border around avatar in user popout */
+#app-mount .avatar-2Vndt_{
+    border: 6px solid var(--coral-theme-darker-blue);
+    background-color: var(--coral-theme-darker-blue);
+}
+
+/* Seperator Colors */
+#app-mount .separator-1So4YB, .divider-1wtgZ3{
+    color: var(--coral-theme-dark-pink);
+    background-color: var(--coral-theme-dark-pink);
+}
+
+/* Change color of online status descriptions */
+#app-mount .description-1Dd2kv{
+    color: var(--header-secondary);
+}
+
+/* Emoji Picker background and box shadow */
+#app-mount .drawerSizingWrapper-1txdWG{
+    background-color: var(--coral-theme-dark-blue);
+    box-shadow: 0 0 5px 1px black;
+    border-radius: 10px;
+}
+
+/* Emoji picker colors */
+#app-mount .unicodeShortcut-3N8oDe, .inspector-DFKXwB{
+    background-color: var(--coral-theme-darker-blue);
+    color: var(--coral-theme-dark-pink);
+}
+#app-mount .unicodeShortcut-3N8oDe:hover{
+    color: var(--coral-theme-light-pink);
+}
+
+/* Emoji Name in emoji picker */
+#app-mount .text-md-medium-2avxhQ, .text-md-normal-304U3g{
+    color: var(--coral-theme-dark-pink);
+}
+
+/* Search icon in emoji picker */
+#app-mount .icon-18rqoe path{
+    color: var(--coral-theme-dark-pink);
+}
+
+/* Remove Sticker Picker */
+#app-mount .navList-YSb9UB [id="sticker-picker-tab"]{
+    display: none;
+}
+
+/* Nav Bar for Emoji and Gif picker */
+#app-mount .navButton-1XuvI-{
+    color: var(--coral-theme-dark-pink);
+}
+#app-mount .navButton-1XuvI-:hover{
+    color: var(--coral-theme-light-pink);
+}
+#app-mount .navButton-1XuvI-[aria-selected="true"]{
+    background-color: var(--coral-theme-light-blue);
+}
+
+/* Emoji Picker Server Headers */
+#app-mount .wrapper-1NNaWG{
+    background-color: var(--coral-theme-dark-blue);
+    border-radius: 10px;
+}
+#app-mount .header-1XpmZs{
+    color: var(--coral-theme-dark-pink);
+}
+#app-mount .header-1XpmZs:hover{
+    color: var(--coral-theme-light-pink);
+}
+
+/* Favorites Background Color Gif Picker */
+#app-mount .categoryFadeBlurple-1l49_Q, .theme-light .categoryFadeBlurple-1l49_Q{
+    background-color: rgba(255, 132, 172, .7);
+}
