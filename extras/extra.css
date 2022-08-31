@@ -147,26 +147,41 @@
 */
 
 /*Main User PopOut */
-#app-mount .infoScroller-3EYYns {
-    background-color: rgba(0, 0, 0, 0.486);
-}
-#app-mount .header-QKLPzZ {
-    background-color: rgba(0, 0, 0, 0.692);
-    box-shadow: 0 0 4px 1px rgba(255, 255, 255, 0.212);
-}
-#app-mount .inner-1ilYF7 {
-    box-shadow: 0 0 30px 2px rgba(255, 255, 255, 0.082);
+#app-mount .userPopoutInnerNonPremium-3zrFkp {
+    background: none;
+    background-color: rgba(0, 0, 0, .4);
+    
 }
 
-/* Upload Area */
-#app-mount .uploadModal-2ie9O_ {
-    background-color: rgba(0,0,0,.2)
+#app-mount .avatarPositionNormal-V4Mjtq {
+    left: 10px;
 }
-#app-mount .uploadModal-2ie9O_ .inner-rBP-MS .channelTextAreaUpload-30SRDh {
-    background-color: rgba(14, 14, 14, .4);
+
+#app-mount .userText-148fun {
+    padding-left: 89px;
 }
-#app-mount .uploadModal-2ie9O_ .footer-VCsJQY.hasSpoilers-33hwf_ {
-    background-color: rgba(0,0,0,.2)
+
+
+#app-mount .overlayBackground-arbZMT{
+    margin: 0;
+    border-top-left-radius: 0px;
+    border-top-right-radius: 0px;
+}
+
+#app-mount .profileBadges-31rDHI{
+    position: absolute;
+    top: 0;
+    right: 0;
+    transform: translate(-2%, 98%);
+}
+
+#app-mount .profileColors-3Y0XaR {
+    width: 300px;
+}
+
+#app-mount .avatar-2OC07D {
+    border: 6px solid rgba(0,0,0,.2);
+    background-color: rgba(0,0,0,.6);
 }
 
 /* Nitro Tab */
