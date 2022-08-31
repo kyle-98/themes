@@ -150,7 +150,6 @@
 #app-mount .userPopoutInnerNonPremium-3zrFkp {
     background: none;
     background-color: rgba(0, 0, 0, .4);
-    
 }
 
 #app-mount .avatarPositionNormal-V4Mjtq {
@@ -160,7 +159,6 @@
 #app-mount .userText-148fun {
     padding-left: 89px;
 }
-
 
 #app-mount .overlayBackground-arbZMT{
     margin: 0;
@@ -182,6 +180,36 @@
 #app-mount .avatar-2OC07D {
     border: 6px solid rgba(0,0,0,.2);
     background-color: rgba(0,0,0,.6);
+}
+
+    /* Nitro Users */
+
+#app-mount .userPopoutInnerWithBanner-wsoegj{
+    background: none;
+    background-color: rgba(0, 0, 0, .4);
+} 
+
+#app-mount .avatarPositionPremiumBanner-2nq2Fy{
+    left: 10px;
+}
+
+#app-mount .avatarPositionPremiumNoBanner-nWzERs{
+    left: 10px;
+}
+
+#app-mount .userPopoutInnerPremiumWithoutBanner-na5t_W{
+    background: none;
+    background-color: rgba(0, 0, 0, .4);
+}
+
+#app-mount .userPopoutThemed-3BZ4by{
+    background: none;
+    background-color: transparent;
+}
+
+#app-mount .userPopoutThemed-3BZ4by[style]{
+    all: revert;
+    width: 300px;
 }
 
 /* Nitro Tab */
