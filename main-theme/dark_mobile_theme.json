@@ -82,32 +82,32 @@
       "#FFFFFF"
     ],
     "BACKGROUND_MESSAGE_HOVER": [
-      "#000000",
+      "rgba(255, 255, 255, 0.02)",
       "#FFFFFF"
     ],
     "BACKGROUND_MODIFIER_HOVER": [
-      "#000000",
-      "#FFFFFF"
+      "rgba(255, 255, 255, 0.02)",
+      "hsla(214, 9.9%, 50.4%, 0.08)"
     ],
     "BACKGROUND_MODIFIER_ACTIVE": [
-      "#000000",
-      "#FFFFFF"
+      "rgba(255, 255, 255, 0.03)",
+      "hsla(214, 9.9%, 50.4%, 0.16)"
     ],
     "BACKGROUND_MODIFIER_SELECTED": [
-      "#000000",
-      "#FFFFFF"
+      "rgba(255, 255, 255, 0.04)",
+      "hsla(214, 9.9%, 50.4%, 0.24)"
     ],
     "BACKGROUND_MODIFIER_ACCENT": [
-      "#000000",
-      "#FFFFFF"
+      "transparent",
+      "hsla(240, 7.7%, 2.5%, 0.08)"
     ],
     "SCROLLBAR_THIN_THUMB": [
-      "#292929",
-      "#FFFFFF"
+      "#2a1858",
+      "hsla(217, 7.6%, 33.5%, 0.3)"
     ],
     "SCROLLBAR_THIN_TRACK": [
       "transparent",
-      "#FFFFFF"
+      "hsla(0, 0%, 0%, 0)"
     ],
     "SCROLLBAR_AUTO_THUMB": [
       "#292929",
@@ -154,6 +154,6 @@
   "background": {
     "blur": 0.1,
     "url": "https://cdn.discordapp.com/attachments/443721035444125700/1020081112464244766/background_1.png",
-    "alpha": 0.3
+    "alpha": 0.5
   }
 }
