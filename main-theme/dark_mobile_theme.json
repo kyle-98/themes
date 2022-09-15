@@ -10,7 +10,7 @@
   ],
   "theme_color_map": {
     "KEYBOARD": [
-      "#1a1a1a",
+      "#000000",
       "#FFFFFF"
     ],
     "HEADER_PRIMARY": [
@@ -46,39 +46,39 @@
       "#FFFFFF"
     ],
     "BACKGROUND_PRIMARY": [
-      "#1a1a1a",
+      "#000000",
       "#FFFFFF"
     ],
     "BACKGROUND_SECONDARY": [
-      "#1a1a1a",
+      "#000000",
       "#FFFFFF"
     ],
     "BACKGROUND_SECONDARY_ALT": [
-      "#1a1a1a",
+      "#000000",
       "#FFFFFF"
     ],
     "BACKGROUND_TERTIARY": [
-      "#1a1a1a",
+      "#000000",
       "#FFFFFF"
     ],
     "BACKGROUND_ACCENT": [
-      "#1a1a1a",
+      "#000000",
       "#FFFFFF"
     ],
     "BACKGROUND_FLOATING": [
-      "#1a1a1a",
+      "#000000",
       "#FFFFFF"
     ],
     "BACKGROUND_MOBILE_PRIMARY": [
-      "#1a1a1a",
+      "#000000",
       "#FFFFFF"
     ],
     "BACKGROUND_MOBILE_SECONDARY": [
-      "#1a1a1a",
+      "#000000",
       "#FFFFFF"
     ],
     "BACKGROUND_NESTED_FLOATING": [
-      "#1a1a1a",
+      "#000000",
       "#FFFFFF"
     ],
     "BACKGROUND_MESSAGE_HOVER": [
@@ -142,18 +142,18 @@
     "PRIMARY_DARK_360": "#C8C8C8",
     "PRIMARY_DARK_400": "#C8C8C8",
     "PRIMARY_DARK_500": "#0c0c0c",
-    "PRIMARY_DARK_600": "#1a1a1a",
+    "PRIMARY_DARK_600": "#000000",
     "PRIMARY_DARK_630": "#1f1f1f",
-    "PRIMARY_DARK_700": "#1a1a1a",
-    "PRIMARY_DARK_800": "#1a1a1a",
-    "PRIMARY_DARK_900": "#1a1a1a"
+    "PRIMARY_DARK_700": "#000000",
+    "PRIMARY_DARK_800": "#000000",
+    "PRIMARY_DARK_900": "#000000"
   },
   "unsafe_colors": {
     "CHAT_GREY": "#250422"
   },
   "background": {
     "blur": 0.0,
-    "url": "https://cdn.discordapp.com/attachments/443721035444125700/1020081112464244766/background_1.png",
+    "url": "https://cdn.discordapp.com/attachments/443721035444125700/1020082474145022002/background_6.png?size=4096",
     "alpha": 1.0
   }
 }
