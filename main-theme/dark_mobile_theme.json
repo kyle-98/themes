@@ -4,7 +4,7 @@
   "description": "a poggers mobile theme",
   "authors": [
     {
-      "name": "kyle#9585",
+      "name": "kyle",
       "id": "143941453733822464"
     }
   ],
@@ -152,8 +152,8 @@
     "CHAT_GREY": "#250422"
   },
   "background": {
-    "blur": 0,
-    "url": "https://cdn.discordapp.com/attachments/443721035444125700/1020075395577561138/C4230E5A-4576-4810-8CA3-D15FB0B345FB.jpg",
+    "blur": .2,
+    "url": "https://cdn.discordapp.com/attachments/443721035444125700/1020081112069976134/background_1.png?size=4096",
     "alpha": 1.0
   }
 }
