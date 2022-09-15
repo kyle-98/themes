@@ -10,7 +10,7 @@
   ],
   "theme_color_map": {
     "KEYBOARD": [
-      "#000000",
+      "#1a1a1a",
       "#FFFFFF"
     ],
     "HEADER_PRIMARY": [
@@ -46,39 +46,39 @@
       "#FFFFFF"
     ],
     "BACKGROUND_PRIMARY": [
-      "#000000",
+      "#1a1a1a",
       "#FFFFFF"
     ],
     "BACKGROUND_SECONDARY": [
-      "#000000",
+      "#1a1a1a",
       "#FFFFFF"
     ],
     "BACKGROUND_SECONDARY_ALT": [
-      "#000000",
+      "#1a1a1a",
       "#FFFFFF"
     ],
     "BACKGROUND_TERTIARY": [
-      "#000000",
+      "#1a1a1a",
       "#FFFFFF"
     ],
     "BACKGROUND_ACCENT": [
-      "#000000",
+      "#1a1a1a",
       "#FFFFFF"
     ],
     "BACKGROUND_FLOATING": [
-      "#000000",
+      "#1a1a1a",
       "#FFFFFF"
     ],
     "BACKGROUND_MOBILE_PRIMARY": [
-      "#000000",
+      "#1a1a1a",
       "#FFFFFF"
     ],
     "BACKGROUND_MOBILE_SECONDARY": [
-      "#000000",
+      "#1a1a1a",
       "#FFFFFF"
     ],
     "BACKGROUND_NESTED_FLOATING": [
-      "#000000",
+      "#1a1a1a",
       "#FFFFFF"
     ],
     "BACKGROUND_MESSAGE_HOVER": [
@@ -135,18 +135,18 @@
     ]
   },
   "colours": {
-    "PRIMARY_DARK": "#000000",
+    "PRIMARY_DARK": "#747474",
     "PRIMARY_DARK_100": "#ffffff",
     "PRIMARY_DARK_200": "#ffffff",
     "PRIMARY_DARK_300": "#B6B6B6",
     "PRIMARY_DARK_360": "#C8C8C8",
     "PRIMARY_DARK_400": "#C8C8C8",
     "PRIMARY_DARK_500": "#0c0c0c",
-    "PRIMARY_DARK_600": "#000000",
+    "PRIMARY_DARK_600": "#1a1a1a",
     "PRIMARY_DARK_630": "#1f1f1f",
-    "PRIMARY_DARK_700": "#000000",
-    "PRIMARY_DARK_800": "#000000",
-    "PRIMARY_DARK_900": "#000000"
+    "PRIMARY_DARK_700": "#1a1a1a",
+    "PRIMARY_DARK_800": "#1a1a1a",
+    "PRIMARY_DARK_900": "#1a1a1a"
   },
   "unsafe_colors": {
     "CHAT_GREY": "#250422"
