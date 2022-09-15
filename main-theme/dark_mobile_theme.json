@@ -149,11 +149,11 @@
     "PRIMARY_DARK_900": "#000000"
   },
   "unsafe_colors": {
-    "CHAT_GREY": "#250422"
+    "CHAT_GREY": "#000000"
   },
   "background": {
-    "blur": 0.0,
+    "blur": 0.3,
     "url": "https://cdn.discordapp.com/attachments/443721035444125700/1020082474145022002/background_6.png?size=4096",
-    "alpha": 1.0
+    "alpha": 0.5
   }
 }
