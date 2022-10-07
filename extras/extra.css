@@ -31,6 +31,8 @@
     --background-help-warning: rgba(250,166,26,0.1);
     --background-help-info: rgba(0,176,244,0.1);
     --channeltextarea-background: rgba(0,0,0, .3);
+    --profile-gradient-primary-color:  transparent !important;
+    --profile-gradient-secondary-color:  transparent !important;
 }
 
 /* main app */
@@ -147,72 +149,57 @@
 */
 
 /*Main User PopOut */
-/*
-#app-mount .userPopoutInnerNonPremium-3zrFkp {
-    background: none;
-    background-color: rgba(0, 0, 0, .4);
+
+    /*Non-Nitro*/
+#app-mount .userProfileInnerNonPremium-1XjSjn {
+    background: transparent;
 }
 
-#app-mount .avatarPositionNormal-V4Mjtq {
-    left: 10px;
-}
-
-#app-mount .userText-148fun {
-    padding-left: 89px;
-}
-
-#app-mount .overlayBackground-arbZMT{
-    margin: 0;
-    border-top-left-radius: 0px;
-    border-top-right-radius: 0px;
-}
-
-#app-mount .profileBadges-31rDHI{
-    position: absolute;
-    top: 0;
-    right: 0;
-    transform: translate(-2%, 98%);
-}
-
-#app-mount .profileColors-3Y0XaR {
-    width: 300px;
-}
-
-#app-mount .avatar-2OC07D {
-    border: 6px solid rgba(0,0,0,.2);
-    background-color: rgba(0,0,0,.6);
-}
-*/
-    /* Nitro Users */
-/*
-#app-mount .userPopoutInnerWithBanner-wsoegj{
-    background: none;
-    background-color: rgba(0, 0, 0, .4);
-} 
-
-#app-mount .avatarPositionPremiumBanner-2nq2Fy{
-    left: 10px;
-}
-
-#app-mount .avatarPositionPremiumNoBanner-nWzERs{
-    left: 10px;
-}
-
-#app-mount .userPopoutInnerPremiumWithoutBanner-na5t_W{
-    background: none;
-    background-color: rgba(0, 0, 0, .4);
-}
-
-#app-mount .userPopoutThemed-3BZ4by{
-    background: none;
+#app-mount .userProfileInner-3F03PX:before{
     background-color: transparent;
 }
 
-#app-mount .userPopoutThemed-3BZ4by[style]{
-    all: revert;
-    width: 300px;
+#app-mount .userProfileOuterUnthemed-2b2rsv{
+    background:  rgba(0,0,0,.7);
 }
-*/
+
+    /*Nitro (Non-Custom)*/
+#app-mount .userProfileInnerPremiumWithoutBanner-37uB4Q{
+    background:  transparent;
+}
+
+    /*Nitro (With Custom)*/
+#app-mount .userProfileInnerPremiumWithoutBanner-37uB4Q{
+    background: transparent;
+}
+
+#app-mount .userProfileOuterThemed-3EfHmv{
+    background: rgba(0,0,0,.7);
+}
+
+#app-mount .userProfileInnerWithBanner-3CJ1Og{
+    background:transparent;
+}
+
+#app-mount .rolePillBorder-RiRiuN{
+    border: none;
+    border-color: transparent;
+}
+#app-mount .userPopoutOverlayBackground-dKOOda{
+    background-color: rgba(0,0,0,.7) !important;
+}
+
+/* Upload Area */
+#app-mount .uploadModal-2ie9O_ {
+    background-color: rgba(0,0,0,.2)
+}
+#app-mount .uploadModal-2ie9O_ .inner-rBP-MS .channelTextAreaUpload-30SRDh {
+    background-color: rgba(14, 14, 14, .4);
+}
+#app-mount .uploadModal-2ie9O_ .footer-VCsJQY.hasSpoilers-33hwf_ {
+    background-color: rgba(0,0,0,.2)
+}
+
 /* Nitro Tab */
 #app-mount .applicationStore-2nk7Lo {
     background-color: var(--dark-transparent);
