@@ -1,5 +1,6 @@
 :root {
     --dark-transparent: rgba(0,0,0,.3);
+    --warning-red: rgb(237, 74, 82);
 }
 
 .theme-dark {
@@ -213,6 +214,17 @@
 #app-mount .buttonText-1c-l_x:after{
     content:"This is a scam";
     visibility: visible;  
+    display: block;
+    position: absolute;
+    top: 27%;
+    left: 25%;
+}
+
+#app-mount .premiumIcon-G_KEYC{
+    display: none;
+}
+#app-mount .giftIcon-25Wlbr{
+    display: none;
 }
 
 /* emoji picker */
@@ -497,13 +509,96 @@
 }
 
 #app-mount .closeIcon-1NwtbI path{
-    fill: rgb(237, 74, 82) !important;
+    fill: var(--warning-red) !important;
 }
 
 #app-mount .colorDefault-CDqZdO[id="user-context-block"],[id="user-context-remove-friend"]{
-    color:  rgb(237, 74, 82);
+    color:  var(--warning-red);
 }
 
 #app-mount .member-48YF_l{
     background-color: transparent;
+}
+
+/*profile and other user settings */
+
+#app-mount .bioTextArea-dDGOeC {
+    background-color: rgba(0,0,0,0.3);
+}
+
+#app-mount .colorPickerCustom-1swUKF[role="dialog"]{
+    background-color: rgba(0, 0, 0, 0.8);
+}
+
+#app-mount .input-2g-os5{
+    background-color: rgba(0, 0, 0, 0.2);
+    border: 1px solid rgba(255, 255, 255, 0.2);
+}
+
+#app-mount .status-b9jLr4{
+    background: rgba(0, 0, 0, 0.8);
+}
+
+#app-mount h3[data-text-variant="heading-xl/bold"]{
+    visibility: hidden;
+}
+
+#app-mount h3[data-text-variant="heading-xl/bold"]:after{
+    content: "Don't Try Out Nitro!";
+    visibility: visible;
+    display: block;
+    position: absolute;
+    top: -1%;
+}
+
+#app-mount .connectContainer-1hylYM{
+    background-color: rgba(0, 0, 0, 0.4);
+}
+
+#app-mount h3[data-text-variant="heading-md/bold"]{
+    visibility: hidden;
+}
+
+#app-mount h3[data-text-variant="heading-md/bold"]:after{
+    visibility: visible;
+    content: "Add accounts to your profile to dox yourself!";
+    position: absolute;
+    left: 8%;
+}
+
+#app-mount .connectionHeader-Ixbb1s{
+    background-color: rgba(0, 0, 0, 0.4);
+}
+
+#app-mount .connectionDelete-3YgMVq{
+    color: var(--warning-red);
+}
+
+#app-mount .integration-1qC-fv{
+    background: rgba(0,0,0,0.4);
+}
+
+#app-mount .paymentPane-ut5qKZ{
+    background-color: rgba(0, 0, 0, 0.4);
+}
+
+#app-mount .paginator-1eqD2g[data-list-id="billing-history"]{
+    background: rgba(0,0,0,0.4);
+}
+
+#app-mount .payment-2bOh4k{
+    background-color: transparent;
+}
+
+#app-mount .codeRedemptionRedirect-2hYMSQ{
+    background-color: rgba(0,0,0,0.4);
+}
+
+/* more server settings */
+#app-mount .lookFilled-1GseHa.select-1Ia3hD{
+    background-color: rgba(0, 0, 0, 0.6);
+}
+
+#app-mount .popout-1KHNAq[role="listbox"]{
+    background-color: rgba(0, 0, 0, 0.95);
 }
