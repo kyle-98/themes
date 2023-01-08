@@ -96,7 +96,8 @@
     box-shadow: 0 0 30px 2px rgba(255, 255, 255, 0.082);
 }
 #app-mount .inner-2pOSmK {
-    background-color: rgba(255, 255, 255, 0.055);
+    /* background-color: rgba(255, 255, 255, 0.055); */
+    background-color: rgba(0, 0, 0, 0.2);
 }
 #app-mount .headerXbox-3G-4PF {
     background: var(--xbox-color);
@@ -609,4 +610,34 @@
 
 #app-mount .header-11eigE{
     background-color: rgba(0, 0, 0, 0.7);
+}
+
+/* Browse Channels Tab */
+#app-mount .container-1um7CU{
+    background-color: transparent;
+}
+#app-mount .container-2IKOsH, .header-3xB4vB{
+    background-color: rgba(0, 0, 0, 0.1) !important;
+}
+
+#app-mount .innerHeader-1cC3Fp:after, .children-3xh0VB:after{
+    display: none;
+}
+#app-mount .lookOutlined-3yKVGo.colorPrimary-2AuQVo:hover{
+    background-color: rgba(0, 0, 0, 0.3);
+}
+
+/* Server Pill */
+#app-mount .communityInfoPill-2Mll66{
+    background: rgba(0, 0, 0, .75);
+}
+
+/* # of members in voice channels */
+#app-mount .bar-wDIGjg{
+    background-color: rgba(0, 0, 0, .75);
+}
+
+/* Customize Community Tab */
+#app-mount .emptyPage-2TGR7j, .theme-dark .scrollerContainer-y16Rs9{
+    background-color: rgba(0, 0, 0, 0.2) !important;
 }
