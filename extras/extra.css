@@ -653,3 +653,38 @@
 #app-mount .panel-2ZFCRb{
     background-color: rgba(0,0,0,0.2)
 }
+
+/* Streaming Popout modal */
+#app-mount .root-1CAIjD{
+    background-color: rgba(0,0,0,0.2);
+}
+
+#app-mount .footer-IubaaS{
+    background-color: transparent;
+}
+
+#app-mount .modalHeader-X-sQsB{
+    padding-bottom: .5px;
+}
+
+/*Edit file upload popout modal */
+#app-mount .input-3O04eu{
+    background-color: rgba(0, 0, 0, .5);
+    border: solid;
+    border-color: rgba(55, 55, 55, .3);
+    border-radius: 3px;
+}
+
+#app-mount .footer-VCsJQY{
+    background-color: rgba(0, 0, 0, .5);
+}
+
+/* Channel Permission Settings */
+#app-mount .settingCard-xZSDjS.active-3EK-ed{
+    background-color: rgba(0, 0, 0, .5);
+}
+
+/* Popup context menu for right clicking */
+#app-mount .menu-2TXYjN{
+    background-color: rgba(0, 0, 0, .8);
+}
