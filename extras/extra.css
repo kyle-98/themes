@@ -32,8 +32,8 @@
     --background-help-warning: rgba(250,166,26,0.1);
     --background-help-info: rgba(0,176,244,0.1);
     --channeltextarea-background: rgba(0,0,0, .3);
-    --profile-gradient-primary-color:  transparent !important;
-    --profile-gradient-secondary-color:  transparent !important;
+    --profile-gradient-primary-color:  rgba(0,0,0, .6) !important;
+    --profile-gradient-secondary-color:  rgba(0,0,0, .6) !important;
 }
 
 /* main app */
