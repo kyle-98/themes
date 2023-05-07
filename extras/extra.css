@@ -688,3 +688,8 @@
 #app-mount .menu-2TXYjN{
     background-color: rgba(0, 0, 0, .8);
 }
+
+/* Delete Super Reaction Garbage */
+#app-mount .button-3bklZh[aria-label="Add Super Reaction"]{
+    display: none;
+}
