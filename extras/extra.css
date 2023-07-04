@@ -693,3 +693,8 @@
 #app-mount .button-3bklZh[aria-label="Add Super Reaction"]{
     display: none;
 }
+
+/* Role picker on user popout */
+#app-mount .container-2kTWmC{
+    background-color: rgba(0, 0, 0, .9);
+}
