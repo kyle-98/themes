@@ -698,3 +698,11 @@
 #app-mount .container-2kTWmC{
     background-color: rgba(0, 0, 0, .9);
 }
+
+/* Selection menus */
+#app-mount .popout-15UxD6{
+    background-color:rgba(0,0,0, .9);
+}
+#app-mount .lookFilled-GPyucw.select-Zz0IcO{
+    background-color:rgba(0,0,0, .5);
+}
