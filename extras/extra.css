@@ -706,3 +706,8 @@
 #app-mount .lookFilled-GPyucw.select-Zz0IcO{
     background-color:rgba(0,0,0, .5);
 }
+
+/* mute and profile area */
+#app-mount .container-1CH86i{
+    background-color: transparent;
+}
