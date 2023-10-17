@@ -707,11 +707,15 @@
     background-color:rgba(0,0,0, .5);
 }
 
-/* mute and profile area */
+/* mute and profile, game playing, and connection status areas */
 #app-mount .container-1CH86i{
     background-color: transparent;
 }
 
 #app-mount .panel-ufc1-o {
+    background-color: transparent;
+}
+
+#app-mount .container-2NLBJg{
     background-color: transparent;
 }
