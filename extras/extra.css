@@ -719,3 +719,30 @@
 #app-mount .container-2NLBJg{
     background-color: transparent;
 }
+
+/* title bar */
+#app-mount .wordmarkWindows-1rsity{
+    /* change to whatever you want watermark image to be */
+    background-image: var(--wordmark-image);
+    background-size: contain;
+    margin-left: 4px;
+    padding-top: 3px;
+}
+
+#app-mount g[fill="currentColor"]{
+    display: none;
+}
+
+#app-mount .typeWindows-3ILlhq{
+    background-color: rgba(0, 0, 0, 0.5);
+    margin: 0px;
+}
+
+/* server onboarding */
+#app-mount .background-12kWdX {
+    background: transparent;
+}
+
+#app-mount .title-1HZFO2{
+    background-color: rgba(0, 0, 0, 0.45);
+}
