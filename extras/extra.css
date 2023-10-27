@@ -724,9 +724,10 @@
 #app-mount .wordmarkWindows__05c46{
     /* change to whatever you want watermark image to be */
     background-image: var(--wordmark-image);
-    background-size: contain;
-    margin-left: 4px;
+    background-size: contain; 
     padding-top: 3px;
+    left: -60px;
+    width: 100%;
 }
 
 #app-mount g[fill="currentColor"]{
