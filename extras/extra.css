@@ -37,7 +37,7 @@
 }
 
 /* main app */
-#app-mount .layers-OrUESM::before {
+#app-mount .layers__1c917::before {
     content: "";
     background: var(--background-image);
     height: calc(100vh + (var(--background-blur)) * 2);
@@ -47,13 +47,13 @@
     filter: blur(var(--background-blur)) brightness(var(--background-darken));
   }
 
-#app-mount .panels-3wFtMD {
+#app-mount .panels__58331 {
     background-color: var(--dark-transparent);
 }
-#app-mount .container-2cd8Mz {
+#app-mount .container__5c7e7 {
     background-color: transparent;
 }
-#app-mount .wordmarkWindows-2dq6rw {
+#app-mount .wordmarkWindows__05c46 {
     color:white;
     background-image: var(--wordmark-image);
     background-position:65px;
@@ -61,11 +61,11 @@
     background-repeat: no-repeat;
     width: 65px;
 }
-#app-mount .wrapper-3kah-n.selected-1Drb7Z .childWrapper-1j_1ub, .wrapper-3kah-n:hover .childWrapper-1j_1ub {
+#app-mount .wrapper_d281dd.selected_f5ec8e .childWrapper__01b9c, .wrapper_d281dd:hover .childWrapper__01b9c {
     background-color: white;
     color:black;
 }
-#app-mount .container-2cd8Mz {
+#app-mount .container__5c7e7 {
     background-color: transparent;
 }
 
@@ -95,7 +95,7 @@
     background-color: rgba(0, 0, 0, 0.952);
     box-shadow: 0 0 30px 2px rgba(255, 255, 255, 0.082);
 }
-#app-mount .inner-2pOSmK {
+#app-mount .inner__999f6 {
     /* background-color: rgba(255, 255, 255, 0.055); */
     background-color: rgba(0, 0, 0, 0.2);
 }
@@ -108,13 +108,13 @@
 #app-mount .avatar-22FtUu {
     background-color: rgba(0, 0, 0, 0.315);
 }
-#app-mount .textarea-_59yqs {
+#app-mount .textarea_c5a7a3 {
     background-color: rgba(255, 255, 255, 0.034);
 }
 #app-mount .input-2g-os5.focused-1AtTHC, .input-2g-os5:focus {
     border-color: rgba(255, 255, 255, 0.507);
 }
-#app-mount .input-2z42oC {
+#app-mount .input__95bc4 {
     background-color: rgba(255, 255, 255, 0.068); 
 }
 #app-mount .headerTop-3GPUSF {
@@ -133,17 +133,17 @@
     background-color:  rgba(0, 0, 0, 0);
 }
 /* Custom User Banner 
-#app-mount .userPopout-2j1gM4[data-user-id="143941453*********4"] .headerNormal-3Zn_yu .popoutBanner-3cqRD9{ 
+#app-mount .userPopout-2j1gM4[data-user-id="143941453*********4"] .headerNormal-3Zn_yu .popoutBanner__9f5b9{ 
     background: var(--profile-background) no-repeat !important;
     height: 120px !important;
 }
 #app-mount .avatar-2Vndt_[data-user-id="14394********2464"] {
     margin-top: 50px;
 }
-#app-mount .userPopout-2j1gM4[data-user-id="143941*******2464"] .avatarHint-k7pYop {
+#app-mount .userPopout-2j1gM4[data-user-id="143941*******2464"] .avatarHint__8e5b9 {
     margin-top: 50px;
 }
-#app-mount .root-8LYsGj[data-user-id="143941453733822464"] .topSection-13QKHs .profileBanner-1owKI5 {
+#app-mount .root-8LYsGj[data-user-id="143941453733822464"] .topSection-13QKHs .profileBanner__8414b {
     background: var(--profile-background) center no-repeat !important;
     background-size: cover !important;
     height: 240px;
@@ -192,27 +192,27 @@
 }
 
 /* Upload Area */
-#app-mount .uploadModal-2ie9O_ {
+#app-mount .uploadModal_eae2a0 {
     background-color: rgba(0,0,0,.2)
 }
-#app-mount .uploadModal-2ie9O_ .inner-rBP-MS .channelTextAreaUpload-30SRDh {
+#app-mount .uploadModal_eae2a0 .inner__7afe9 .channelTextAreaUpload__5c0be {
     background-color: rgba(14, 14, 14, .4);
 }
-#app-mount .uploadModal-2ie9O_ .footer-VCsJQY.hasSpoilers-33hwf_ {
+#app-mount .uploadModal_eae2a0 .footer_ceda43.hasSpoilers__49ee6 {
     background-color: rgba(0,0,0,.2)
 }
 
 /* Nitro Tab */
-#app-mount .applicationStore-2nk7Lo {
+#app-mount .applicationStore_fc7d76 {
     background-color: var(--dark-transparent);
 }
-#app-mount .buttonText-1c-l_x {
+#app-mount .buttonText_d2bc9e {
     visibility: hidden;
     margin: -60px;
     margin-right: 10px;
     padding: 5px;
 }
-#app-mount .buttonText-1c-l_x:after{
+#app-mount .buttonText_d2bc9e:after{
     content:"This is a scam";
     visibility: visible;  
     display: block;
@@ -221,35 +221,35 @@
     left: 25%;
 }
 
-#app-mount .premiumIcon-G_KEYC{
+#app-mount .premiumIcon__747a1{
     display: none;
 }
-#app-mount .giftIcon-25Wlbr{
+#app-mount .giftIcon_c535f3{
     display: none;
 }
 
 /* emoji picker */
-#app-mount .inspector-DFKXwB {
+#app-mount .inspector__993e1 {
     background-color: rgba(0,0,0,.4);
 }
-#app-mount .emojiItem-277VFM.emojiItemSelected-2Lg50V {
+#app-mount .emojiItem_b15dee.emojiItemSelected__1a09a {
     background-color:rgba(41, 38, 38, 0.7);
 }
-#app-mount .emojiPickerInExpressionPicker-2nOwH8 .emojiPicker-6YCk8a {
+#app-mount .emojiPickerInExpressionPicker-2nOwH8 .emojiPicker_b65ce9 {
     background-color: var(--dark-transparent);
     box-shadow: 0 0 5px 2px rgb(0, 0, 0);
 }
-#app-mount .contentWrapper-3vHNP2 {
+#app-mount .contentWrapper__321ed {
     background-color: rgba(0,0,0,.4);
 }
 /* Emoji auto complete */
-#app-mount .autocomplete-3NRXG8 {
+#app-mount .autocomplete_df266d {
     background-color: rgba(0,0,0,.7);
     box-shadow: 0 0 10px 2px rgb(0, 0, 0);
 }
 
 /*Folder settings */
-#app-mount .root-g14mjS {
+#app-mount .root_a28985 {
     background-color: rgba(0,0,0,.2);
 }
 #app-mount .footer-31IekZ {
@@ -262,11 +262,11 @@
 
 
 /* get rid of shitty gift button */
-#app-mount .buttons-uaqb-5 [aria-label="Send a gift or Boost this server"]{
+#app-mount .buttons_ce5b56 [aria-label="Send a gift or Boost this server"]{
     display: none !important;
 }
 
-#app-mount .buttons-uaqb-5 [aria-label="Send a gift"]{
+#app-mount .buttons_ce5b56 [aria-label="Send a gift"]{
     display: none !important;
 }
 
@@ -288,44 +288,44 @@
 }
 
 /* Explore tab */
-#app-mount .pageWrapper-2PwDoS {
+#app-mount .pageWrapper_fef757 {
     background-color: transparent;
 }
-#app-mount .menu-1QACrS {
+#app-mount .menu_dc52c6 {
     background-color:rgba(0, 0, 0, .9);
     box-shadow: 0 0 5px 2px rgb(0, 0, 0);
 }
 
 /* now playing (friend's list) */
-#app-mount .nowPlayingColumn-1eCBCN {
+#app-mount .nowPlayingColumn_f5023f {
     background-color: var(--dark-transparent);
 }
-#app-mount .inset-SbsSFp {
+#app-mount .inset__0bfb3 {
     background-color: rgba(0,0,0,.9);
 }
-#app-mount .itemCard-3Etziu:first-of-type {
+#app-mount .itemCard__1f162:first-of-type {
     background-color: rgba(0,0,0,.3);
 }
 
 /* members list */
-#app-mount .addMembersButton-2qS1qa {
+#app-mount .addMembersButton_fadd2d {
     display: none;
 }
 
 /* Search bar (slightly busted) */
-#app-mount .container-2McqkF {
+#app-mount .container_d6dad3 {
     background-color: rgba(0,0,0,.5);
 }
-#app-mount .calendarPicker-sDhzdi .react-datepicker {
+#app-mount .calendarPicker__5c474 .react-datepicker {
     background-color: rgba(0,0,0,.9);
 }
-#app-mount .calendarPicker-sDhzdi .react-datepicker__header {
+#app-mount .calendarPicker__5c474 .react-datepicker__header {
     background-color: transparent;
 }
-#app-mount .calendarPicker-sDhzdi .react-datepicker__day--outside-month {
+#app-mount .calendarPicker__5c474 .react-datepicker__day--outside-month {
     background-color: rgba(0,0,0,.5);
 }
-#app-mount .focused-2FU0YH{
+#app-mount .focused_f9cf2c{
     background-color: rgba(0,0,0,.5);
 }
 #app-mount .datePicker-70cO23 .datePickerHint-17MnA8 {
@@ -334,31 +334,31 @@
 }
 
 /*Connection Indicator */
-#app-mount .ping-2IpLcU{
+#app-mount .ping__47992{
     background: var(--connect-image) 100% no-repeat;
     background-size: 25px;
     padding: 5px;
     padding-left: 10px;  
 }
-#app-mount .rtcConnectionQualityFine-3zZrSa .pingForeground-1BRBTc {
+#app-mount .rtcConnectionQualityFine__471b6 .pingForeground_ac78df {
     display: var(--connect-disable);
 }
 
-#app-mount .numberBadge-37OJ3S {
+#app-mount .numberBadge__50328 {
     background-color: var(--badge-color) !important;
 }
 
 /* Sidebar Width (channels) */
-#app-mount .sidebar-1tnWFu   {
+#app-mount .sidebar_ded4b5   {
     width: var(--sidebar-width); 
 }
 
 /* side width (users) */
-#app-mount .membersWrap-3NUR2t{
+#app-mount .membersWrap__90226{
     width: var(--members-width);
     min-width: 0px;
 }
-#app-mount .members-3WRCEx, .members-3WRCEx>div {
+#app-mount .members__9f47b, .members__9f47b>div {
     width: var(--members-width);
 }
 
@@ -371,12 +371,12 @@
     box-shadow: 0 0 5px 2px rgb(0, 0, 0);
 }
 
-#app-mount .jumpToPresentBar-1cEnH0 {
+#app-mount .jumpToPresentBar__0ff7f {
     background-color: rgba(0 ,0, 0, .6);
     box-shadow: 1px -8px 12px -4px rgba(0 ,0, 0, .8);
 }
 
-#app-mount .card-2ART2V:before {
+#app-mount .card_dc88cd:before {
     background-color: var(--dark-transparent);
     border-color:  rgba(0, 0, 0, .6);
 }
@@ -384,7 +384,7 @@
     background-color: rgba(0, 0, 0, .3);
 }
 
-#app-mount .link-39sEB3[href="/store"],[href="/shop"] {
+#app-mount .link__2e8e1[href="/store"],[href="/shop"] {
     display: var(--nitro-garbage);
 }
 
@@ -394,7 +394,7 @@
 
 
 /*Channels Sidebar */
-#app-mount .name-3BUDLf {
+#app-mount .name__590d6 {
     color:var(--channel-sidebar-header);
 }
 
@@ -403,7 +403,7 @@
     margin-top: -40px;
 }
 
-#app-mount .icon-2xnN2Y {
+#app-mount .icon__4cb88 {
     color: white;
 }
 
@@ -418,7 +418,7 @@
 #app-mount .option-2KkUJO.selected-rZcOL- {
     background-color: #5c6fb1;
 }
-#app-mount .searchAnswer-23w-CH, .theme-dark .searchFilter-2UfsDk {
+#app-mount .searchAnswer_b452e7, .theme-dark .searchFilter__118cb {
     background-color: #5c6fb1;
 }
 
@@ -426,14 +426,14 @@
     background-color: rgba(0,0,0,.7)
 }
 
-#app-mount .cozy-VmLDNB .timestamp-p1Df1m {
+#app-mount .cozy_f5c119 .timestamp_cdbd93 {
     color:rgb(214, 214, 214);
 }
 
-#app-mount .messagesPopout-eVzQcI {
+#app-mount .messagesPopout__22763 {
     background-color: rgba(0 ,0, 0, .9);
 }
-#app-mount .header-1w9Q93 {
+#app-mount .header_f5cc88 {
     background-color: rgba(0 ,0, 0, .8);
 }
 
@@ -459,34 +459,34 @@
 }
 
 /* Remove Gif Text Under Gifs */
-#app-mount .altText-sAs-Ao{
+#app-mount .altText__6dd8b{
     display: none;
 }
 
 /* Threads popout fix */
-#app-mount .browser-mnQ1T7{
+#app-mount .browser_fece63{
     background-color:  rgba(0,0,0,.8);
     border-radius: 5px;
 }
 
 /* background for pinned & inbox */
-#app-mount .messagesPopoutWrap-3zryHW{
+#app-mount .messagesPopoutWrap_b3b384{
     background-color:  rgba(0,0,0,.8);
 }
 
 /* Headers for Inbox Messages */
-#app-mount .channelHeader-DFRX8q{
+#app-mount .channelHeader__5d30c{
     background-color:  rgba(0,0,0,.8);
     border-radius: 10px;
 }
 
 /* fix settings background brightness */
-#app-mount .standardSidebarView-E9Pc3j{
+#app-mount .standardSidebarView__1129a{
     background-color: rgba(0,0,0,.4);
 }
 
 /* Gif and emote picker background */
-#app-mount .contentWrapper-3vHNP2{
+#app-mount .contentWrapper__321ed{
     background-color:  rgba(0,0,0,.8);
 }
 
@@ -496,12 +496,12 @@
 }
 
 /* Fix for auto complete darkness */
-#app-mount .scroller-18M1mG[data-list-id="channel-autocomplete"]{
+#app-mount .scroller_cc9b9a[data-list-id="channel-autocomplete"]{
     background-color:  rgba(0,0,0,.6);
 }
 
 /* Delete Sticker picker in emote menu */
-#app-mount .navButton-1XuvI-[id="sticker-picker-tab"]{
+#app-mount .navButton__05cc7[id="sticker-picker-tab"]{
     display:  none;
 }
 
@@ -509,7 +509,7 @@
     display: none;
 }
 
-#app-mount .closeIcon-1NwtbI path{
+#app-mount .closeIcon_a3bbd4 path{
     fill: var(--warning-red) !important;
 }
 
@@ -517,13 +517,13 @@
     color:  var(--warning-red);
 }
 
-#app-mount .member-48YF_l{
+#app-mount .member_b44d5d{
     background-color: transparent;
 }
 
 /*profile and other user settings */
 
-#app-mount .bioTextArea-dDGOeC {
+#app-mount .bioTextArea_a108c9 {
     background-color: rgba(0,0,0,0.3);
 }
 
@@ -552,7 +552,7 @@
     top: -1%;
 }
 
-#app-mount .connectContainer-1hylYM{
+#app-mount .connectContainer__8050b{
     background-color: rgba(0, 0, 0, 0.4);
 }
 
@@ -567,31 +567,31 @@
     left: 8%;
 }
 
-#app-mount .connectionHeader-Ixbb1s{
+#app-mount .connectionHeader__3c82d{
     background-color: rgba(0, 0, 0, 0.4);
 }
 
-#app-mount .connectionDelete-3YgMVq{
+#app-mount .connectionDelete__988b5{
     color: var(--warning-red);
 }
 
-#app-mount .integration-1qC-fv{
+#app-mount .integration_d2f026{
     background: rgba(0,0,0,0.4);
 }
 
-#app-mount .paymentPane-ut5qKZ{
+#app-mount .paymentPane__9cf01{
     background-color: rgba(0, 0, 0, 0.4);
 }
 
-#app-mount .paginator-1eqD2g[data-list-id="billing-history"]{
+#app-mount .paginator_e620d3[data-list-id="billing-history"]{
     background: rgba(0,0,0,0.4);
 }
 
-#app-mount .payment-2bOh4k{
+#app-mount .payment__7d702{
     background-color: transparent;
 }
 
-#app-mount .codeRedemptionRedirect-2hYMSQ{
+#app-mount .codeRedemptionRedirect_bc7f36{
     background-color: rgba(0,0,0,0.4);
 }
 
@@ -604,23 +604,23 @@
     background-color: rgba(0, 0, 0, 0.95);
 }
 
-#app-mount .emojiPicker-6YCk8a{
+#app-mount .emojiPicker_b65ce9{
     background-color: rgba(0, 0, 0, 0.7);
 }
 
-#app-mount .header-11eigE{
+#app-mount .header__55964{
     background-color: rgba(0, 0, 0, 0.7);
 }
 
 /* Browse Channels Tab */
-#app-mount .container-1um7CU{
+#app-mount .container__7590f{
     background-color: transparent;
 }
-#app-mount .container-2IKOsH, .header-3xB4vB{
+#app-mount .container__10dc7, .header__60bef{
     background-color: rgba(0, 0, 0, 0.1) !important;
 }
 
-#app-mount .innerHeader-1cC3Fp:after, .children-3xh0VB:after{
+#app-mount .innerHeader_afca2f:after, .children__32014:after{
     display: none;
 }
 #app-mount .lookOutlined-3yKVGo.colorPrimary-2AuQVo:hover{
@@ -628,38 +628,38 @@
 }
 
 /* Server Pill */
-#app-mount .communityInfoPill-2Mll66{
+#app-mount .communityInfoPill_d3f445{
     background: rgba(0, 0, 0, .75);
 }
 
 /* # of members in voice channels */
-#app-mount .bar-wDIGjg{
+#app-mount .bar__004d9{
     background-color: rgba(0, 0, 0, .75);
 }
 
 /* Customize Community Tab */
-#app-mount .emptyPage-2TGR7j, .theme-dark .scrollerContainer-y16Rs9{
+#app-mount .emptyPage__3e15d, .theme-dark .scrollerContainer_bf5dbd{
     background-color: rgba(0, 0, 0, 0.2) !important;
 }
 
-#app-mount .container-YkUktl{
+#app-mount .container_ca50b9{
     background-color: rgba(0,0,0,0.2)
 }
 
-#app-mount .container-1zzFcN{
+#app-mount .container_d667ff{
     background-color: rgba(0,0,0,0.2);
 }
 
-#app-mount .panel-2ZFCRb{
+#app-mount .panel_bd8c76{
     background-color: rgba(0,0,0,0.2)
 }
 
 /* Streaming Popout modal */
-#app-mount .root-1CAIjD{
+#app-mount .root_a28985{
     background-color: rgba(0,0,0,0.2);
 }
 
-#app-mount .footer-IubaaS{
+#app-mount .footer__89240{
     background-color: transparent;
 }
 
@@ -668,14 +668,14 @@
 }
 
 /*Edit file upload popout modal */
-#app-mount .input-3O04eu{
+#app-mount .input_d266e7{
     background-color: rgba(0, 0, 0, .5);
     border: solid;
     border-color: rgba(55, 55, 55, .3);
     border-radius: 3px;
 }
 
-#app-mount .footer-VCsJQY{
+#app-mount .footer_ceda43{
     background-color: rgba(0, 0, 0, .5);
 }
 
@@ -685,43 +685,43 @@
 }
 
 /* Popup context menu for right clicking */
-#app-mount .menu-2TXYjN{
+#app-mount .menu_dc52c6{
     background-color: rgba(0, 0, 0, .8);
 }
 
 /* Delete Super Reaction Garbage */
-#app-mount .button-3bklZh[aria-label="Add Super Reaction"]{
+#app-mount .button_d553e5[aria-label="Add Super Reaction"]{
     display: none;
 }
 
 /* Role picker on user popout */
-#app-mount .container-2kTWmC{
+#app-mount .container_d27846{
     background-color: rgba(0, 0, 0, .9);
 }
 
 /* Selection menus */
-#app-mount .popout-15UxD6{
+#app-mount .popout_a6e77f{
     background-color:rgba(0,0,0, .9);
 }
-#app-mount .lookFilled-GPyucw.select-Zz0IcO{
+#app-mount .lookFilled__3dba3.select__0eb48{
     background-color:rgba(0,0,0, .5);
 }
 
 /* mute and profile, game playing, and connection status areas */
-#app-mount .container-1CH86i{
+#app-mount .container_ca50b9{
     background-color: transparent;
 }
 
-#app-mount .panel-ufc1-o {
+#app-mount .panel_bd8c76 {
     background-color: transparent;
 }
 
-#app-mount .container-2NLBJg{
+#app-mount .container_d667ff{
     background-color: transparent;
 }
 
 /* title bar */
-#app-mount .wordmarkWindows-1rsity{
+#app-mount .wordmarkWindows__05c46{
     /* change to whatever you want watermark image to be */
     background-image: var(--wordmark-image);
     background-size: contain;
@@ -733,16 +733,16 @@
     display: none;
 }
 
-#app-mount .typeWindows-3ILlhq{
+#app-mount .typeWindows__5fa63{
     background-color: rgba(0, 0, 0, 0.5);
     margin: 0px;
 }
 
 /* server onboarding */
-#app-mount .background-12kWdX {
+#app-mount .background_cb0a80 {
     background: transparent;
 }
 
-#app-mount .title-1HZFO2{
+#app-mount .title__7f0f1{
     background-color: rgba(0, 0, 0, 0.45);
 }
