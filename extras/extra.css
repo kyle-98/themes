@@ -227,7 +227,7 @@
     background-color: rgba(0,0,0,.8);
 }
 /* Emoji auto complete */
-#app-mount .autocomplete_df266d {
+#app-mount .autocomplete__743a5 {
     background-color: rgba(0,0,0,.9);
     box-shadow: 0 0 10px 2px rgb(0, 0, 0);
 }
@@ -368,7 +368,7 @@
     background-color: rgba(0, 0, 0, .3);
 }
 
-#app-mount .link__2e8e1[href="/store"],[href="/shop"] {
+#app-mount .link__3a950[href="/store"],[href="/shop"] {
     display: var(--nitro-garbage);
 }
 
@@ -493,7 +493,7 @@
     display: none;
 }
 
-#app-mount .closeIcon_a3bbd4 path{
+#app-mount .closeIcon__2816e path{
     fill: var(--warning-red) !important;
 }
 
@@ -705,12 +705,12 @@
 }
 
 /* title bar */
-#app-mount .wordmarkWindows__05c46{
+#app-mount .wordmarkWindows_ffbc5e{
     /* change to whatever you want watermark image to be */
     background-image: var(--wordmark-image);
-    background-size: contain; 
+    background-size: contain;
+    background-repeat: no-repeat; 
     padding-top: 3px;
-    left: -60px;
     width: 100%;
 }
 
@@ -773,4 +773,18 @@
 /* remove sticker button from chat window */
 #app-mount .button__581d0.lookBlank_a5b4ca.colorBrand__27d57.grow__4c8a4[aria-label="Open sticker picker"]{
     display: none;
+}
+
+/* windows title bar buttons */
+#app-mount .winButton_f17fb6[aria-label="Close"]{
+    color: var(--warning-red) !important;
+}
+#app-mount .winButton_f17fb6[aria-label="Close"]:hover{
+    color: white !important;
+}
+#app-mount .winButton_f17fb6[aria-label="Maximize"]{
+    color: rgb(82, 179, 106) !important;
+}
+#app-mount .winButton_f17fb6[aria-label="Minimize"]{
+    color: rgb(255, 187, 60) !important;
 }
