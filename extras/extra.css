@@ -824,3 +824,23 @@
 #app-mount .footer_f06dbb{
     background-color: rgba(0 ,0, 0, .8);
 }
+
+/* choose new pfp ui */
+#app-mount .optionBox_d9023e{
+    background-color: rgba(41, 41, 41, 0.5);
+}
+
+/* edit bio in user settings background */
+#app-mount .bioTextArea_f46f71{
+    background-color: rgba(0 ,0, 0, .4);
+}
+
+/* pick profile banner color (color picker) */
+#app-mount .customColorPicker_bbc020{
+    background-color: rgba(0 ,0, 0, .8);
+}
+
+/* remove nitro/costmetic ad in editing profile */
+#app-mount .container__686c4{
+    display: none;
+}
