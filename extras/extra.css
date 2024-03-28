@@ -814,3 +814,8 @@
 #app-mount .input_f27786{
     background-color: rgba(0 ,0, 0, .6);
 }
+
+/* message preview when attempting to delete message */
+#app-mount .message_ff43e6{
+    background-color: rgba(0 ,0, 0, .8);
+}
