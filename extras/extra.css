@@ -844,3 +844,18 @@
 #app-mount .container__686c4{
     display: none;
 }
+
+/* even creation GUI */
+#app-mount .calendarPicker__47c85 .react-datepicker{
+    background-color: rgba(0 ,0, 0, .8);
+}
+#app-mount .calendarPicker__47c85 .react-datepicker__header{
+    background-color: rgba(0 ,0, 0, .8);
+}
+#app-mount .react-datepicker__day--outside-month{
+    background-color: rgba(0 ,0, 0, .8);
+}
+
+#app-mount .react-datepicker__day--disabled{
+    background-color: rgba(255, 60, 60, 0.171);
+}
