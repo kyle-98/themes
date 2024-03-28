@@ -132,23 +132,7 @@
 #app-mount .bodyInnerWrapper-2bQs1k {
     background-color:  rgba(0, 0, 0, 0);
 }
-/* Custom User Banner 
-#app-mount .userPopout-2j1gM4[data-user-id="143941453*********4"] .headerNormal-3Zn_yu .popoutBanner__9f5b9{ 
-    background: var(--profile-background) no-repeat !important;
-    height: 120px !important;
-}
-#app-mount .avatar-2Vndt_[data-user-id="14394********2464"] {
-    margin-top: 50px;
-}
-#app-mount .userPopout-2j1gM4[data-user-id="143941*******2464"] .avatarHint__8e5b9 {
-    margin-top: 50px;
-}
-#app-mount .root-8LYsGj[data-user-id="143941453733822464"] .topSection-13QKHs .profileBanner__8414b {
-    background: var(--profile-background) center no-repeat !important;
-    background-size: cover !important;
-    height: 240px;
-}
-*/
+
 
 /*Main User PopOut */
 
@@ -229,18 +213,18 @@
 }
 
 /* emoji picker */
-#app-mount .inspector__993e1 {
+#app-mount .inspector__7b643 {
     background-color: rgba(0,0,0,.4);
 }
-#app-mount .emojiItem_b15dee.emojiItemSelected__1a09a {
-    background-color:rgba(41, 38, 38, 0.7);
+#app-mount .emojiItem_de65fd.emojiItemSelected__023be {
+    background-color:rgba(53, 53, 53, 0.7);
 }
 #app-mount .emojiPickerInExpressionPicker-2nOwH8 .emojiPicker_b65ce9 {
     background-color: var(--dark-transparent);
     box-shadow: 0 0 5px 2px rgb(0, 0, 0);
 }
-#app-mount .contentWrapper__321ed {
-    background-color: rgba(0,0,0,.4);
+#app-mount .contentWrapper_e0bb2c {
+    background-color: rgba(0,0,0,.8);
 }
 /* Emoji auto complete */
 #app-mount .autocomplete_df266d {
@@ -766,4 +750,27 @@
 #app-mount .categoryHeader_f97a5f{
     background-color: rgba(0, 0, 0, 0.5);
     border-radius: 8px;
+}
+
+/* bottom user selection (where mute and settings icons are) */
+#app-mount .container_debb33{
+    background-color: rgba(0, 0, 0, 0.3);
+}
+
+/* remove sticker tab in emoji picker */
+#app-mount .stickersNavItem__65d71{
+    display: none;
+}
+#app-mount .navItem__38e35+.navItem__38e35[id="sticker-picker-tab"]{
+    display: none;
+}
+
+/* remove gift button from chat window */
+#app-mount .button__581d0.lookBlank_a5b4ca.colorBrand__27d57.grow__4c8a4[aria-label="Send a gift"]{
+    display: none;
+}
+
+/* remove sticker button from chat window */
+#app-mount .button__581d0.lookBlank_a5b4ca.colorBrand__27d57.grow__4c8a4[aria-label="Open sticker picker"]{
+    display: none;
 }
