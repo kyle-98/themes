@@ -819,3 +819,8 @@
 #app-mount .message_ff43e6{
     background-color: rgba(0 ,0, 0, .8);
 }
+
+/* modifying an attachment */
+#app-mount .footer_f06dbb{
+    background-color: rgba(0 ,0, 0, .8);
+}
