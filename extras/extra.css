@@ -454,7 +454,7 @@
 }
 
 /* background for pinned & inbox */
-#app-mount .messagesPopoutWrap_b3b384{
+#app-mount .messagesPopoutWrap__10dd1{
     background-color:  rgba(0,0,0,.8);
 }
 
@@ -775,16 +775,38 @@
     display: none;
 }
 
-/* windows title bar buttons */
-#app-mount .winButton_f17fb6[aria-label="Close"]{
-    color: var(--warning-red) !important;
+#app-mount .typeWindows_e41dab{
+    background-color: rgba(0, 0, 0, 0.5);
 }
-#app-mount .winButton_f17fb6[aria-label="Close"]:hover{
-    color: white !important;
+
+#app-mount .replyBar_ed6afc{
+    background-color: rgba(0, 0, 0, 0.5)
 }
-#app-mount .winButton_f17fb6[aria-label="Maximize"]{
-    color: rgb(82, 179, 106) !important;
+
+#app-mount .footerSeparator__2af8d{
+    background-color: rgba(0 ,0, 0, .5);
 }
-#app-mount .winButton_f17fb6[aria-label="Minimize"]{
-    color: rgb(255, 187, 60) !important;
+
+#app-mount .focusLock__28507{
+    background-color: rgba(0 ,0, 0, .5);
+}
+
+/* dm call UI */
+#app-mount .container_e1958d{
+    background-color: rgba(0 ,0, 0, .2);
+}
+
+#app-mount .wrapper__6bf2d.minimum__7f356{
+    background-color: rgba(0 ,0, 0, .6);
+}
+
+#app-mount .colorable__4f530.primaryDark_ec74a7, .colorable__4f530.primaryDark_ec74a7 .centerIcon_e3df23{
+    background-color: rgba(63, 63, 63, 0.5);
+}
+#app-mount .centerIcon_e3df23{
+    background-color: transparent !important;
+}
+
+#app-mount .quickSelectPopout__56a98{
+    background-color: rgba(0 ,0, 0, .8);
 }
