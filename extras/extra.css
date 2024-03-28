@@ -61,9 +61,9 @@
     background-repeat: no-repeat;
     width: 65px;
 }
-#app-mount .wrapper_d281dd.selected_f5ec8e .childWrapper__01b9c, .wrapper_d281dd:hover .childWrapper__01b9c {
-    background-color: white;
-    color:black;
+#app-mount .wrapper__8436d:hover .childWrapper_a6ce15, .wrapper__8436d.selected_ae80f7 .childWrapper_a6ce15 {
+    background-color: rgba(255, 255, 255, 0.8);
+    color:rgba(0, 0, 0, 0.9);
 }
 #app-mount .container__5c7e7 {
     background-color: transparent;
@@ -747,7 +747,7 @@
 }
 
 /* Apps (in textbar) */
-#app-mount .categoryHeader_f97a5f{
+#app-mount .categoryHeader__70c8e{
     background-color: rgba(0, 0, 0, 0.5);
     border-radius: 8px;
 }
