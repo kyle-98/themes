@@ -61,9 +61,9 @@
     background-repeat: no-repeat;
     width: 65px;
 }
-#app-mount .wrapper_d281dd.selected_f5ec8e .childWrapper__01b9c, .wrapper_d281dd:hover .childWrapper__01b9c {
-    background-color: white;
-    color:black;
+#app-mount .wrapper__8436d:hover .childWrapper_a6ce15, .wrapper__8436d.selected_ae80f7 .childWrapper_a6ce15 {
+    background-color: rgba(255, 255, 255, 0.8);
+    color:rgba(0, 0, 0, 0.9);
 }
 #app-mount .container__5c7e7 {
     background-color: transparent;
@@ -132,23 +132,7 @@
 #app-mount .bodyInnerWrapper-2bQs1k {
     background-color:  rgba(0, 0, 0, 0);
 }
-/* Custom User Banner 
-#app-mount .userPopout-2j1gM4[data-user-id="143941453*********4"] .headerNormal-3Zn_yu .popoutBanner__9f5b9{ 
-    background: var(--profile-background) no-repeat !important;
-    height: 120px !important;
-}
-#app-mount .avatar-2Vndt_[data-user-id="14394********2464"] {
-    margin-top: 50px;
-}
-#app-mount .userPopout-2j1gM4[data-user-id="143941*******2464"] .avatarHint__8e5b9 {
-    margin-top: 50px;
-}
-#app-mount .root-8LYsGj[data-user-id="143941453733822464"] .topSection-13QKHs .profileBanner__8414b {
-    background: var(--profile-background) center no-repeat !important;
-    background-size: cover !important;
-    height: 240px;
-}
-*/
+
 
 /*Main User PopOut */
 
@@ -229,21 +213,21 @@
 }
 
 /* emoji picker */
-#app-mount .inspector__993e1 {
+#app-mount .inspector__7b643 {
     background-color: rgba(0,0,0,.4);
 }
-#app-mount .emojiItem_b15dee.emojiItemSelected__1a09a {
-    background-color:rgba(41, 38, 38, 0.7);
+#app-mount .emojiItem_de65fd.emojiItemSelected__023be {
+    background-color:rgba(53, 53, 53, 0.7);
 }
 #app-mount .emojiPickerInExpressionPicker-2nOwH8 .emojiPicker_b65ce9 {
     background-color: var(--dark-transparent);
     box-shadow: 0 0 5px 2px rgb(0, 0, 0);
 }
-#app-mount .contentWrapper__321ed {
-    background-color: rgba(0,0,0,.4);
+#app-mount .contentWrapper_e0bb2c {
+    background-color: rgba(0,0,0,.8);
 }
 /* Emoji auto complete */
-#app-mount .autocomplete_df266d {
+#app-mount .autocomplete__743a5 {
     background-color: rgba(0,0,0,.9);
     box-shadow: 0 0 10px 2px rgb(0, 0, 0);
 }
@@ -384,7 +368,7 @@
     background-color: rgba(0, 0, 0, .3);
 }
 
-#app-mount .link__2e8e1[href="/store"],[href="/shop"] {
+#app-mount .link__3a950[href="/store"],[href="/shop"] {
     display: var(--nitro-garbage);
 }
 
@@ -470,7 +454,7 @@
 }
 
 /* background for pinned & inbox */
-#app-mount .messagesPopoutWrap_b3b384{
+#app-mount .messagesPopoutWrap__10dd1{
     background-color:  rgba(0,0,0,.8);
 }
 
@@ -509,7 +493,7 @@
     display: none;
 }
 
-#app-mount .closeIcon_a3bbd4 path{
+#app-mount .closeIcon__2816e path{
     fill: var(--warning-red) !important;
 }
 
@@ -703,7 +687,7 @@
 #app-mount .popout_a6e77f{
     background-color:rgba(0,0,0, .9);
 }
-#app-mount .lookFilled__3dba3.select__0eb48{
+#app-mount .lookFilled__9c1ef.select_fe2671{
     background-color:rgba(0,0,0, .5);
 }
 
@@ -721,12 +705,12 @@
 }
 
 /* title bar */
-#app-mount .wordmarkWindows__05c46{
+#app-mount .wordmarkWindows_ffbc5e{
     /* change to whatever you want watermark image to be */
     background-image: var(--wordmark-image);
-    background-size: contain; 
+    background-size: contain;
+    background-repeat: no-repeat; 
     padding-top: 3px;
-    left: -60px;
     width: 100%;
 }
 
@@ -763,7 +747,115 @@
 }
 
 /* Apps (in textbar) */
-#app-mount .categoryHeader_f97a5f{
+#app-mount .categoryHeader__70c8e{
     background-color: rgba(0, 0, 0, 0.5);
     border-radius: 8px;
+}
+
+/* bottom user selection (where mute and settings icons are) */
+#app-mount .container_debb33{
+    background-color: rgba(0, 0, 0, 0.3);
+}
+
+/* remove sticker tab in emoji picker */
+#app-mount .stickersNavItem__65d71{
+    display: none;
+}
+#app-mount .navItem__38e35+.navItem__38e35[id="sticker-picker-tab"]{
+    display: none;
+}
+
+/* remove gift button from chat window */
+#app-mount .button__581d0.lookBlank_a5b4ca.colorBrand__27d57.grow__4c8a4[aria-label="Send a gift"]{
+    display: none;
+}
+
+/* remove sticker button from chat window */
+#app-mount .button__581d0.lookBlank_a5b4ca.colorBrand__27d57.grow__4c8a4[aria-label="Open sticker picker"]{
+    display: none;
+}
+
+#app-mount .typeWindows_e41dab{
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
+#app-mount .replyBar_ed6afc{
+    background-color: rgba(0, 0, 0, 0.5)
+}
+
+#app-mount .footerSeparator__2af8d{
+    background-color: rgba(0 ,0, 0, .5);
+}
+
+#app-mount .focusLock__28507{
+    background-color: rgba(0 ,0, 0, .5);
+}
+
+/* dm call UI */
+#app-mount .container_e1958d{
+    background-color: rgba(0 ,0, 0, .2);
+}
+
+#app-mount .wrapper__6bf2d.minimum__7f356{
+    background-color: rgba(0 ,0, 0, .6);
+}
+
+#app-mount .colorable__4f530.primaryDark_ec74a7, .colorable__4f530.primaryDark_ec74a7 .centerIcon_e3df23{
+    background-color: rgba(63, 63, 63, 0.5);
+}
+#app-mount .centerIcon_e3df23{
+    background-color: transparent !important;
+}
+
+#app-mount .quickSelectPopout__56a98{
+    background-color: rgba(0 ,0, 0, .8);
+}
+
+#app-mount .input_f27786{
+    background-color: rgba(0 ,0, 0, .6);
+}
+
+/* message preview when attempting to delete message */
+#app-mount .message_ff43e6{
+    background-color: rgba(0 ,0, 0, .8);
+}
+
+/* modifying an attachment */
+#app-mount .footer_f06dbb{
+    background-color: rgba(0 ,0, 0, .8);
+}
+
+/* choose new pfp ui */
+#app-mount .optionBox_d9023e{
+    background-color: rgba(41, 41, 41, 0.5);
+}
+
+/* edit bio in user settings background */
+#app-mount .bioTextArea_f46f71{
+    background-color: rgba(0 ,0, 0, .4);
+}
+
+/* pick profile banner color (color picker) */
+#app-mount .customColorPicker_bbc020{
+    background-color: rgba(0 ,0, 0, .8);
+}
+
+/* remove nitro/costmetic ad in editing profile */
+#app-mount .container__686c4{
+    display: none;
+}
+
+/* even creation GUI */
+#app-mount .calendarPicker__47c85 .react-datepicker{
+    background-color: rgba(0 ,0, 0, .8);
+}
+#app-mount .calendarPicker__47c85 .react-datepicker__header{
+    background-color: rgba(0 ,0, 0, .8);
+}
+#app-mount .react-datepicker__day--outside-month{
+    background-color: rgba(0 ,0, 0, .8);
+}
+
+#app-mount .react-datepicker__day--disabled{
+    background-color: rgba(255, 60, 60, 0.171);
 }
