@@ -853,3 +853,8 @@
 #app-mount .fullSizeOverlayBackground_c69a7b{
     background: rgba(34, 34, 34, 0.5);
 }
+
+/* home icon in top left */
+#app-mount .wrapper_f90abb.selected_f90abb .childWrapper_f90abb{
+    background: rgba(0,0,0,0.5);
+}
