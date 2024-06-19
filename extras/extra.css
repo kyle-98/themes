@@ -859,3 +859,39 @@
 #app-mount .react-datepicker__day--disabled{
     background-color: rgba(255, 60, 60, 0.171);
 }
+
+/* profile small popout */
+#app-mount .biteSizeInnerThemed_c69a7b{
+    background: rgba(0,0,0,0.8);
+}
+
+/* remove status bubble on profile (this looked ugly as shit) */
+#app-mount .statusBubbleOuter_d0a252:after{
+    display: none;
+}
+
+/* profile popout status */
+#app-mount .statusBubbleOuter_d0a252:before{
+    display: none;
+}
+#app-mount .statusBubble_d0a252{
+    background: rgba(0,0,0,0.5);
+}
+
+#app-mount .statusBubbleOuter_d0a252{
+    background: transparent;
+}
+
+#app-mount .lookFilled_dd4f85.colorPrimary_dd4f85{
+    background: rgba(54, 54, 54, 0.5);
+}
+
+/* profile big popout */
+#app-mount .fullSizeInnerThemed_c69a7b{
+    background: transparent;
+}
+
+/* small bio on full popout */
+#app-mount .fullSizeOverlayBackground_c69a7b{
+    background: rgba(34, 34, 34, 0.5);
+}
