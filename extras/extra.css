@@ -133,48 +133,6 @@
     background-color:  rgba(0, 0, 0, 0);
 }
 
-
-/*Main User PopOut */
-
-    /*Non-Nitro*/
-#app-mount .userProfileInnerNonPremium-1XjSjn {
-    background: transparent;
-}
-
-#app-mount .userProfileInner-3F03PX:before{
-    background-color: transparent;
-}
-
-#app-mount .userProfileOuterUnthemed-2b2rsv{
-    background:  rgba(0,0,0,.7);
-}
-
-    /*Nitro (Non-Custom)*/
-#app-mount .userProfileInnerPremiumWithoutBanner-37uB4Q{
-    background:  transparent;
-}
-
-    /*Nitro (With Custom)*/
-#app-mount .userProfileInnerPremiumWithoutBanner-37uB4Q{
-    background: transparent;
-}
-
-#app-mount .userProfileOuterThemed-3EfHmv{
-    background: rgba(0,0,0,.7);
-}
-
-#app-mount .userProfileInnerWithBanner-3CJ1Og{
-    background:transparent;
-}
-
-#app-mount .rolePillBorder-RiRiuN{
-    border: none;
-    border-color: transparent;
-}
-#app-mount .userPopoutOverlayBackground-dKOOda{
-    background-color: rgba(0,0,0,.7) !important;
-}
-
 /* Upload Area */
 #app-mount .uploadModal_f82cc7 {
     background-color: rgba(0,0,0,.2)
