@@ -37,7 +37,7 @@
 }
 
 /* main app */
-#app-mount .layers__1c917::before {
+#app-mount .layers_d4b6c5::before {
     content: "";
     background: var(--background-image);
     height: calc(100vh + (var(--background-blur)) * 2);
@@ -47,16 +47,16 @@
     filter: blur(var(--background-blur)) brightness(var(--background-darken));
   }
 
-#app-mount .panels__58331 {
+#app-mount .panels_a4d4d9 {
     background-color: var(--dark-transparent);
 }
-#app-mount .container__5c7e7 {
+#app-mount .container_c2739c {
     background-color: transparent;
 }
-#app-mount .wordmarkWindows__05c46 {
+#app-mount .wordmarkWindows_a934d8 {
     color:white;
     background-image: var(--wordmark-image);
-    background-position:65px;
+    background-position:5px;
     background-size: 20%;
     background-repeat: no-repeat;
     width: 65px;
@@ -65,7 +65,7 @@
     background-color: rgba(255, 255, 255, 0.8);
     color:rgba(0, 0, 0, 0.9);
 }
-#app-mount .container__5c7e7 {
+#app-mount .container_c2739c {
     background-color: transparent;
 }
 
@@ -108,13 +108,13 @@
 #app-mount .avatar-22FtUu {
     background-color: rgba(0, 0, 0, 0.315);
 }
-#app-mount .textarea_c5a7a3 {
+#app-mount .textarea_dde0a8 {
     background-color: rgba(255, 255, 255, 0.034);
 }
 #app-mount .input-2g-os5.focused-1AtTHC, .input-2g-os5:focus {
     border-color: rgba(255, 255, 255, 0.507);
 }
-#app-mount .input__95bc4 {
+#app-mount .input_df4dd0 {
     background-color: rgba(255, 255, 255, 0.068); 
 }
 #app-mount .headerTop-3GPUSF {
@@ -133,70 +133,28 @@
     background-color:  rgba(0, 0, 0, 0);
 }
 
-
-/*Main User PopOut */
-
-    /*Non-Nitro*/
-#app-mount .userProfileInnerNonPremium-1XjSjn {
-    background: transparent;
-}
-
-#app-mount .userProfileInner-3F03PX:before{
-    background-color: transparent;
-}
-
-#app-mount .userProfileOuterUnthemed-2b2rsv{
-    background:  rgba(0,0,0,.7);
-}
-
-    /*Nitro (Non-Custom)*/
-#app-mount .userProfileInnerPremiumWithoutBanner-37uB4Q{
-    background:  transparent;
-}
-
-    /*Nitro (With Custom)*/
-#app-mount .userProfileInnerPremiumWithoutBanner-37uB4Q{
-    background: transparent;
-}
-
-#app-mount .userProfileOuterThemed-3EfHmv{
-    background: rgba(0,0,0,.7);
-}
-
-#app-mount .userProfileInnerWithBanner-3CJ1Og{
-    background:transparent;
-}
-
-#app-mount .rolePillBorder-RiRiuN{
-    border: none;
-    border-color: transparent;
-}
-#app-mount .userPopoutOverlayBackground-dKOOda{
-    background-color: rgba(0,0,0,.7) !important;
-}
-
 /* Upload Area */
-#app-mount .uploadModal_eae2a0 {
+#app-mount .uploadModal_f82cc7 {
     background-color: rgba(0,0,0,.2)
 }
-#app-mount .uploadModal_eae2a0 .inner__7afe9 .channelTextAreaUpload__5c0be {
+#app-mount .uploadModal_f82cc7 .inner_f82cc7 .channelTextAreaUpload_f82cc7 {
     background-color: rgba(14, 14, 14, .4);
 }
-#app-mount .uploadModal_eae2a0 .footer_ceda43.hasSpoilers__49ee6 {
+#app-mount .uploadModal_f82cc7 .footer_f82cc7.hasSpoilers_f82cc7 {
     background-color: rgba(0,0,0,.2)
 }
 
 /* Nitro Tab */
-#app-mount .applicationStore_fc7d76 {
+#app-mount .applicationStore_cecc86 {
     background-color: var(--dark-transparent);
 }
-#app-mount .buttonText_d2bc9e {
+#app-mount .buttonText_af971d {
     visibility: hidden;
     margin: -60px;
     margin-right: 10px;
     padding: 5px;
 }
-#app-mount .buttonText_d2bc9e:after{
+#app-mount .buttonText_af971d:after{
     content:"This is a scam";
     visibility: visible;  
     display: block;
@@ -205,35 +163,35 @@
     left: 25%;
 }
 
-#app-mount .premiumIcon__747a1{
+#app-mount .premiumIcon_af971d{
     display: none;
 }
-#app-mount .giftIcon_c535f3{
+#app-mount .giftIcon_af971d{
     display: none;
 }
 
 /* emoji picker */
-#app-mount .inspector__7b643 {
+#app-mount .inspector_c6ee36 {
     background-color: rgba(0,0,0,.4);
 }
-#app-mount .emojiItem_de65fd.emojiItemSelected__023be {
+#app-mount .emojiItem_fbfedd.emojiItemSelected_fbfedd {
     background-color:rgba(53, 53, 53, 0.7);
 }
-#app-mount .emojiPickerInExpressionPicker-2nOwH8 .emojiPicker_b65ce9 {
+#app-mount .emojiPickerInExpressionPicker-2nOwH8 .emojiPicker_c6ee36 {
     background-color: var(--dark-transparent);
     box-shadow: 0 0 5px 2px rgb(0, 0, 0);
 }
-#app-mount .contentWrapper_e0bb2c {
+#app-mount .contentWrapper_af5dbb {
     background-color: rgba(0,0,0,.8);
 }
 /* Emoji auto complete */
-#app-mount .autocomplete__743a5 {
+#app-mount .autocomplete_f23da8 {
     background-color: rgba(0,0,0,.9);
     box-shadow: 0 0 10px 2px rgb(0, 0, 0);
 }
 
 /*Folder settings */
-#app-mount .root_a28985 {
+#app-mount .root_f9a4c9 {
     background-color: rgba(0,0,0,.2);
 }
 #app-mount .footer-31IekZ {
@@ -246,11 +204,11 @@
 
 
 /* get rid of shitty gift button */
-#app-mount .buttons_ce5b56 [aria-label="Send a gift or Boost this server"]{
+#app-mount .buttons_d0696b [aria-label="Send a gift or Boost this server"]{
     display: none !important;
 }
 
-#app-mount .buttons_ce5b56 [aria-label="Send a gift"]{
+#app-mount .buttons_d0696b [aria-label="Send a gift"]{
     display: none !important;
 }
 
@@ -272,44 +230,44 @@
 }
 
 /* Explore tab */
-#app-mount .pageWrapper_fef757 {
+#app-mount .pageWrapper_a3a4ce {
     background-color: transparent;
 }
-#app-mount .menu_dc52c6 {
+#app-mount .menu_d90b3d {
     background-color:rgba(0, 0, 0, .9);
     box-shadow: 0 0 5px 2px rgb(0, 0, 0);
 }
 
 /* now playing (friend's list) */
-#app-mount .nowPlayingColumn_f5023f {
+#app-mount .nowPlayingColumn_c2739c {
     background-color: var(--dark-transparent);
 }
-#app-mount .inset__0bfb3 {
+#app-mount .inset_c0f6a6 {
     background-color: rgba(0,0,0,.9);
 }
-#app-mount .itemCard__1f162:first-of-type {
+#app-mount .itemCard_f02fcf:first-of-type {
     background-color: rgba(0,0,0,.3);
 }
 
 /* members list */
-#app-mount .addMembersButton_fadd2d {
+#app-mount .addMembersButton_b7fc42 {
     display: none;
 }
 
 /* Search bar (slightly busted) */
-#app-mount .container_d6dad3 {
+#app-mount .container_eedf95 {
     background-color: rgba(0,0,0,.5);
 }
-#app-mount .calendarPicker__5c474 .react-datepicker {
+#app-mount .calendarPicker__47c85 .react-datepicker {
     background-color: rgba(0,0,0,.9);
 }
-#app-mount .calendarPicker__5c474 .react-datepicker__header {
+#app-mount .calendarPicker__47c85 .react-datepicker__header {
     background-color: transparent;
 }
-#app-mount .calendarPicker__5c474 .react-datepicker__day--outside-month {
+#app-mount .calendarPicker__47c85 .react-datepicker__day--outside-month {
     background-color: rgba(0,0,0,.5);
 }
-#app-mount .focused_f9cf2c{
+#app-mount .focused_eedf95{
     background-color: rgba(0,0,0,.5);
 }
 #app-mount .datePicker-70cO23 .datePickerHint-17MnA8 {
@@ -318,31 +276,31 @@
 }
 
 /*Connection Indicator */
-#app-mount .ping__47992{
+#app-mount .ping_c0cb95{
     background: var(--connect-image) 100% no-repeat;
     background-size: 25px;
     padding: 5px;
     padding-left: 10px;  
 }
-#app-mount .rtcConnectionQualityFine__471b6 .pingForeground_ac78df {
+#app-mount .rtcConnectionQualityFine_c0cb95 .pingForeground_c0cb95 {
     display: var(--connect-disable);
 }
 
-#app-mount .numberBadge__50328 {
+#app-mount .numberBadge__40d6f {
     background-color: var(--badge-color) !important;
 }
 
 /* Sidebar Width (channels) */
-#app-mount .sidebar_ded4b5   {
+#app-mount .sidebar_a4d4d9   {
     width: var(--sidebar-width); 
 }
 
 /* side width (users) */
-#app-mount .membersWrap__90226{
+#app-mount .membersWrap_cbd271{
     width: var(--members-width);
     min-width: 0px;
 }
-#app-mount .members__9f47b, .members__9f47b>div {
+#app-mount .members_cbd271, .members_cbd271>div {
     width: var(--members-width);
 }
 
@@ -355,12 +313,12 @@
     box-shadow: 0 0 5px 2px rgb(0, 0, 0);
 }
 
-#app-mount .jumpToPresentBar__0ff7f {
+#app-mount .jumpToPresentBar_cf58b5 {
     background-color: rgba(0 ,0, 0, .6);
     box-shadow: 1px -8px 12px -4px rgba(0 ,0, 0, .8);
 }
 
-#app-mount .card_dc88cd:before {
+#app-mount .card_ffe375:before {
     background-color: var(--dark-transparent);
     border-color:  rgba(0, 0, 0, .6);
 }
@@ -368,7 +326,7 @@
     background-color: rgba(0, 0, 0, .3);
 }
 
-#app-mount .link__3a950[href="/store"],[href="/shop"] {
+#app-mount .link_c91bad[href="/store"],[href="/shop"] {
     display: var(--nitro-garbage);
 }
 
@@ -378,7 +336,7 @@
 
 
 /*Channels Sidebar */
-#app-mount .name__590d6 {
+#app-mount .name_a08117 {
     color:var(--channel-sidebar-header);
 }
 
@@ -387,7 +345,7 @@
     margin-top: -40px;
 }
 
-#app-mount .icon__4cb88 {
+#app-mount .icon_e44302 {
     color: white;
 }
 
@@ -402,7 +360,7 @@
 #app-mount .option-2KkUJO.selected-rZcOL- {
     background-color: #5c6fb1;
 }
-#app-mount .searchAnswer_b452e7, .theme-dark .searchFilter__118cb {
+#app-mount .searchAnswer_b0fa94, .theme-dark .searchFilter_b0fa94 {
     background-color: #5c6fb1;
 }
 
@@ -410,14 +368,14 @@
     background-color: rgba(0,0,0,.7)
 }
 
-#app-mount .cozy_f5c119 .timestamp_cdbd93 {
+#app-mount .cozy_ec86aa .timestamp_ec86aa {
     color:rgb(214, 214, 214);
 }
 
-#app-mount .messagesPopout__22763 {
+#app-mount .messagesPopout_ac90a2 {
     background-color: rgba(0 ,0, 0, .9);
 }
-#app-mount .header_f5cc88 {
+#app-mount .header_ac90a2 {
     background-color: rgba(0 ,0, 0, .8);
 }
 
@@ -443,34 +401,34 @@
 }
 
 /* Remove Gif Text Under Gifs */
-#app-mount .altText__6dd8b{
+#app-mount .altText_cf58b5{
     display: none;
 }
 
 /* Threads popout fix */
-#app-mount .browser_fece63{
+#app-mount .browser_f542fc{
     background-color:  rgba(0,0,0,.8);
     border-radius: 5px;
 }
 
 /* background for pinned & inbox */
-#app-mount .messagesPopoutWrap__10dd1{
+#app-mount .messagesPopoutWrap_ac90a2{
     background-color:  rgba(0,0,0,.8);
 }
 
 /* Headers for Inbox Messages */
-#app-mount .channelHeader__5d30c{
+#app-mount .channelHeader_f3978e{
     background-color:  rgba(0,0,0,.8);
     border-radius: 10px;
 }
 
 /* fix settings background brightness */
-#app-mount .standardSidebarView__1129a{
+#app-mount .standardSidebarView_c25c6d{
     background-color: rgba(0,0,0,.4);
 }
 
 /* Gif and emote picker background */
-#app-mount .contentWrapper__321ed{
+#app-mount .contentWrapper_af5dbb{
     background-color:  rgba(0,0,0,.8);
 }
 
@@ -480,12 +438,12 @@
 }
 
 /* Fix for auto complete darkness */
-#app-mount .scroller_cc9b9a[data-list-id="channel-autocomplete"]{
+#app-mount .scroller_bea0d0[data-list-id="channel-autocomplete"]{
     background-color:  rgba(0,0,0,.6);
 }
 
 /* Delete Sticker picker in emote menu */
-#app-mount .navButton__05cc7[id="sticker-picker-tab"]{
+#app-mount .navButton_af5dbb[id="sticker-picker-tab"]{
     display:  none;
 }
 
@@ -493,7 +451,7 @@
     display: none;
 }
 
-#app-mount .closeIcon__2816e path{
+#app-mount .closeIcon_c91bad path{
     fill: var(--warning-red) !important;
 }
 
@@ -501,13 +459,13 @@
     color:  var(--warning-red);
 }
 
-#app-mount .member_b44d5d{
+#app-mount .member_cbd271{
     background-color: transparent;
 }
 
 /*profile and other user settings */
 
-#app-mount .bioTextArea_a108c9 {
+#app-mount .bioTextArea_ccf27d {
     background-color: rgba(0,0,0,0.3);
 }
 
@@ -536,7 +494,7 @@
     top: -1%;
 }
 
-#app-mount .connectContainer__8050b{
+#app-mount .connectContainer_e2a436{
     background-color: rgba(0, 0, 0, 0.4);
 }
 
@@ -551,31 +509,31 @@
     left: 8%;
 }
 
-#app-mount .connectionHeader__3c82d{
+#app-mount .connectionHeader_e2a436{
     background-color: rgba(0, 0, 0, 0.4);
 }
 
-#app-mount .connectionDelete__988b5{
+#app-mount .connectionDelete_e2a436{
     color: var(--warning-red);
 }
 
-#app-mount .integrationWrapper__04dd5{
+#app-mount .integrationWrapper_e2a436{
     background: rgba(0,0,0,0.4);
 }
 
-#app-mount .paymentPane__9cf01{
+#app-mount .paymentPane_f66684{
     background-color: rgba(0, 0, 0, 0.4);
 }
 
-#app-mount .paginator_e620d3[data-list-id="billing-history"]{
+#app-mount .paginator_f66684[data-list-id="billing-history"]{
     background: rgba(0,0,0,0.4);
 }
 
-#app-mount .payment__7d702{
+#app-mount .payment_a28a08{
     background-color: transparent;
 }
 
-#app-mount .codeRedemptionRedirect_bc7f36{
+#app-mount .codeRedemptionRedirect_cb70f4{
     background-color: rgba(0,0,0,0.4);
 }
 
@@ -588,23 +546,23 @@
     background-color: rgba(0, 0, 0, 0.95);
 }
 
-#app-mount .emojiPicker_b65ce9{
+#app-mount .emojiPicker_c6ee36{
     background-color: rgba(0, 0, 0, 0.7);
 }
 
-#app-mount .header__55964{
+#app-mount .header_c6ee36{
     background-color: rgba(0, 0, 0, 0.7);
 }
 
 /* Browse Channels Tab */
-#app-mount .container__7590f{
+#app-mount .container_c2efea{
     background-color: transparent;
 }
-#app-mount .container__10dc7, .header__60bef{
+#app-mount .container_f1fd9c, .header_f1fd9c{
     background-color: rgba(0, 0, 0, 0.1) !important;
 }
 
-#app-mount .innerHeader_afca2f:after, .children__32014:after{
+#app-mount .innerHeader_f1fd9c:after, .children_e44302:after{
     display: none;
 }
 #app-mount .lookOutlined-3yKVGo.colorPrimary-2AuQVo:hover{
@@ -612,38 +570,38 @@
 }
 
 /* Server Pill */
-#app-mount .communityInfoPill_d3f445{
+#app-mount .communityInfoPill_fd6364{
     background: rgba(0, 0, 0, .75);
 }
 
 /* # of members in voice channels */
-#app-mount .bar__004d9{
+#app-mount .bar_eba0ba{
     background-color: rgba(0, 0, 0, .75);
 }
 
 /* Customize Community Tab */
-#app-mount .emptyPage__3e15d, .theme-dark .scrollerContainer_bf5dbd{
+#app-mount .emptyPage_c6b11b, .theme-dark .scrollerContainer_c6b11b{
     background-color: rgba(0, 0, 0, 0.2) !important;
 }
 
-#app-mount .container_ca50b9{
+#app-mount .container_b2ca13{
     background-color: rgba(0,0,0,0.2)
 }
 
-#app-mount .container_d667ff{
+#app-mount .container_adcaac{
     background-color: rgba(0,0,0,0.2);
 }
 
-#app-mount .panel_bd8c76{
+#app-mount .panel_bf1a22{
     background-color: rgba(0,0,0,0.2)
 }
 
 /* Streaming Popout modal */
-#app-mount .root_a28985{
+#app-mount .root_f9a4c9{
     background-color: rgba(0,0,0,0.2);
 }
 
-#app-mount .footer__89240{
+#app-mount .footer_f9a4c9{
     background-color: transparent;
 }
 
@@ -652,14 +610,14 @@
 }
 
 /*Edit file upload popout modal */
-#app-mount .input_d266e7{
+#app-mount .input_f8bc55{
     background-color: rgba(0, 0, 0, .5);
     border: solid;
     border-color: rgba(55, 55, 55, .3);
     border-radius: 3px;
 }
 
-#app-mount .footer_ceda43{
+#app-mount .footer_f82cc7{
     background-color: rgba(0, 0, 0, .5);
 }
 
@@ -669,43 +627,43 @@
 }
 
 /* Popup context menu for right clicking */
-#app-mount .menu_dc52c6{
+#app-mount .menu_d90b3d{
     background-color: rgba(0, 0, 0, .8);
 }
 
 /* Delete Super Reaction Garbage */
-#app-mount .button_d553e5[aria-label="Add Super Reaction"]{
+#app-mount .button_ef319f[aria-label="Add Super Reaction"]{
     display: none;
 }
 
 /* Role picker on user popout */
-#app-mount .container_d27846{
+#app-mount .container_ac201b{
     background-color: rgba(0, 0, 0, .9);
 }
 
 /* Selection menus */
-#app-mount .popout_a6e77f{
+#app-mount .popout_f6639d{
     background-color:rgba(0,0,0, .9);
 }
-#app-mount .lookFilled__9c1ef.select_fe2671{
+#app-mount .lookFilled_f6639d.select_f6639d{
     background-color:rgba(0,0,0, .5);
 }
 
 /* mute and profile, game playing, and connection status areas */
-#app-mount .container_ca50b9{
+#app-mount .container_b2ca13{
     background-color: transparent;
 }
 
-#app-mount .panel_bd8c76 {
+#app-mount .panel_bf1a22 {
     background-color: transparent;
 }
 
-#app-mount .container_d667ff{
+#app-mount .container_adcaac{
     background-color: transparent;
 }
 
 /* title bar */
-#app-mount .wordmarkWindows_ffbc5e{
+#app-mount .wordmarkWindows_a934d8{
     /* change to whatever you want watermark image to be */
     background-image: var(--wordmark-image);
     background-size: contain;
@@ -718,26 +676,26 @@
     display: none;
 }
 
-#app-mount .typeWindows__5fa63{
+#app-mount .typeWindows_a934d8{
     background-color: rgba(0, 0, 0, 0.5);
     margin: 0px;
 }
 
 /* server onboarding */
-#app-mount .background_cb0a80 {
+#app-mount .background_e85cee {
     background: transparent;
 }
 
-#app-mount .title__7f0f1{
+#app-mount .title_e85cee{
     background-color: rgba(0, 0, 0, 0.45);
 }
 
 /* scroll bar for chats */
-#app-mount .auto_a48086::-webkit-scrollbar-thumb{
+#app-mount .auto_eed6a8::-webkit-scrollbar-thumb{
     background-color: rgba(0, 0, 0, .7);
 }
 
-#app-mount .auto_a48086::-webkit-scrollbar-track{
+#app-mount .auto_eed6a8::-webkit-scrollbar-track{
     background-color: rgba(0, 0, 0, 0.4);
 }
 
@@ -747,63 +705,63 @@
 }
 
 /* Apps (in textbar) */
-#app-mount .categoryHeader__70c8e{
+#app-mount .categoryHeader_fe2299{
     background-color: rgba(0, 0, 0, 0.5);
     border-radius: 8px;
 }
 
 /* bottom user selection (where mute and settings icons are) */
-#app-mount .container_debb33{
+#app-mount .container_b2ca13{
     background-color: rgba(0, 0, 0, 0.3);
 }
 
 /* remove sticker tab in emoji picker */
-#app-mount .stickersNavItem__65d71{
+#app-mount .stickersNavItem_af5dbb{
     display: none;
 }
-#app-mount .navItem__38e35+.navItem__38e35[id="sticker-picker-tab"]{
+#app-mount .navItem_af5dbb+.navItem_af5dbb[id="sticker-picker-tab"]{
     display: none;
 }
 
 /* remove gift button from chat window */
-#app-mount .button__581d0.lookBlank_a5b4ca.colorBrand__27d57.grow__4c8a4[aria-label="Send a gift"]{
+#app-mount .button_dd4f85.lookBlank_dd4f85.colorBrand_dd4f85.grow_dd4f85[aria-label="Send a gift"]{
     display: none;
 }
 
 /* remove sticker button from chat window */
-#app-mount .button__581d0.lookBlank_a5b4ca.colorBrand__27d57.grow__4c8a4[aria-label="Open sticker picker"]{
+#app-mount .button_dd4f85.lookBlank_dd4f85.colorBrand_dd4f85.grow_dd4f85[aria-label="Open sticker picker"]{
     display: none;
 }
 
-#app-mount .typeWindows_e41dab{
+#app-mount .typeWindows_a934d8{
     background-color: rgba(0, 0, 0, 0.5);
 }
 
-#app-mount .replyBar_ed6afc{
+#app-mount .replyBar_b11c5e{
     background-color: rgba(0, 0, 0, 0.5)
 }
 
-#app-mount .footerSeparator__2af8d{
+#app-mount .footerSeparator_f9a4c9{
     background-color: rgba(0 ,0, 0, .5);
 }
 
-#app-mount .focusLock__28507{
+#app-mount .focusLock_f9a4c9{
     background-color: rgba(0 ,0, 0, .5);
 }
 
 /* dm call UI */
-#app-mount .container_e1958d{
+#app-mount .container_adcaac{
     background-color: rgba(0 ,0, 0, .2);
 }
 
-#app-mount .wrapper__6bf2d.minimum__7f356{
+#app-mount .wrapper_d880dc.minimum_d880dc{
     background-color: rgba(0 ,0, 0, .6);
 }
 
-#app-mount .colorable__4f530.primaryDark_ec74a7, .colorable__4f530.primaryDark_ec74a7 .centerIcon_e3df23{
+#app-mount .colorable_ef18ee.primaryDark_ef18ee, .colorable_ef18ee.primaryDark_ef18ee .centerIcon_ef18ee{
     background-color: rgba(63, 63, 63, 0.5);
 }
-#app-mount .centerIcon_e3df23{
+#app-mount .centerIcon_ef18ee{
     background-color: transparent !important;
 }
 
@@ -811,27 +769,27 @@
     background-color: rgba(0 ,0, 0, .8);
 }
 
-#app-mount .input_f27786{
+#app-mount .input_f8bc55{
     background-color: rgba(0 ,0, 0, .6);
 }
 
 /* message preview when attempting to delete message */
-#app-mount .message_ff43e6{
+#app-mount .message_ddcc45{
     background-color: rgba(0 ,0, 0, .8);
 }
 
 /* modifying an attachment */
-#app-mount .footer_f06dbb{
+#app-mount .footer_f82cc7{
     background-color: rgba(0 ,0, 0, .8);
 }
 
 /* choose new pfp ui */
-#app-mount .optionBox_d9023e{
+#app-mount .optionBox_f2f431{
     background-color: rgba(41, 41, 41, 0.5);
 }
 
 /* edit bio in user settings background */
-#app-mount .bioTextArea_f46f71{
+#app-mount .bioTextArea_ccf27d{
     background-color: rgba(0 ,0, 0, .4);
 }
 
@@ -841,7 +799,7 @@
 }
 
 /* remove nitro/costmetic ad in editing profile */
-#app-mount .container__686c4{
+#app-mount .container_da1432{
     display: none;
 }
 
@@ -858,4 +816,45 @@
 
 #app-mount .react-datepicker__day--disabled{
     background-color: rgba(255, 60, 60, 0.171);
+}
+
+/* profile small popout */
+#app-mount .biteSizeInnerThemed_c69a7b{
+    background: rgba(0,0,0,0.8);
+}
+
+/* remove status bubble on profile (this looked ugly as shit) */
+#app-mount .statusBubbleOuter_d0a252:after{
+    display: none;
+}
+
+/* profile popout status */
+#app-mount .statusBubbleOuter_d0a252:before{
+    display: none;
+}
+#app-mount .statusBubble_d0a252{
+    background: rgba(0,0,0,0.5);
+}
+
+#app-mount .statusBubbleOuter_d0a252{
+    background: transparent;
+}
+
+#app-mount .lookFilled_dd4f85.colorPrimary_dd4f85{
+    background: rgba(54, 54, 54, 0.5);
+}
+
+/* profile big popout */
+#app-mount .fullSizeInnerThemed_c69a7b{
+    background: transparent;
+}
+
+/* small bio on full popout */
+#app-mount .fullSizeOverlayBackground_c69a7b{
+    background: rgba(34, 34, 34, 0.5);
+}
+
+/* home icon in top left */
+#app-mount .wrapper_f90abb.selected_f90abb .childWrapper_f90abb{
+    background: rgba(0,0,0,0.5);
 }
