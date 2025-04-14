@@ -37,7 +37,7 @@
 }
 
 /* main app */
-#app-mount .layers__960e4::before {
+#app-mount .layers__960e4::before{
     content: "";
     background: var(--background-image);
     height: calc(100vh + (var(--background-blur)) * 2);
@@ -45,7 +45,7 @@
     background-position: center;
     background-size: cover;
     filter: blur(var(--background-blur)) brightness(var(--background-darken));
-  }
+}
 
 #app-mount .panels_c48ade {
     background-color: var(--dark-transparent);
@@ -96,7 +96,6 @@
     box-shadow: 0 0 30px 2px rgba(255, 255, 255, 0.082);
 }
 #app-mount .inner__999f6 {
-    /* background-color: rgba(255, 255, 255, 0.055); */
     background-color: rgba(0, 0, 0, 0.2);
 }
 #app-mount .headerXbox-3G-4PF {
@@ -119,12 +118,6 @@
 }
 #app-mount .headerTop-3GPUSF {
     background-color: rgba(0, 0, 0, 0.8);
-}
-#app-mount .customStatus-3XAoF9 {
-    /*background-color: rgba(0, 0, 0, 0.8); */
-}
-#app-mount .aboutMeSection-PUghFQ {
-    /*background-color: rgba(0, 0, 0, 0.8);*/
 }
 #app-mount .body-2wLx-E {
     background-color: rgba(0, 0, 0, 0.8);
@@ -423,9 +416,7 @@
 }
 
 /* fix settings background brightness */
-#app-mount .standardSidebarView__23e6b{
-    background-color: rgba(0,0,0,.4);
-}
+
 
 /* Gif and emote picker background */
 #app-mount .contentWrapper__08434{
@@ -584,13 +575,7 @@
     background-color: rgba(0, 0, 0, 0.2) !important;
 }
 
-#app-mount .container__37e49{
-    background-color: rgba(0,0,0,0.2)
-}
 
-#app-mount .container_e131a9{
-    background-color: rgba(0,0,0,0.2);
-}
 
 #app-mount .panel__5dec7{
     background-color: rgba(0,0,0,0.2)
@@ -649,10 +634,7 @@
     background-color:rgba(0,0,0, .5);
 }
 
-/* mute and profile, game playing, and connection status areas */
-#app-mount .container__37e49{
-    background-color: transparent;
-}
+
 
 #app-mount .panel__5dec7 {
     background-color: transparent;
@@ -710,11 +692,6 @@
     border-radius: 8px;
 }
 
-/* bottom user selection (where mute and settings icons are) */
-#app-mount .container__37e49{
-    background-color: rgba(0, 0, 0, 0.3);
-}
-
 /* remove sticker tab in emoji picker */
 #app-mount .stickersNavItem__08434{
     display: none;
@@ -749,13 +726,9 @@
     background-color: rgba(0 ,0, 0, .5);
 }
 
-/* dm call UI */
-#app-mount .container_e131a9{
-    background-color: rgba(0 ,0, 0, .2);
-}
-
+/* dm call gui header */
 #app-mount .wrapper_cb9592.minimum_cb9592{
-    background-color: rgba(0 ,0, 0, .6);
+    background-color: rgba(0 ,0, 0, .2);
 }
 
 #app-mount .colorable_f1ceac.primaryDark_f1ceac, .colorable_f1ceac.primaryDark_f1ceac .centerIcon_f1ceac{
@@ -775,11 +748,6 @@
 
 /* message preview when attempting to delete message */
 #app-mount .message__89466{
-    background-color: rgba(0 ,0, 0, .8);
-}
-
-/* modifying an attachment */
-#app-mount .footer_dbca3c{
     background-color: rgba(0 ,0, 0, .8);
 }
 
@@ -854,7 +822,401 @@
     background: rgba(34, 34, 34, 0.5);
 }
 
-/* home icon in top left */
 #app-mount .wrapper__6e9f8.selected__6e9f8 .childWrapper__6e9f8{
     background: rgba(0,0,0,0.5);
+}
+
+/* UI REFRESH UPDATE (3/25/25) */
+.visual-refresh .wrapper_ef3116 {
+    background: transparent;
+}
+
+/* Sidebar with dms (full background) */
+.visual-refresh .privateChannels__35e86 {
+    background: rgba(0,0,0,0.5);
+    border-radius: 0px 0px 0px 10px;
+}
+
+/* sidebar in servers */
+.visual-refresh .sidebarListRounded_c48ade {
+    padding-bottom: calc(var(--custom-app-panels-height, 0) + 15px); /* This covers the list for servers and open dm's */
+}
+.visual-refresh .container__2637a {
+    padding-bottom: 0px;
+    border-radius: 0px 0px 0px 10px !important;
+}
+
+/* Sidebar with dms (only dm names background) */
+.visual-refresh .scroller__99e7c{
+    background: transparent;
+    margin-bottom: 0px;
+}
+
+/* get rid of another layer on chat background */
+.theme-dark .themed__9293f {
+    background: rgba(0,0,0,0.5);
+}
+
+/* main chat background */
+.visual-refresh .chat_f75fb0 {
+    background: rgba(0,0,0,0.5);
+}
+
+/* main chat background (need to remove because two layers for chat background) */
+.visual-refresh .chatContent_f75fb0 {
+    background: transparent;
+}
+
+/* chat bar background (not needed) */
+.visual-refresh .channelTextArea_f75fb0 {
+    background: transparent;
+}
+
+/* main chat bar background */
+:where(.visual-refresh) .themedBackground__74017 {
+    background: rgba(0,0,0,0.5);
+}
+
+/* attachment area in char bar */
+.visual-refresh .channelAttachmentArea_b77158 {
+    background: transparent;
+}
+
+/* inner portion of attachment area */
+.visual-refresh .upload_aa605f {
+    background: transparent;
+}
+
+/* spoiler, edit, remove attachment selection */
+.visual-refresh .wrapper_f7ecac {
+    background: rgba(0,0,0,0.7);
+}
+
+/* name of emojis (where server names are in the emoji picker) */
+.visual-refresh .wrapper__14245 {
+    background: transparent;
+}
+
+/* server picker in emoji picker */
+.visual-refresh .wrapper__4e6ce {
+    background: transparent;
+}
+
+/* background of gif picker search bar */
+.visual-refresh .header_fed6d3 {
+    background: transparent;
+}
+
+/* background of entire gif picker */
+.container_fed6d3 {
+    background: transparent;
+}
+
+/* quick switcher */
+.visual-refresh .quickswitcher_ac6cb0, .visual-refresh .scroller_ac6cb0 {
+    background: transparent;
+}
+
+/* highlighting background of previous channels in quick switcher */
+.result__71961[aria-selected=true] {
+    background: rgba(61, 61, 61, 0.7)
+}
+
+/* remove the stupid padding at the bottom of the quick switcher */
+.container_ac6cb0 {
+    height: auto;
+}
+
+/* search area in dms */
+.visual-refresh .searchResultsWrap_a9e706{
+    background: transparent;
+}
+
+/* individual message background found in search in dms */
+.visual-refresh .searchResult__02a39 {
+    background: rgba(0,0,0,0.7)
+}
+
+.inner_c0bea0.biteSize_c0bea0, .inner_c0bea0.fullSize_c0bea0 {
+    background: transparent;
+}
+
+/* remove pip when screensharing */
+.pictureInPictureVideo_f1081d {
+    display: none;
+}
+
+.buttonContainer-28fw2U .button-38aScr[aria-label="Open sticker picker"]{
+    display: none;
+}
+
+
+/* remove sticker button from chat */
+.clickableSticker__5d3a0[role="button"]{
+    display: none;
+}
+.stickersNavItem-g1SJ0f{
+    display: none;
+}
+.stickerButton__8af38{
+    display: none;
+}
+
+/* message container for messages display in the inbox tabs */
+.visual-refresh .messageContainer__95796 {
+    background: rgba(66, 66, 66, 0.2);
+}
+
+/* for you and unreads background when no messages appear */
+.visual-refresh .container__2692d, .visual-refresh .container_fc561d {
+    background: rgba(0,0,0,0.7);
+} 
+
+/* main friends page background */
+.visual-refresh .tabBody__133bf {
+    background: rgba(0,0,0,0.5);
+}
+
+/* remove the background of the "its quite for now" in the now playing column on the friends page */
+#app-mount .nowPlayingColumn__133bf, .container__7d20c, .emptyCard__7e549 {
+    background: transparent;
+}
+
+/* removing the top part where name and everything is listed in dms */
+.visual-refresh .container__9293f{ 
+    background: transparent;
+}
+
+/* background for top part of "friends online all" */
+.visual-refresh .container__9293f[aria-labelledby="uid_3247"]{ 
+    background: rgba(0,0,0,0.5);
+}
+
+.searchBar__5ec2f {
+    background: rgba(0,0,0,0.4);
+}
+
+/* hide temporary chat loading stuff */
+.visual-refresh .wrapper_d852db {
+    background: transparent;
+}
+.visual-refresh .wrapper_fc8177 {
+    background: transparent;
+}
+
+/* channels list */
+.visual-refresh .container__2637a {
+    background: rgba(0,0,0,0.5);
+}
+
+/* members list in servers */
+.members_c8ffbb, .container_c8ffbb {
+    background: transparent;
+}
+
+/* backgrounds from embeds from links */
+.visual-refresh .embedFull__623de {
+    background: rgba(0,0,0,0.7);
+}
+
+/* profile popout background */
+.biteSize_c0bea0 {
+    background: rgba(0,0,0,0.7);
+}
+
+/* chat bubble on profile popout for status */
+.inner_ab8609 {
+    background: transparent;
+}
+.outer_ab8609 {
+    background: rgba(0,0,0,1)
+}
+
+/* full profile background */
+.fullSize_c0bea0 {
+    background: transparent;
+}
+
+.app__160d8 {
+    background: transparent;
+}
+
+/* sidebar in settings */
+.visual-refresh .sidebarRegionScroller__23e6b {
+    background: transparent !important;
+}
+
+/* settings background content portion (right side of settings) */
+.visual-refresh .contentRegionScroller__23e6b, .contentRegion__23e6b {
+    background: rgba(0,0,0,0.3);
+}
+
+/* settings background */
+.visual-refresh .standardSidebarView__23e6b, .layer__960e4 {
+    background: transparent !important;
+}
+
+/* sidebar in settings menu */
+.sidebarRegion__23e6b {
+    background: rgba(0,0,0,0.7);
+    flex: none;
+}
+
+/* top bar of application where close/windows stuff is */
+.bar_c38106[data-windows=true] {
+    background: rgba(0,0,0,0.3) !important;
+}
+
+/* content area in settings/server settings */
+.visual-refresh.platform-win .contentRegionScroller__23e6b {
+    display: flex;
+    justify-content: center !important;
+}
+
+/* header of online, all, add friend on friends page */
+.visual-refresh .container__9293f[role="navigation"] {
+    background: rgba(0,0,0,0.5);
+}
+
+/* background of account profile card in settings */
+.accountProfileCard__1fed1 {
+    background: rgba(0,0,0,0.5);
+}
+
+/* border of background of fields on editing profile in settins */
+.background__1fed1 {
+    background: rgba(0,0,0,0.8);
+}
+
+/* background of fields on editing profile in settings */
+.fieldList__1fed1 {
+    background: rgba(0,0,0,0.8);
+}
+
+/* nitro upsell areas in profile settings */
+.floatingNitroUpsell__39749, .premiumFeatureBorder__65c15 {
+    display: var(--nitro-garbage);
+}
+
+/* blocked users card */
+.card__5cea9 {
+    background: rgba(0,0,0,0.6);
+}
+.header__5cea9 {
+    background: rgba(0,0,0,0.6);
+}
+
+/* remove family center option from settings (if you use this, dont use my theme) */
+.item_b3f026[aria-label="Family Center"] {
+    display: none;
+}
+
+/* background of all cards on authorized app settings page */
+.visual-refresh .cardPrimary__73069, .visual-refresh .cardPrimary__73069.editable__73069 {
+    background: rgba(0,0,0,0.5);
+}
+
+/* account connection cards */
+.connection_c7f964 {
+    background: rgba(0,0,0,0.6);
+}
+.metadataContainer_c7f964 {
+    background: rgba(34, 34, 34, 0.5)
+}
+
+/* account connection cards (actual connected accounts) */
+.accountButtonInner_c7f964 {
+    background-size: 36px 36px !important;
+    background-repeat: no-repeat !important;
+    background-position: 50% !important;
+    background: rgba(24, 24, 24, 0.6)
+}
+
+/* background of test video */
+.cameraWrapper_d41d5f {
+    background: rgba(0,0,0,0.5)
+}
+
+/* active now cards on friends page */
+.visual-refresh .wrapper__00943 {
+    background: rgba(0,0,0,0.6);
+}
+.visual-refresh .section__00943 {
+    background: transparent;
+}
+
+/* extra sticker slot tiers in server settings */
+.visual-refresh .tierBody_f15dca, .visual-refresh .tierHeader_f15dca {
+    background: rgba(0,0,0,0.2)
+}
+
+/* background of existing stickers in server settings */
+.wrapper__83b1d {
+    background: rgba(0,0,0,0.5)
+}
+
+/* remove server boost upsell banners in server settings */
+.banner_ec75b3 {
+    display: var(--nitro-garbage);
+}
+
+/* background of members page in server settings */
+.visual-refresh .page_c791b2 {
+    background: transparent !important;
+}
+
+/* background of card on members page containing a list of members in server settings */
+.visual-refresh .mainTableContainer__09a38 {
+    background: rgba(0,0,0,0.6);
+}
+
+.visual-refresh .container_d8f25b, #app-mount .panels_c48ade {
+    background: rgba(0,0,0,0.6)
+}
+
+/* roles settings page */
+.visual-refresh.platform-win .contentRegionScroller__23e6b[dir="ltr"]{
+    justify-content: space-between;
+}
+
+.header_c6bf1b, .titleContainer_e29cd7 {
+    background: transparent;
+}
+
+/* remove section under profile preview in dm's list */
+.visual-refresh .sidebar_c48ade:after {
+    display: none;
+}
+
+/* dm call gui */
+.visual-refresh .root_bfe55a {
+    background: transparent;
+}
+
+/* remove nameplates on users in dm list (im sorry ive had enough visual aids)*/
+.videoContainer__4bbc6{
+    display: none;
+}
+.container__4bbc6 {
+    background: transparent !important;
+}
+.innerCloseButtonPlated__972a0 {
+    background: transparent !important;
+    border-radius: 0px;
+    backdrop-filter: none;
+}
+
+/* mp3 embed */
+.visual-refresh .wrapperAudio_cf09d8 {
+    background: rgba(0,0,0,0.4) !important;
+}
+
+/* download button on attachments */
+.hoverButtonGroup__06ab4 {
+    background-color: rgba(0,0,0,0.4);
+}
+
+/* file embed */
+.visual-refresh .file__0ccae {
+    background-color: rgba(0,0,0,0.4) !important;
 }
