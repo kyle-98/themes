@@ -575,13 +575,7 @@
     background-color: rgba(0, 0, 0, 0.2) !important;
 }
 
-#app-mount .container__37e49{
-    background-color: rgba(0,0,0,0.2)
-}
 
-#app-mount .container_e131a9{
-    background-color: rgba(0,0,0,0.2);
-}
 
 #app-mount .panel__5dec7{
     background-color: rgba(0,0,0,0.2)
@@ -640,10 +634,7 @@
     background-color:rgba(0,0,0, .5);
 }
 
-/* mute and profile, game playing, and connection status areas */
-#app-mount .container__37e49{
-    background-color: transparent;
-}
+
 
 #app-mount .panel__5dec7 {
     background-color: transparent;
@@ -701,11 +692,6 @@
     border-radius: 8px;
 }
 
-/* bottom user selection (where mute and settings icons are) */
-#app-mount .container__37e49{
-    background-color: rgba(0, 0, 0, 0.3);
-}
-
 /* remove sticker tab in emoji picker */
 #app-mount .stickersNavItem__08434{
     display: none;
@@ -740,13 +726,9 @@
     background-color: rgba(0 ,0, 0, .5);
 }
 
-/* dm call UI */
-#app-mount .container_e131a9{
-    background-color: rgba(0 ,0, 0, .2);
-}
-
+/* dm call gui header */
 #app-mount .wrapper_cb9592.minimum_cb9592{
-    background-color: rgba(0 ,0, 0, .6);
+    background-color: rgba(0 ,0, 0, .2);
 }
 
 #app-mount .colorable_f1ceac.primaryDark_f1ceac, .colorable_f1ceac.primaryDark_f1ceac .centerIcon_f1ceac{
@@ -852,11 +834,14 @@
 /* Sidebar with dms (full background) */
 .visual-refresh .privateChannels__35e86 {
     background: rgba(0,0,0,0.5);
+    margin-bottom: calc(var(--custom-app-panels-height, 0) + 15px) !important;
+    border-radius: 0px 0px 0px 10px;
 }
 
 /* Sidebar with dms (only dm names background) */
 .visual-refresh .scroller__99e7c{
     background: transparent;
+    margin-bottom: 0px !important;
 }
 
 /* get rid of another layer on chat background */
@@ -881,7 +866,7 @@
 
 /* main chat bar background */
 :where(.visual-refresh) .themedBackground__74017 {
-    background: rgba(0,0,0,0.6);
+    background: rgba(0,0,0,0.5);
 }
 
 /* attachment area in char bar */
@@ -1000,7 +985,7 @@
 }
 
 .searchBar__5ec2f {
-    background: rgba(0,0,0,0.7);
+    background: rgba(0,0,0,0.4);
 }
 
 /* hide temporary chat loading stuff */
@@ -1168,9 +1153,6 @@
 }
 
 /* background of members page in server settings */
-.visual-refresh .page_c48ade  {
-    /* background: rgba(0,0,0,0.5); */
-}
 .visual-refresh .page_c791b2 {
     background: transparent !important;
 }
@@ -1180,7 +1162,7 @@
     background: rgba(0,0,0,0.6);
 }
 
-.visual-refresh .container_d8f25b {
+.visual-refresh .container_d8f25b, #app-mount .panels_c48ade {
     background: rgba(0,0,0,0.6)
 }
 
@@ -1191,4 +1173,37 @@
 
 .header_c6bf1b, .titleContainer_e29cd7 {
     background: transparent;
+}
+
+/* remove section under profile preview in dm's list */
+.visual-refresh .sidebar_c48ade:after {
+    display: none;
+}
+
+/* dm call gui */
+.visual-refresh .root_bfe55a {
+    background: transparent;
+}
+
+/* remove nameplates on users in dm list (im sorry ive had enough visual aids)*/
+.videoContainer__4bbc6{
+    display: none;
+}
+.container__4bbc6 {
+    background: transparent !important;
+}
+.innerCloseButtonPlated__972a0 {
+    background: transparent !important;
+    border-radius: 0px;
+    backdrop-filter: none;
+}
+
+/* mp3 embed */
+.visual-refresh .wrapperAudio_cf09d8 {
+    background: rgba(0,0,0,0.4) !important;
+}
+
+/* download button on attachments */
+.hoverButtonGroup__06ab4 {
+    background-color: rgba(0,0,0,0.4);
 }
