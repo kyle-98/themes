@@ -834,14 +834,22 @@
 /* Sidebar with dms (full background) */
 .visual-refresh .privateChannels__35e86 {
     background: rgba(0,0,0,0.5);
-    margin-bottom: calc(var(--custom-app-panels-height, 0) + 15px) !important;
     border-radius: 0px 0px 0px 10px;
+}
+
+/* sidebar in servers */
+.visual-refresh .sidebarListRounded_c48ade {
+    padding-bottom: calc(var(--custom-app-panels-height, 0) + 15px); /* This covers the list for servers and open dm's */
+}
+.visual-refresh .container__2637a {
+    padding-bottom: 0px;
+    border-radius: 0px 0px 0px 10px !important;
 }
 
 /* Sidebar with dms (only dm names background) */
 .visual-refresh .scroller__99e7c{
     background: transparent;
-    margin-bottom: 0px !important;
+    margin-bottom: 0px;
 }
 
 /* get rid of another layer on chat background */
@@ -1082,7 +1090,7 @@
 
 /* background of fields on editing profile in settings */
 .fieldList__1fed1 {
-    background: rgba(0,0,0,0.8)
+    background: rgba(0,0,0,0.8);
 }
 
 /* nitro upsell areas in profile settings */
@@ -1105,7 +1113,7 @@
 
 /* background of all cards on authorized app settings page */
 .visual-refresh .cardPrimary__73069, .visual-refresh .cardPrimary__73069.editable__73069 {
-    background: rgba(0,0,0,0.5)
+    background: rgba(0,0,0,0.5);
 }
 
 /* account connection cards */
@@ -1206,4 +1214,9 @@
 /* download button on attachments */
 .hoverButtonGroup__06ab4 {
     background-color: rgba(0,0,0,0.4);
+}
+
+/* file embed */
+.visual-refresh .file__0ccae {
+    background-color: rgba(0,0,0,0.4) !important;
 }
