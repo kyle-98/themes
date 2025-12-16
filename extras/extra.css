@@ -37,7 +37,7 @@
 }
 
 /* main app */
-#app-mount .layers__960e4::before{
+#app-mount ._960e4207cea8323e-layers::before{
     content: "";
     background: var(--background-image);
     height: calc(100vh + (var(--background-blur)) * 2);
@@ -47,13 +47,13 @@
     filter: blur(var(--background-blur)) brightness(var(--background-darken));
 }
 
-#app-mount .panels_c48ade {
+#app-mount ._5e434347c823b592-panels {
     background-color: var(--dark-transparent);
 }
-#app-mount .container__133bf {
+#app-mount ._133bf5eea8e33a34-container {
     background-color: transparent;
 }
-#app-mount .wordmarkWindows__421ed {
+#app-mount ._421edea01cb52e16-wordmarkWindows {
     color:white;
     background-image: var(--wordmark-image);
     background-position:5px;
@@ -65,7 +65,7 @@
     background-color: rgba(255, 255, 255, 0.8);
     color:rgba(0, 0, 0, 0.9);
 }
-#app-mount .container__133bf {
+#app-mount ._133bf5eea8e33a34-container {
     background-color: transparent;
 }
 
@@ -127,27 +127,27 @@
 }
 
 /* Upload Area */
-#app-mount .uploadModal_dbca3c {
+#app-mount .uploadModal_b78547 {
     background-color: rgba(0,0,0,.2)
 }
-#app-mount .uploadModal_dbca3c .inner_dbca3c .channelTextAreaUpload_dbca3c {
+#app-mount .uploadModal_b78547 .b7854763c4a57c63-inner .channelTextAreaUpload_b78547 {
     background-color: rgba(14, 14, 14, .4);
 }
-#app-mount .uploadModal_dbca3c .footer_dbca3c.hasSpoilers_dbca3c {
+#app-mount .uploadModal_b78547 .footer_b78547.hasSpoilers_b78547 {
     background-color: rgba(0,0,0,.2)
 }
 
 /* Nitro Tab */
-#app-mount .applicationStore_f07d62 {
+#app-mount .f07d62e29a48ceee-applicationStore {
     background-color: var(--dark-transparent);
 }
-#app-mount .buttonText__29199 {
+#app-mount .e008772861506b7e-buttonText {
     visibility: hidden;
     margin: -60px;
     margin-right: 10px;
     padding: 5px;
 }
-#app-mount .buttonText__29199:after{
+#app-mount .e008772861506b7e-buttonText:after{
     content:"This is a scam";
     visibility: visible;  
     display: block;
@@ -156,35 +156,35 @@
     left: 25%;
 }
 
-#app-mount .premiumIcon__29199{
+#app-mount .e008772861506b7e-premiumIcon{
     display: none;
 }
-#app-mount .giftIcon__29199{
+#app-mount .giftIcon_e00877{
     display: none;
 }
 
 /* emoji picker */
-#app-mount .inspector_c0e32c {
+#app-mount .c0e32c5cffed3d9f-inspector {
     background-color: rgba(0,0,0,.4);
 }
-#app-mount .emojiItem_fc7141.emojiItemSelected_fc7141 {
+#app-mount .fc7141859aaa98b7-emojiItem.fc7141859aaa98b7-emojiItemSelected {
     background-color:rgba(53, 53, 53, 0.7);
 }
-#app-mount .emojiPickerInExpressionPicker-2nOwH8 .emojiPicker_c0e32c {
+#app-mount .emojiPickerInExpressionPicker-2nOwH8 .c0e32c5cffed3d9f-emojiPicker {
     background-color: var(--dark-transparent);
     box-shadow: 0 0 5px 2px rgb(0, 0, 0);
 }
-#app-mount .contentWrapper__08434 {
+#app-mount ._084343c4f11eaaab-contentWrapper {
     background-color: rgba(0,0,0,.8);
 }
 /* Emoji auto complete */
-#app-mount .autocomplete__13533 {
+#app-mount ._13533e3c5791980f-autocomplete {
     background-color: rgba(0,0,0,.9);
     box-shadow: 0 0 10px 2px rgb(0, 0, 0);
 }
 
 /*Folder settings */
-#app-mount .root__49fc1 {
+#app-mount ._49fc18ba07c5025f-root {
     background-color: rgba(0,0,0,.2);
 }
 #app-mount .footer-31IekZ {
@@ -197,11 +197,11 @@
 
 
 /* get rid of shitty gift button */
-#app-mount .buttons__74017 [aria-label="Send a gift or Boost this server"]{
+#app-mount ._740174f3d6a2c8fe-buttons [aria-label="Send a gift or Boost this server"]{
     display: none !important;
 }
 
-#app-mount .buttons__74017 [aria-label="Send a gift"]{
+#app-mount ._740174f3d6a2c8fe-buttons [aria-label="Send a gift"]{
     display: none !important;
 }
 
@@ -226,19 +226,19 @@
 #app-mount .pageWrapper_a3a4ce {
     background-color: transparent;
 }
-#app-mount .menu_c1e9c4 {
+#app-mount .c1e9c47c23f12ca3-menu {
     background-color:rgba(0, 0, 0, .9);
     box-shadow: 0 0 5px 2px rgb(0, 0, 0);
 }
 
 /* now playing (friend's list) */
-#app-mount .nowPlayingColumn__133bf {
+#app-mount ._133bf5eea8e33a34-nowPlayingColumn {
     background-color: var(--dark-transparent);
 }
-#app-mount .inset_bf1984 {
+#app-mount .bf1984a18b3ec6f0-inset {
     background-color: rgba(0,0,0,.9);
 }
-#app-mount .itemCard__7e549:first-of-type {
+#app-mount ._7e549558f336cddb-itemCard:first-of-type {
     background-color: rgba(0,0,0,.3);
 }
 
@@ -248,19 +248,19 @@
 }
 
 /* Search bar (slightly busted) */
-#app-mount .container__55c99 {
+#app-mount ._55c999adcf6db265-container {
     background-color: rgba(0,0,0,.5);
 }
-#app-mount .calendarPicker_d27f17 .react-datepicker {
+#app-mount .d27f17593b8064c5-calendarPicker .react-datepicker {
     background-color: rgba(0,0,0,.9);
 }
-#app-mount .calendarPicker_d27f17 .react-datepicker__header {
+#app-mount .d27f17593b8064c5-calendarPicker .react-datepicker__header {
     background-color: transparent;
 }
-#app-mount .calendarPicker_d27f17 .react-datepicker__day--outside-month {
+#app-mount .d27f17593b8064c5-calendarPicker .react-datepicker__day--outside-month {
     background-color: rgba(0,0,0,.5);
 }
-#app-mount .focused__55c99{
+#app-mount ._55c999adcf6db265-focused{
     background-color: rgba(0,0,0,.5);
 }
 #app-mount .datePicker-70cO23 .datePickerHint-17MnA8 {
@@ -284,16 +284,16 @@
 }
 
 /* Sidebar Width (channels) */
-#app-mount .sidebar_c48ade   {
+#app-mount ._5e434347c823b592-sidebar   {
     width: var(--sidebar-width); 
 }
 
 /* side width (users) */
-#app-mount .membersWrap_c8ffbb{
+#app-mount .c8ffbb79449f399c-membersWrap{
     width: var(--members-width);
     min-width: 0px;
 }
-#app-mount .members_c8ffbb, .members_c8ffbb>div {
+#app-mount .c8ffbb79449f399c-members, .c8ffbb79449f399c-members>div {
     width: var(--members-width);
 }
 
@@ -306,12 +306,12 @@
     box-shadow: 0 0 5px 2px rgb(0, 0, 0);
 }
 
-#app-mount .jumpToPresentBar__0f481 {
+#app-mount ._0f481cbbd7530492-jumpToPresentBar {
     background-color: rgba(0 ,0, 0, .6);
     box-shadow: 1px -8px 12px -4px rgba(0 ,0, 0, .8);
 }
 
-#app-mount .card_b846e5:before {
+#app-mount ._4bb93312e84f332e-card:before {
     background-color: var(--dark-transparent);
     border-color:  rgba(0, 0, 0, .6);
 }
@@ -319,7 +319,7 @@
     background-color: rgba(0, 0, 0, .3);
 }
 
-#app-mount .link__972a0[href="/store"],[href="/shop"] {
+#app-mount ._972a0d22c8afa7f0-link[href="/store"],[href="/shop"] {
     display: var(--nitro-garbage);
 }
 
@@ -329,7 +329,7 @@
 
 
 /*Channels Sidebar */
-#app-mount .name__29444 {
+#app-mount ._29444ba32c7fbeab-name {
     color:var(--channel-sidebar-header);
 }
 
@@ -338,7 +338,7 @@
     margin-top: -40px;
 }
 
-#app-mount .icon__9293f {
+#app-mount ._9293f6b2fc12398a-icon {
     color: white;
 }
 
@@ -353,7 +353,7 @@
 #app-mount .option-2KkUJO.selected-rZcOL- {
     background-color: #5c6fb1;
 }
-#app-mount .searchAnswer_bd8186, .theme-dark .searchFilter_bd8186 {
+#app-mount .bd818628221af7aa-searchAnswer, .theme-dark .bd818628221af7aa-searchFilter {
     background-color: #5c6fb1;
 }
 
@@ -361,14 +361,14 @@
     background-color: rgba(0,0,0,.7)
 }
 
-#app-mount .cozy_c19a55 .timestamp_c19a55 {
+#app-mount .c19a557985eb7793-cozy .c19a557985eb7793-timestamp {
     color:rgb(214, 214, 214);
 }
 
-#app-mount .messagesPopout__45690 {
+#app-mount .e8b59c4b335dd2fc-messagesPopout {
     background-color: rgba(0 ,0, 0, .9);
 }
-#app-mount .header__45690 {
+#app-mount .e8b59c4b335dd2fc-header {
     background-color: rgba(0 ,0, 0, .8);
 }
 
@@ -394,23 +394,23 @@
 }
 
 /* Remove Gif Text Under Gifs */
-#app-mount .altText__0f481{
+#app-mount ._0f481cbbd7530492-altText{
     display: none;
 }
 
 /* Threads popout fix */
-#app-mount .browser_d98031{
+#app-mount .d98031d9a3e08b09-browser{
     background-color:  rgba(0,0,0,.8);
     border-radius: 5px;
 }
 
 /* background for pinned & inbox */
-#app-mount .messagesPopoutWrap__45690{
+#app-mount .e8b59c4b335dd2fc-messagesPopoutWrap{
     background-color:  rgba(0,0,0,.8);
 }
 
 /* Headers for Inbox Messages */
-#app-mount .channelHeader__35a7e{
+#app-mount ._35a7ecf3aba351b2-channelHeader{
     background-color:  rgba(0,0,0,.8);
     border-radius: 10px;
 }
@@ -419,7 +419,7 @@
 
 
 /* Gif and emote picker background */
-#app-mount .contentWrapper__08434{
+#app-mount ._084343c4f11eaaab-contentWrapper{
     background-color:  rgba(0,0,0,.8);
 }
 
@@ -429,12 +429,12 @@
 }
 
 /* Fix for auto complete darkness */
-#app-mount .scroller__6b0e0[data-list-id="channel-autocomplete"]{
+#app-mount ._6b0e07cbaf13ec4e-scroller[data-list-id="channel-autocomplete"]{
     background-color:  rgba(0,0,0,.6);
 }
 
 /* Delete Sticker picker in emote menu */
-#app-mount .navButton__08434[id="sticker-picker-tab"]{
+#app-mount ._084343c4f11eaaab-navButton[id="sticker-picker-tab"]{
     display:  none;
 }
 
@@ -442,7 +442,7 @@
     display: none;
 }
 
-#app-mount .closeIcon__972a0 path{
+#app-mount ._972a0d22c8afa7f0-closeIcon path{
     fill: var(--warning-red) !important;
 }
 
@@ -450,13 +450,13 @@
     color:  var(--warning-red);
 }
 
-#app-mount .member_c8ffbb{
+#app-mount .c8ffbb79449f399c-member{
     background-color: transparent;
 }
 
 /*profile and other user settings */
 
-#app-mount .bioTextArea__6a919 {
+#app-mount ._6a919231d4bdfd4f-bioTextArea {
     background-color: rgba(0,0,0,0.3);
 }
 
@@ -500,19 +500,19 @@
     left: 8%;
 }
 
-#app-mount .connectionHeader_c7f964{
+#app-mount .c7f964e7e0fc8b47-connectionHeader{
     background-color: rgba(0, 0, 0, 0.4);
 }
 
-#app-mount .connectionDelete_c7f964{
+#app-mount .c7f964e7e0fc8b47-connectionDelete{
     color: var(--warning-red);
 }
 
-#app-mount .integrationWrapper_c7f964{
+#app-mount .c7f964e7e0fc8b47-integrationWrapper{
     background: rgba(0,0,0,0.4);
 }
 
-#app-mount .paymentPane__01014{
+#app-mount ._01014d2e38bd7c76-paymentPane{
     background-color: rgba(0, 0, 0, 0.4);
 }
 
@@ -520,11 +520,11 @@
     background: rgba(0,0,0,0.4);
 }
 
-#app-mount .payment_e9cb00{
+#app-mount .e9cb00d6250845ad-payment{
     background-color: transparent;
 }
 
-#app-mount .codeRedemptionRedirect_a706ba{
+#app-mount .a706ba33cbeb179a-codeRedemptionRedirect{
     background-color: rgba(0,0,0,0.4);
 }
 
@@ -537,11 +537,11 @@
     background-color: rgba(0, 0, 0, 0.95);
 }
 
-#app-mount .emojiPicker_c0e32c{
+#app-mount .c0e32c5cffed3d9f-emojiPicker{
     background-color: rgba(0, 0, 0, 0.7);
 }
 
-#app-mount .header_c0e32c{
+#app-mount .c0e32c5cffed3d9f-header{
     background-color: rgba(0, 0, 0, 0.7);
 }
 
@@ -549,11 +549,11 @@
 #app-mount .container_c2efea{
     background-color: transparent;
 }
-#app-mount .container__0b563, .header__0b563{
+#app-mount ._0b56311ebc6682e2-container, ._0b56311ebc6682e2-header{
     background-color: rgba(0, 0, 0, 0.1) !important;
 }
 
-#app-mount .innerHeader__0b563:after, .children__9293f:after{
+#app-mount ._0b56311ebc6682e2-innerHeader:after, ._9293f6b2fc12398a-children:after{
     display: none;
 }
 #app-mount .lookOutlined-3yKVGo.colorPrimary-2AuQVo:hover{
@@ -561,32 +561,32 @@
 }
 
 /* Server Pill */
-#app-mount .communityInfoPill_f37cb1{
+#app-mount .f37cb1984c371ee5-communityInfoPill{
     background: rgba(0, 0, 0, .75);
 }
 
 /* # of members in voice channels */
-#app-mount .bar__7aaec{
+#app-mount ._7aaec78b97ff00f7-bar{
     background-color: rgba(0, 0, 0, .75);
 }
 
 /* Customize Community Tab */
-#app-mount .emptyPage__5d7c9, .theme-dark .scrollerContainer_c6b11b{
+#app-mount ._5d7c9a81ac5dd074-emptyPage, .theme-dark .scrollerContainer_c6b11b{
     background-color: rgba(0, 0, 0, 0.2) !important;
 }
 
 
 
-#app-mount .panel__5dec7{
+#app-mount ._5dec784a68542d60-panel{
     background-color: rgba(0,0,0,0.2)
 }
 
 /* Streaming Popout modal */
-#app-mount .root__49fc1{
+#app-mount ._49fc18ba07c5025f-root{
     background-color: rgba(0,0,0,0.2);
 }
 
-#app-mount .footer__49fc1{
+#app-mount ._49fc18ba07c5025f-footer{
     background-color: transparent;
 }
 
@@ -595,14 +595,14 @@
 }
 
 /*Edit file upload popout modal */
-#app-mount .input__0f084{
+#app-mount ._0ed4fc708cdbac0d-input{
     background-color: rgba(0, 0, 0, .5);
     border: solid;
     border-color: rgba(55, 55, 55, .3);
     border-radius: 3px;
 }
 
-#app-mount .footer_dbca3c{
+#app-mount .footer_b78547{
     background-color: rgba(0, 0, 0, .5);
 }
 
@@ -612,40 +612,40 @@
 }
 
 /* Popup context menu for right clicking */
-#app-mount .menu_c1e9c4{
+#app-mount .c1e9c47c23f12ca3-menu{
     background-color: rgba(0, 0, 0, .8);
 }
 
 /* Delete Super Reaction Garbage */
-#app-mount .button_f7ecac[aria-label="Add Super Reaction"]{
+#app-mount .f7ecaca5c80dbf3a-button[aria-label="Add Super Reaction"]{
     display: none;
 }
 
 /* Role picker on user popout */
-#app-mount .container__3dde2{
+#app-mount ._3dde27fb71170aa9-container{
     background-color: rgba(0, 0, 0, .9);
 }
 
 /* Selection menus */
-#app-mount .popout__3f413{
+#app-mount .a16aea1526925c2c-popout{
     background-color:rgba(0,0,0, .9);
 }
-#app-mount .lookFilled__3f413.select__3f413{
+#app-mount .lookFilled__3f413.a16aea1526925c2c-select{
     background-color:rgba(0,0,0, .5);
 }
 
 
 
-#app-mount .panel__5dec7 {
+#app-mount ._5dec784a68542d60-panel {
     background-color: transparent;
 }
 
-#app-mount .container_e131a9{
+#app-mount .e131a99484292a19-container{
     background-color: transparent;
 }
 
 /* title bar */
-#app-mount .wordmarkWindows__421ed{
+#app-mount ._421edea01cb52e16-wordmarkWindows{
     /* change to whatever you want watermark image to be */
     background-image: var(--wordmark-image);
     background-size: contain;
@@ -658,26 +658,26 @@
     display: none;
 }
 
-#app-mount .typeWindows__421ed{
+#app-mount ._421edea01cb52e16-typeWindows{
     background-color: rgba(0, 0, 0, 0.5);
     margin: 0px;
 }
 
 /* server onboarding */
-#app-mount .background__7449f {
+#app-mount ._7449fa59699cedd9-background {
     background: transparent;
 }
 
-#app-mount .title__7449f{
+#app-mount ._7449fa59699cedd9-title{
     background-color: rgba(0, 0, 0, 0.45);
 }
 
 /* scroll bar for chats */
-#app-mount .auto__99f8c::-webkit-scrollbar-thumb{
+#app-mount ._99f8cc7ad4790ce9-auto::-webkit-scrollbar-thumb{
     background-color: rgba(0, 0, 0, .7);
 }
 
-#app-mount .auto__99f8c::-webkit-scrollbar-track{
+#app-mount ._99f8cc7ad4790ce9-auto::-webkit-scrollbar-track{
     background-color: rgba(0, 0, 0, 0.4);
 }
 
@@ -687,67 +687,67 @@
 }
 
 /* Apps (in textbar) */
-#app-mount .categoryHeader_d1405b{
+#app-mount .d1405bf11dcfb07a-categoryHeader{
     background-color: rgba(0, 0, 0, 0.5);
     border-radius: 8px;
 }
 
 /* remove sticker tab in emoji picker */
-#app-mount .stickersNavItem__08434{
+#app-mount ._084343c4f11eaaab-stickersNavItem{
     display: none;
 }
-#app-mount .navItem__08434+.navItem__08434[id="sticker-picker-tab"]{
+#app-mount ._084343c4f11eaaab-navItem+._084343c4f11eaaab-navItem[id="sticker-picker-tab"]{
     display: none;
 }
 
 /* remove gift button from chat window */
-#app-mount .button__201d5.lookBlank__201d5.colorBrand__201d5.grow__201d5[aria-label="Send a gift"]{
+#app-mount ._201d5e8a3c09670a-button._201d5e8a3c09670a-lookBlank._201d5e8a3c09670a-colorBrand._201d5e8a3c09670a-grow[aria-label="Send a gift"]{
     display: none;
 }
 
 /* remove sticker button from chat window */
-#app-mount .button__201d5.lookBlank__201d5.colorBrand__201d5.grow__201d5[aria-label="Open sticker picker"]{
+#app-mount ._201d5e8a3c09670a-button._201d5e8a3c09670a-lookBlank._201d5e8a3c09670a-colorBrand._201d5e8a3c09670a-grow[aria-label="Open sticker picker"]{
     display: none;
 }
 
-#app-mount .typeWindows__421ed{
+#app-mount ._421edea01cb52e16-typeWindows{
     background-color: rgba(0, 0, 0, 0.5);
 }
 
-#app-mount .replyBar__841c8{
+#app-mount ._841c8f861f7b2704-replyBar{
     background-color: rgba(0, 0, 0, 0.5)
 }
 
-#app-mount .footerSeparator__49fc1{
+#app-mount ._49fc18ba07c5025f-footerSeparator{
     background-color: rgba(0 ,0, 0, .5);
 }
 
-#app-mount .focusLock__49fc1{
+#app-mount ._49fc18ba07c5025f-focusLock{
     background-color: rgba(0 ,0, 0, .5);
 }
 
 /* dm call gui header */
-#app-mount .wrapper_cb9592.minimum_cb9592{
+#app-mount .cb9592ad77576717-wrapper.cb9592ad77576717-minimum{
     background-color: rgba(0 ,0, 0, .2);
 }
 
-#app-mount .colorable_f1ceac.primaryDark_f1ceac, .colorable_f1ceac.primaryDark_f1ceac .centerIcon_f1ceac{
+#app-mount .f1ceaca61b18918e-colorable.f1ceaca61b18918e-primaryDark, .f1ceaca61b18918e-colorable.f1ceaca61b18918e-primaryDark .f1ceaca61b18918e-centerIcon{
     background-color: rgba(63, 63, 63, 0.5);
 }
-#app-mount .centerIcon_f1ceac{
+#app-mount .f1ceaca61b18918e-centerIcon{
     background-color: transparent !important;
 }
 
-#app-mount .quickSelectPopout_ebaca5{
+#app-mount .ebaca56eb4bb23eb-quickSelectPopout{
     background-color: rgba(0 ,0, 0, .8);
 }
 
-#app-mount .input__0f084{
+#app-mount ._0ed4fc708cdbac0d-input{
     background-color: rgba(0 ,0, 0, .6);
 }
 
 /* message preview when attempting to delete message */
-#app-mount .message__89466{
+#app-mount .fd14e024a43b9049-message{
     background-color: rgba(0 ,0, 0, .8);
 }
 
@@ -757,7 +757,7 @@
 }
 
 /* edit bio in user settings background */
-#app-mount .bioTextArea__6a919{
+#app-mount ._6a919231d4bdfd4f-bioTextArea{
     background-color: rgba(0 ,0, 0, .4);
 }
 
@@ -767,15 +767,15 @@
 }
 
 /* remove nitro/costmetic ad in editing profile */
-#app-mount .container__8279f{
+#app-mount ._8279f38edc620354-container{
     display: none;
 }
 
 /* even creation GUI */
-#app-mount .calendarPicker_d27f17 .react-datepicker{
+#app-mount .d27f17593b8064c5-calendarPicker .react-datepicker{
     background-color: rgba(0 ,0, 0, .8);
 }
-#app-mount .calendarPicker_d27f17 .react-datepicker__header{
+#app-mount .d27f17593b8064c5-calendarPicker .react-datepicker__header{
     background-color: rgba(0 ,0, 0, .8);
 }
 #app-mount .react-datepicker__day--outside-month{
@@ -808,7 +808,7 @@
     background: transparent;
 }
 
-#app-mount .lookFilled__201d5.colorPrimary__201d5{
+#app-mount ._201d5e8a3c09670a-lookFilled._201d5e8a3c09670a-colorPrimary{
     background: rgba(54, 54, 54, 0.5);
 }
 
@@ -822,103 +822,103 @@
     background: rgba(34, 34, 34, 0.5);
 }
 
-#app-mount .wrapper__6e9f8.selected__6e9f8 .childWrapper__6e9f8{
+#app-mount ._6e9f8dce4cc18de3-wrapper._6e9f8dce4cc18de3-selected ._6e9f8dce4cc18de3-childWrapper{
     background: rgba(0,0,0,0.5);
 }
 
 /* UI REFRESH UPDATE (3/25/25) */
-.visual-refresh .wrapper_ef3116 {
+.visual-refresh .ef3116c2da186559-wrapper {
     background: transparent;
 }
 
 /* Sidebar with dms (full background) */
-.visual-refresh .privateChannels__35e86 {
+.visual-refresh .e6b7699ce8339e1c-privateChannels {
     background: rgba(0,0,0,0.5);
     border-radius: 0px 0px 0px 10px;
 }
 
 /* sidebar in servers */
-.visual-refresh .sidebarListRounded_c48ade {
+.visual-refresh ._5e434347c823b592-sidebarListRounded {
     padding-bottom: calc(var(--custom-app-panels-height, 0) + 15px); /* This covers the list for servers and open dm's */
 }
-.visual-refresh .container__2637a {
+.visual-refresh ._2637a2609f343032-container {
     padding-bottom: 0px;
     border-radius: 0px 0px 0px 10px !important;
 }
 
 /* Sidebar with dms (only dm names background) */
-.visual-refresh .scroller__99e7c{
+.visual-refresh ._99e7cad8d4c55236-scroller{
     background: transparent;
     margin-bottom: 0px;
 }
 
 /* get rid of another layer on chat background */
-.theme-dark .themed__9293f {
+.theme-dark ._9293f6b2fc12398a-themed {
     background: rgba(0,0,0,0.5);
 }
 
 /* main chat background */
-.visual-refresh .chat_f75fb0 {
+.visual-refresh .f75fb00fb7356cbe-chat {
     background: rgba(0,0,0,0.5);
 }
 
 /* main chat background (need to remove because two layers for chat background) */
-.visual-refresh .chatContent_f75fb0 {
+.visual-refresh .f75fb00fb7356cbe-chatContent {
     background: transparent;
 }
 
 /* chat bar background (not needed) */
-.visual-refresh .channelTextArea_f75fb0 {
+.visual-refresh .f75fb00fb7356cbe-channelTextArea {
     background: transparent;
 }
 
 /* main chat bar background */
-:where(.visual-refresh) .themedBackground__74017 {
+:where(.visual-refresh) ._740174f3d6a2c8fe-themedBackground {
     background: rgba(0,0,0,0.5);
 }
 
 /* attachment area in char bar */
-.visual-refresh .channelAttachmentArea_b77158 {
+.visual-refresh .b77158512e0ab116-channelAttachmentArea {
     background: transparent;
 }
 
 /* inner portion of attachment area */
-.visual-refresh .upload_aa605f {
+.visual-refresh .aa605f19898fe32e-upload {
     background: transparent;
 }
 
 /* spoiler, edit, remove attachment selection */
-.visual-refresh .wrapper_f7ecac {
+.visual-refresh .f7ecaca5c80dbf3a-wrapper {
     background: rgba(0,0,0,0.7);
 }
 
 /* name of emojis (where server names are in the emoji picker) */
-.visual-refresh .wrapper__14245 {
+.visual-refresh ._14245bb948377a25-wrapper {
     background: transparent;
 }
 
 /* server picker in emoji picker */
-.visual-refresh .wrapper__4e6ce {
+.visual-refresh ._4106ae7c1472c1de-wrapper {
     background: transparent;
 }
 
 /* background of gif picker search bar */
-.visual-refresh .header_fed6d3 {
+.visual-refresh .fed6d32841cc2da2-header {
     background: transparent;
 }
 
 /* background of entire gif picker */
-.container_fed6d3 {
+.fed6d32841cc2da2-container {
     background: transparent;
 }
 
 /* quick switcher */
-.visual-refresh .quickswitcher_ac6cb0, .visual-refresh .scroller_ac6cb0 {
+.visual-refresh .ac6cb02cd15b4b3b-quickswitcher, .visual-refresh .ac6cb02cd15b4b3b-scroller {
     background: transparent;
 }
 
 /* highlighting background of previous channels in quick switcher */
-.result__71961[aria-selected=true] {
+._71961da99d37ac57-result[aria-selected=true] {
     background: rgba(61, 61, 61, 0.7)
 }
 
@@ -928,21 +928,21 @@
 }
 
 /* search area in dms */
-.visual-refresh .searchResultsWrap_a9e706{
+.visual-refresh .a9e7064fdee8e9b0-searchResultsWrap{
     background: transparent;
 }
 
 /* individual message background found in search in dms */
-.visual-refresh .searchResult__02a39 {
+.visual-refresh ._02a39cb2980ceaaf-searchResult {
     background: rgba(0,0,0,0.7)
 }
 
-.inner_c0bea0.biteSize_c0bea0, .inner_c0bea0.fullSize_c0bea0 {
+.c0bea05627c5dc35-inner.user-profile-popout, .c0bea05627c5dc35-inner.user-profile-modal {
     background: transparent;
 }
 
 /* remove pip when screensharing */
-.pictureInPictureVideo_f1081d {
+.e4cb9af80253a521-pictureInPictureVideo {
     display: none;
 }
 
@@ -952,180 +952,180 @@
 
 
 /* remove sticker button from chat */
-.clickableSticker__5d3a0[role="button"]{
+.abd7a8a2de1017e2-clickableSticker[role="button"]{
     display: none;
 }
 .stickersNavItem-g1SJ0f{
     display: none;
 }
-.stickerButton__8af38{
+._740174f3d6a2c8fe-stickerButton{
     display: none;
 }
 
 /* message container for messages display in the inbox tabs */
-.visual-refresh .messageContainer__95796 {
+.visual-refresh ._957962c2bd49881b-messageContainer {
     background: rgba(66, 66, 66, 0.2);
 }
 
 /* for you and unreads background when no messages appear */
-.visual-refresh .container__2692d, .visual-refresh .container_fc561d {
+.visual-refresh .container__2692d, .visual-refresh .fc561d3c125f6a2f-container {
     background: rgba(0,0,0,0.7);
 } 
 
 /* main friends page background */
-.visual-refresh .tabBody__133bf {
+.visual-refresh ._133bf5eea8e33a34-tabBody {
     background: rgba(0,0,0,0.5);
 }
 
 /* remove the background of the "its quite for now" in the now playing column on the friends page */
-#app-mount .nowPlayingColumn__133bf, .container__7d20c, .emptyCard__7e549 {
+#app-mount ._133bf5eea8e33a34-nowPlayingColumn, ._7d20cf18f8a2784c-container, ._7e549558f336cddb-emptyCard {
     background: transparent;
 }
 
 /* removing the top part where name and everything is listed in dms */
-.visual-refresh .container__9293f{ 
+.visual-refresh ._9293f6b2fc12398a-container{ 
     background: transparent;
 }
 
 /* background for top part of "friends online all" */
-.visual-refresh .container__9293f[aria-labelledby="uid_3247"]{ 
+.visual-refresh ._9293f6b2fc12398a-container[aria-labelledby="uid_3247"]{ 
     background: rgba(0,0,0,0.5);
 }
 
-.searchBar__5ec2f {
+._5ec2fb8b5de26b21-searchBar {
     background: rgba(0,0,0,0.4);
 }
 
 /* hide temporary chat loading stuff */
-.visual-refresh .wrapper_d852db {
+.visual-refresh ._6c79861fd96f56b1-wrapper {
     background: transparent;
 }
-.visual-refresh .wrapper_fc8177 {
+.visual-refresh .fc817765600a960a-wrapper {
     background: transparent;
 }
 
 /* channels list */
-.visual-refresh .container__2637a {
+.visual-refresh ._2637a2609f343032-container {
     background: rgba(0,0,0,0.5);
 }
 
 /* members list in servers */
-.members_c8ffbb, .container_c8ffbb {
+.c8ffbb79449f399c-members, .c8ffbb79449f399c-container {
     background: transparent;
 }
 
 /* backgrounds from embeds from links */
-.visual-refresh .embedFull__623de {
+.visual-refresh ._623de82e76ad7f82-embedFull {
     background: rgba(0,0,0,0.7);
 }
 
 /* profile popout background */
-.biteSize_c0bea0 {
+.user-profile-popout {
     background: rgba(0,0,0,0.7);
 }
 
 /* chat bubble on profile popout for status */
-.inner_ab8609 {
+.ab86098b36386ff7-inner {
     background: transparent;
 }
-.outer_ab8609 {
+.ab86098b36386ff7-outer {
     background: rgba(0,0,0,1)
 }
 
 /* full profile background */
-.fullSize_c0bea0 {
+.user-profile-modal {
     background: transparent;
 }
 
-.app__160d8 {
+._160d8e55254637e5-app {
     background: transparent;
 }
 
 /* sidebar in settings */
-.visual-refresh .sidebarRegionScroller__23e6b {
+.visual-refresh ._23e6b439306f125a-sidebarRegionScroller {
     background: transparent !important;
 }
 
 /* settings background content portion (right side of settings) */
-.visual-refresh .contentRegionScroller__23e6b, .contentRegion__23e6b {
+.visual-refresh ._23e6b439306f125a-contentRegionScroller, ._23e6b439306f125a-contentRegion {
     background: rgba(0,0,0,0.3);
 }
 
 /* settings background */
-.visual-refresh .standardSidebarView__23e6b, .layer__960e4 {
+.visual-refresh ._23e6b439306f125a-standardSidebarView, ._960e4207cea8323e-layer {
     background: transparent !important;
 }
 
 /* sidebar in settings menu */
-.sidebarRegion__23e6b {
+._23e6b439306f125a-sidebarRegion {
     background: rgba(0,0,0,0.7);
     flex: none;
 }
 
 /* top bar of application where close/windows stuff is */
-.bar_c38106[data-windows=true] {
+.c38106a3f0c3ca76-bar[data-windows=true] {
     background: rgba(0,0,0,0.3) !important;
 }
 
 /* content area in settings/server settings */
-.visual-refresh.platform-win .contentRegionScroller__23e6b {
+.visual-refresh.platform-win ._23e6b439306f125a-contentRegionScroller {
     display: flex;
     justify-content: center !important;
 }
 
 /* header of online, all, add friend on friends page */
-.visual-refresh .container__9293f[role="navigation"] {
+.visual-refresh ._9293f6b2fc12398a-container[role="navigation"] {
     background: rgba(0,0,0,0.5);
 }
 
 /* background of account profile card in settings */
-.accountProfileCard__1fed1 {
+._1fed1dd06c7aabf7-accountProfileCard {
     background: rgba(0,0,0,0.5);
 }
 
 /* border of background of fields on editing profile in settins */
-.background__1fed1 {
+._1fed1dd06c7aabf7-background {
     background: rgba(0,0,0,0.8);
 }
 
 /* background of fields on editing profile in settings */
-.fieldList__1fed1 {
+._1fed1dd06c7aabf7-fieldList {
     background: rgba(0,0,0,0.8);
 }
 
 /* nitro upsell areas in profile settings */
-.floatingNitroUpsell__39749, .premiumFeatureBorder__65c15 {
+._39749d1aeeec7c43-floatingNitroUpsell, ._65c15724a894a2e0-premiumFeatureBorder {
     display: var(--nitro-garbage);
 }
 
 /* blocked users card */
-.card__5cea9 {
+._5cea9da4c2ca012f-card {
     background: rgba(0,0,0,0.6);
 }
-.header__5cea9 {
+._5cea9da4c2ca012f-header {
     background: rgba(0,0,0,0.6);
 }
 
 /* remove family center option from settings (if you use this, dont use my theme) */
-.item_b3f026[aria-label="Family Center"] {
+.aa8da23faa27393c-item[aria-label="Family Center"] {
     display: none;
 }
 
 /* background of all cards on authorized app settings page */
-.visual-refresh .cardPrimary__73069, .visual-refresh .cardPrimary__73069.editable__73069 {
+.visual-refresh ._730694f5672c9601-cardPrimary, .visual-refresh ._730694f5672c9601-cardPrimary._730694f5672c9601-editable {
     background: rgba(0,0,0,0.5);
 }
 
 /* account connection cards */
-.connection_c7f964 {
+.c7f964e7e0fc8b47-connection {
     background: rgba(0,0,0,0.6);
 }
-.metadataContainer_c7f964 {
+.c7f964e7e0fc8b47-metadataContainer {
     background: rgba(34, 34, 34, 0.5)
 }
 
 /* account connection cards (actual connected accounts) */
-.accountButtonInner_c7f964 {
+.c7f964e7e0fc8b47-accountButtonInner {
     background-size: 36px 36px !important;
     background-repeat: no-repeat !important;
     background-position: 50% !important;
@@ -1138,85 +1138,85 @@
 }
 
 /* active now cards on friends page */
-.visual-refresh .wrapper__00943 {
+.visual-refresh ._00943886e1cf89d1-wrapper {
     background: rgba(0,0,0,0.6);
 }
-.visual-refresh .section__00943 {
+.visual-refresh ._00943886e1cf89d1-section {
     background: transparent;
 }
 
 /* extra sticker slot tiers in server settings */
-.visual-refresh .tierBody_f15dca, .visual-refresh .tierHeader_f15dca {
+.visual-refresh .a36dee84341ac9f5-tierBody, .visual-refresh .a36dee84341ac9f5-tierHeader {
     background: rgba(0,0,0,0.2)
 }
 
 /* background of existing stickers in server settings */
-.wrapper__83b1d {
+._83b1d7042b9be375-wrapper {
     background: rgba(0,0,0,0.5)
 }
 
 /* remove server boost upsell banners in server settings */
-.banner_ec75b3 {
+.ec75b344a807d94d-banner {
     display: var(--nitro-garbage);
 }
 
 /* background of members page in server settings */
-.visual-refresh .page_c791b2 {
+.visual-refresh .c791b281f2fedc32-page {
     background: transparent !important;
 }
 
 /* background of card on members page containing a list of members in server settings */
-.visual-refresh .mainTableContainer__09a38 {
+.visual-refresh ._09a38002c6c2466d-mainTableContainer {
     background: rgba(0,0,0,0.6);
 }
 
-.visual-refresh .container_d8f25b, #app-mount .panels_c48ade {
+.visual-refresh .d8f25bf4f76423e6-container, #app-mount ._5e434347c823b592-panels {
     background: rgba(0,0,0,0.6)
 }
 
 /* roles settings page */
-.visual-refresh.platform-win .contentRegionScroller__23e6b[dir="ltr"]{
+.visual-refresh.platform-win ._23e6b439306f125a-contentRegionScroller[dir="ltr"]{
     justify-content: space-between;
 }
 
-.header_c6bf1b, .titleContainer_e29cd7 {
+.c6bf1b7af480dfda-header, .e29cd7b93c4f1266-titleContainer {
     background: transparent;
 }
 
 /* remove section under profile preview in dm's list */
-.visual-refresh .sidebar_c48ade:after {
+.visual-refresh ._5e434347c823b592-sidebar:after {
     display: none;
 }
 
 /* dm call gui */
-.visual-refresh .root_bfe55a {
+.visual-refresh .bfe55a0aaaf62375-root {
     background: transparent;
 }
 
 /* remove nameplates on users in dm list (im sorry ive had enough visual aids)*/
-.videoContainer__4bbc6{
+._4bbc6dc06e75ad52-videoContainer{
     display: none;
 }
-.container__4bbc6 {
+._4bbc6dc06e75ad52-container {
     background: transparent !important;
 }
-.innerCloseButtonPlated__972a0 {
+._972a0d22c8afa7f0-innerCloseButtonPlated {
     background: transparent !important;
     border-radius: 0px;
     backdrop-filter: none;
 }
 
 /* mp3 embed */
-.visual-refresh .wrapperAudio_cf09d8 {
+.visual-refresh .cf09d85aafe7e124-wrapperAudio {
     background: rgba(0,0,0,0.4) !important;
 }
 
 /* download button on attachments */
-.hoverButtonGroup__06ab4 {
+._06ab41fd2ef7af3f-hoverButtonGroup {
     background-color: rgba(0,0,0,0.4);
 }
 
 /* file embed */
-.visual-refresh .file__0ccae {
+.visual-refresh ._0ccaee68b77c7469-file {
     background-color: rgba(0,0,0,0.4) !important;
 }
