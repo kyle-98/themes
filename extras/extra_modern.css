@@ -1,25 +1,4 @@
 :root {
-    --black-80: rgba(0,0,0,0.8);
-    --black-70: rgba(0,0,0,0.7);
-    --black-60: rgba(0,0,0,0.6);
-    --black-50: rgba(0,0,0,0.5);
-    --black-40: rgba(0,0,0,0.4);
-    --black-30: rgba(0,0,0,0.3);
-    --black-20: rgba(0,0,0,0.2);
-    --black-10: rgba(0,0,0,0.1);
-
-    --gray-80: rgba(46, 46, 46, 0.8);
-    --gray-50: rgba(46, 46, 46, 0.5);
-
-    /* Frosted Glass Texture Settings */
-    --glass-bg: rgba(0, 0, 0, 0.05);
-    --glass-blur: blur(8px) saturate(160%);
-    --glass-border: 1px solid rgba(255, 255, 255, 0.1);
-    --glass-border-top: 1px solid rgba(255, 255, 255, 0.2);
-    --glass-shadow: 0 8px 6px 0 rgba(0, 0, 0, 0.2);
-    
-    /* Text Settings */
-    --text-shadow-heavy: 2px 2px 3px rgba(0, 0, 0, 1);
     --warning-red: rgb(237, 74, 82);
 }
 
@@ -115,7 +94,8 @@
     .privateChannels_e6b769,                /* Active dm list */
     .scroller__53543,                        /* Scroll container for rolls/members in channel settings */
     [class*="guildSection"],
-    [class*="tabBody"]
+    [class*="tabBody"],
+    [class^="tutorialContainer"]
 {
     background-color: transparent !important;
 }
@@ -137,7 +117,9 @@
     .pageBody__41ed7,                    /* Browse channels main content background */
     .scroller__99e7c,
     .container__133bf,
-    .nowPlayingColumn__133bf
+    .nowPlayingColumn__133bf,
+    .searchResultsWrap_a98f3b,
+    .container__16eb0
 {
     background-color: var(--black-10) !important;
 }
@@ -156,7 +138,6 @@
     [class*="searchableSelect"],
     [class*="footerSeparator"],              /* Footer for modal/popouts */
     [class*="messageContainer"],
-    [class*="tutorial"],
     .container__0f711,                       /* Inbox for you container */
     .container__2637,                       /* Server channels sidebar */
     [class*="messageGroupWrapper"],         /* Pinned messages (message embed) */
@@ -164,7 +145,6 @@
     .outer_ab8609,
     .inner_ab8609,
     .popout_a16aea,
-    .layer__960e4,
     [class*="channelRow"],
     .content__908e2,
     .card__88264,
@@ -184,7 +164,7 @@
     .autocomplete__13533,                   /* Autocomplete text (slash commands, emojis, etc) */
     .menu_c1e9c4,                           /* Menu Dropdowns */
     .emojiPicker__7b848,                    /* Emoji picker for poll */
-    [class*="root"],
+    [class^="root"],
     [class*="calendarPicker"],
     .wrapper_c0e32c,                         /* Emoji picker for channel/category popout */
     .container_fc561d,
@@ -224,14 +204,76 @@
     .popoutContainer__0f481,
     [class*="streamPreview"],
     .user-profile-modal,                     /* Old profile popout view (for apps/bots) */
-    .itemCard__7e549
+    .itemCard__7e549,
+    .menu_c1e9c4,
+    .container__16eb0,
+    .searchResult__80bf8
 {
     background: var(--glass-bg) !important;
-    backdrop-filter: var(--glass-blur);
     border: var(--glass-border);
     border-top: var(--glass-border-top);
     box-shadow: var(--glass-shadow);
     border-radius: 8px;
+}
+
+
+
+#app-mount 
+    .container__8a031::before,                      /* Poll creation modal */
+    [class^="contentWrapper"]::before,              /* Content wrappers */
+    .autocomplete__13533::before,                   /* Autocomplete text (slash commands, emojis, etc) */
+    .menu_c1e9c4::before,                           /* Menu Dropdowns */
+    .emojiPicker__7b848::before,                    /* Emoji picker for poll */
+    [class*="root"]::before,
+    [class*="calendarPicker"]::before,
+    .wrapper_c0e32c::before,                         /* Emoji picker for channel/category popout */
+    .container_fc561d::before,
+    [class*="channelHeader"]::before,
+    .messagesPopoutWrap_e8b59c::before,              /* Pinned messages popout */
+    .container_d9c882::before,                       /* Threads popout (in text channel) */
+    .popover_f84418::before,                        /* Message quick actions (react, reply, etc) */
+    .themedBackground__74017::before,                /* Chat bar background */
+    .replyBar__841c8::before,                       /* Reply bar above text bar */
+    .tooltip__4e35b::before,                        /* Tool tip for hovering (server, buttons, etc) */
+    .searchToken_bd8186::before,                    /* Search token in search bar (from, has, contains, etc) */
+    .panels__5e434::before,
+    .picker__09f65::before,                         /* Soundboard background picker */
+    [class*="noiseCancellationPopout"]::before,
+    .container__50387::before,
+    .user-profile-popout::before,                   /* Small user popout */
+    .container__50e22::before,                      /* Container for changing status in small popout */
+    .user-profile-modal-v2::before,                 /* Large user popout */
+    .profile__9c3be::before,                        /* Profile display in large user popout */
+    .card__39ec2::before,                            /* Cards within large user popout */
+    .menuOverlay_ce8328::before,                     /* Buttons on profile card when clicking username on bottom left */
+    [class*="auditLog"]::before,
+    .customColorPicker__459fb::before,
+    [class*="mainTableContainer"]::before,
+    .container__5573a::before,
+    .prompt__5d7c9::before,                          /* Customization questions (Channels & Roles) */
+    .profileCard__5d7c9::before,                     /* Profile card (Channels & Roles, Customization Question) */
+    .actionButtons_cc1819::before,                  /* Buttons when clicking on image in chat */
+    .button_aec7ab::before,                          /* Close button when clicking on image in chat */
+    [class*="embedFull"]::before,
+    .wrapper__44df5::before,
+    [class*="wrapperAudio"]::before,
+    .container_dca174::before,
+    .row_d13feb::before,                            /* Row item on server onboarding/guide */
+    .reactionTooltip_b49891::before,                 /* Message reaction tooltip */
+    [class*="cardPrimary"]::before,
+    .popoutContainer__0f481::before,
+    [class*="streamPreview"]::before,
+    .user-profile-modal::before,                     /* Old profile popout view (for apps/bots) */
+    .itemCard__7e549::before,
+    .menu_c1e9c4::before,
+    .container__16eb0::before,
+    .searchResult__80bf8::before
+
+{
+    content: "";
+    position: absolute;
+    backdrop-filter: var(--glass-blur);
+    border-radius: inherit;
 }
 
 
