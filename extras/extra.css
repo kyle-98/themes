@@ -1,5 +1,25 @@
 :root {
-    --dark-transparent: rgba(0,0,0,.3);
+    --black-80: rgba(0,0,0,0.8);
+    --black-70: rgba(0,0,0,0.7);
+    --black-60: rgba(0,0,0,0.6);
+    --black-50: rgba(0,0,0,0.5);
+    --black-40: rgba(0,0,0,0.4);
+    --black-30: rgba(0,0,0,0.3);
+    --black-20: rgba(0,0,0,0.2);
+    --black-10: rgba(0,0,0,0.1);
+
+    --gray-80: rgba(46, 46, 46, 0.8);
+    --gray-50: rgba(46, 46, 46, 0.5);
+
+    /* Frosted Glass Texture Settings */
+    --glass-bg: rgba(0, 0, 0, 0.05);
+    --glass-blur: blur(8px) saturate(160%);
+    --glass-border: 1px solid rgba(255, 255, 255, 0.1);
+    --glass-border-top: 1px solid rgba(255, 255, 255, 0.2);
+    --glass-shadow: 0 8px 6px 0 rgba(0, 0, 0, 0.2);
+    
+    /* Text Settings */
+    --text-shadow-heavy: 2px 2px 3px rgba(0, 0, 0, 1);
     --warning-red: rgb(237, 74, 82);
 }
 
@@ -36,9 +56,10 @@
     --profile-gradient-secondary-color:  rgba(0,0,0, .6) !important;
 }
 
-/* main app */
-#app-mount ._960e4207cea8323e-layers::before{
+/* main app background */
+#app-mount .layers__960e4::before{
     content: "";
+    
     background: var(--background-image);
     height: calc(100vh + (var(--background-blur)) * 2);
     width: calc(100vw + (var(--background-blur)) * 2);    
@@ -47,1176 +68,194 @@
     filter: blur(var(--background-blur)) brightness(var(--background-darken));
 }
 
-#app-mount ._5e434347c823b592-panels {
-    background-color: var(--dark-transparent);
-}
-#app-mount ._133bf5eea8e33a34-container {
-    background-color: transparent;
-}
-#app-mount ._421edea01cb52e16-wordmarkWindows {
-    color:white;
-    background-image: var(--wordmark-image);
-    background-position:5px;
-    background-size: 20%;
-    background-repeat: no-repeat;
-    width: 65px;
-}
-#app-mount .wrapper__8436d:hover .childWrapper_a6ce15, .wrapper__8436d.selected_ae80f7 .childWrapper_a6ce15 {
-    background-color: rgba(255, 255, 255, 0.8);
-    color:rgba(0, 0, 0, 0.9);
-}
-#app-mount ._133bf5eea8e33a34-container {
-    background-color: transparent;
-}
-
-/* Dynamic Scrollbar */
-#app-mount .auto-2K3UW5::-webkit-scrollbar-thumb, .auto-2K3UW5::-webkit-scrollbar-track {
-    background-color: var(--dark-transparent);
-}
-
-/* User popouts */
-#app-mount .headerNormal-T_seeN {
-    background-color: rgba(0,0,0,.8);
-}
-#app-mount .footer-1fjuF6 {
-    background-color: rgba(0,0,0,.9);
-}
-#app-mount .protip-YaFfgO {
-    visibility: hidden;
-    margin-bottom: -15px;
-}
-#app-mount .headerSpotify-zpWxgT {
-    background: var(--spotify-color);
-}
-#app-mount .headerPlaying-j0WQBV {
-    background: var(--game-color);
-}
-#app-mount .container-2O1UgZ {
-    background-color: rgba(0, 0, 0, 0.952);
-    box-shadow: 0 0 30px 2px rgba(255, 255, 255, 0.082);
-}
-#app-mount .inner__999f6 {
-    background-color: rgba(0, 0, 0, 0.2);
-}
-#app-mount .headerXbox-3G-4PF {
-    background: var(--xbox-color);
-}
-#app-mount .headerStreaming-2FjmGz {
-    background: var(--twitch-color);
-}
-#app-mount .avatar-22FtUu {
-    background-color: rgba(0, 0, 0, 0.315);
-}
-#app-mount .textarea_dde0a8 {
-    background-color: rgba(255, 255, 255, 0.034);
-}
-#app-mount .input-2g-os5.focused-1AtTHC, .input-2g-os5:focus {
-    border-color: rgba(255, 255, 255, 0.507);
-}
-#app-mount .input_df4dd0 {
-    background-color: rgba(255, 255, 255, 0.068); 
-}
-#app-mount .headerTop-3GPUSF {
-    background-color: rgba(0, 0, 0, 0.8);
-}
-#app-mount .body-2wLx-E {
-    background-color: rgba(0, 0, 0, 0.8);
-}
-#app-mount .bodyInnerWrapper-2bQs1k {
-    background-color:  rgba(0, 0, 0, 0);
-}
-
-/* Upload Area */
-#app-mount .uploadModal_b78547 {
-    background-color: rgba(0,0,0,.2)
-}
-#app-mount .uploadModal_b78547 .b7854763c4a57c63-inner .channelTextAreaUpload_b78547 {
-    background-color: rgba(14, 14, 14, .4);
-}
-#app-mount .uploadModal_b78547 .footer_b78547.hasSpoilers_b78547 {
-    background-color: rgba(0,0,0,.2)
-}
-
-/* Nitro Tab */
-#app-mount .f07d62e29a48ceee-applicationStore {
-    background-color: var(--dark-transparent);
-}
-#app-mount .e008772861506b7e-buttonText {
-    visibility: hidden;
-    margin: -60px;
-    margin-right: 10px;
-    padding: 5px;
-}
-#app-mount .e008772861506b7e-buttonText:after{
-    content:"This is a scam";
-    visibility: visible;  
-    display: block;
-    position: absolute;
-    top: 27%;
-    left: 25%;
-}
-
-#app-mount .e008772861506b7e-premiumIcon{
-    display: none;
-}
-#app-mount .giftIcon_e00877{
-    display: none;
-}
-
-/* emoji picker */
-#app-mount .c0e32c5cffed3d9f-inspector {
-    background-color: rgba(0,0,0,.4);
-}
-#app-mount .fc7141859aaa98b7-emojiItem.fc7141859aaa98b7-emojiItemSelected {
-    background-color:rgba(53, 53, 53, 0.7);
-}
-#app-mount .emojiPickerInExpressionPicker-2nOwH8 .c0e32c5cffed3d9f-emojiPicker {
-    background-color: var(--dark-transparent);
-    box-shadow: 0 0 5px 2px rgb(0, 0, 0);
-}
-#app-mount ._084343c4f11eaaab-contentWrapper {
-    background-color: rgba(0,0,0,.8);
-}
-/* Emoji auto complete */
-#app-mount ._13533e3c5791980f-autocomplete {
-    background-color: rgba(0,0,0,.9);
-    box-shadow: 0 0 10px 2px rgb(0, 0, 0);
-}
-
-/*Folder settings */
-#app-mount ._49fc18ba07c5025f-root {
-    background-color: rgba(0,0,0,.2);
-}
-#app-mount .footer-31IekZ {
-    background-color: rgba(0,0,0,.2);
-}
-/* color picker */
-#app-mount .colorPickerCustom-1swUKF {
-    background-color: rgba(0,0,0,.2);
-}
-
-
-/* get rid of shitty gift button */
-#app-mount ._740174f3d6a2c8fe-buttons [aria-label="Send a gift or Boost this server"]{
-    display: none !important;
-}
-
-#app-mount ._740174f3d6a2c8fe-buttons [aria-label="Send a gift"]{
-    display: none !important;
-}
-
-/* Create Server */
-#app-mount .colorHeaderPrimary-jN_yGr {
-    color: white;
-}
-#app-mount .colorHeaderSecondary-g5teka {
-    color: white;
-}
-#app-mount .close-1mLglB {
-    color:white;
-}
-#app-mount .colorStandard-21JIj7 {
-    color:white;
-}
-#app-mount .container-x8Y1ix {
-    background-color: rgba(14, 13, 13, 0.4)
-}
-
-/* Explore tab */
-#app-mount .pageWrapper_a3a4ce {
-    background-color: transparent;
-}
-#app-mount .c1e9c47c23f12ca3-menu {
-    background-color:rgba(0, 0, 0, .9);
-    box-shadow: 0 0 5px 2px rgb(0, 0, 0);
-}
-
-/* now playing (friend's list) */
-#app-mount ._133bf5eea8e33a34-nowPlayingColumn {
-    background-color: var(--dark-transparent);
-}
-#app-mount .bf1984a18b3ec6f0-inset {
-    background-color: rgba(0,0,0,.9);
-}
-#app-mount ._7e549558f336cddb-itemCard:first-of-type {
-    background-color: rgba(0,0,0,.3);
-}
-
-/* members list */
-#app-mount .addMembersButton_b7fc42 {
-    display: none;
-}
-
-/* Search bar (slightly busted) */
-#app-mount ._55c999adcf6db265-container {
-    background-color: rgba(0,0,0,.5);
-}
-#app-mount .d27f17593b8064c5-calendarPicker .react-datepicker {
-    background-color: rgba(0,0,0,.9);
-}
-#app-mount .d27f17593b8064c5-calendarPicker .react-datepicker__header {
-    background-color: transparent;
-}
-#app-mount .d27f17593b8064c5-calendarPicker .react-datepicker__day--outside-month {
-    background-color: rgba(0,0,0,.5);
-}
-#app-mount ._55c999adcf6db265-focused{
-    background-color: rgba(0,0,0,.5);
-}
-#app-mount .datePicker-70cO23 .datePickerHint-17MnA8 {
-    background-color: rgba(0,0,0,.9);
-    
-}
-
-/*Connection Indicator */
-#app-mount .ping_c0cb95{
-    background: var(--connect-image) 100% no-repeat;
-    background-size: 25px;
-    padding: 5px;
-    padding-left: 10px;  
-}
-#app-mount .rtcConnectionQualityFine_c0cb95 .pingForeground_c0cb95 {
-    display: var(--connect-disable);
-}
-
-#app-mount .numberBadge__40d6f {
-    background-color: var(--badge-color) !important;
-}
-
-/* Sidebar Width (channels) */
-#app-mount ._5e434347c823b592-sidebar   {
-    width: var(--sidebar-width); 
-}
-
-/* side width (users) */
-#app-mount .c8ffbb79449f399c-membersWrap{
-    width: var(--members-width);
-    min-width: 0px;
-}
-#app-mount .c8ffbb79449f399c-members, .c8ffbb79449f399c-members>div {
-    width: var(--members-width);
-}
-
-#app-mount .tooltipPointer-3L49xb {
-    border-top-color: rgba(0,0,0,.4);
-}
-
-#app-mount .tooltip-14MtrL {
-    background-color: rgba(0,0,0, .8);
-    box-shadow: 0 0 5px 2px rgb(0, 0, 0);
-}
-
-#app-mount ._0f481cbbd7530492-jumpToPresentBar {
-    background-color: rgba(0 ,0, 0, .6);
-    box-shadow: 1px -8px 12px -4px rgba(0 ,0, 0, .8);
-}
-
-#app-mount ._4bb93312e84f332e-card:before {
-    background-color: var(--dark-transparent);
-    border-color:  rgba(0, 0, 0, .6);
-}
-#app-mount .emojiAliasInput-1y-NBz .emojiInput-1aLNse {
-    background-color: rgba(0, 0, 0, .3);
-}
-
-#app-mount ._972a0d22c8afa7f0-link[href="/store"],[href="/shop"] {
-    display: var(--nitro-garbage);
-}
-
-#app-mount .item-3XjbnG[aria-controls="Discord Nitro-tab"], [aria-controls="Billing-tab"], [aria-controls="Nitro Server Boost-tab"] {
-    display: var(--nitro-garbage);
-}
-
-
-/*Channels Sidebar */
-#app-mount ._29444ba32c7fbeab-name {
-    color:var(--channel-sidebar-header);
-}
-
-/* Server Dropdown Settings */
-#app-mount .item-1OdjEX[id="guild-header-popout-premium-subscribe"] {
-    margin-top: -40px;
-}
-
-#app-mount ._9293f6b2fc12398a-icon {
-    color: white;
-}
-
-/*Search Bar Things */
-#app-mount .resultsGroup-1BPR25 {
-    background-color: rgba(0,0,0,.8);
-}
-#app-mount .option-2KkUJO:after {
-    background-color:transparent;
-    background-image: none;
-}
-#app-mount .option-2KkUJO.selected-rZcOL- {
-    background-color: #5c6fb1;
-}
-#app-mount .bd818628221af7aa-searchAnswer, .theme-dark .bd818628221af7aa-searchFilter {
-    background-color: #5c6fb1;
-}
-
-#app-mount .activity-fViXj7 {
-    background-color: rgba(0,0,0,.7)
-}
-
-#app-mount .c19a557985eb7793-cozy .c19a557985eb7793-timestamp {
-    color:rgb(214, 214, 214);
-}
-
-#app-mount .e8b59c4b335dd2fc-messagesPopout {
-    background-color: rgba(0 ,0, 0, .9);
-}
-#app-mount .e8b59c4b335dd2fc-header {
-    background-color: rgba(0 ,0, 0, .8);
-}
-
-#app-mount .accountList-305sx3 {
-    background-color: rgba(0 ,0, 0, .4);
-}
-#app-mount .connectionHeader-2rV1ze {
-    background-color: rgba(0 ,0, 0, .4);
-}
-#app-mount .connectionOptionsWrapper-1ipqUo {
-    background-color: rgba(0 ,0, 0, .2);
-}
-#app-mount .integrationsWrapper-3a2pGd {
-    background-color: rgba(0 ,0, 0, .2);
-}
-#app-mount .integration-1f5IUi {
-    background-color: rgba(0 ,0, 0, .4);
-}
-
-/*Remove Thread near Upload Modal */
-#app-mount .item-1OdjEX[id="channel-attach-THREAD"] {
-    display: none;
-}
-
-/* Remove Gif Text Under Gifs */
-#app-mount ._0f481cbbd7530492-altText{
-    display: none;
-}
-
-/* Threads popout fix */
-#app-mount .d98031d9a3e08b09-browser{
-    background-color:  rgba(0,0,0,.8);
-    border-radius: 5px;
-}
-
-/* background for pinned & inbox */
-#app-mount .e8b59c4b335dd2fc-messagesPopoutWrap{
-    background-color:  rgba(0,0,0,.8);
-}
-
-/* Headers for Inbox Messages */
-#app-mount ._35a7ecf3aba351b2-channelHeader{
-    background-color:  rgba(0,0,0,.8);
-    border-radius: 10px;
-}
-
-/* fix settings background brightness */
-
-
-/* Gif and emote picker background */
-#app-mount ._084343c4f11eaaab-contentWrapper{
-    background-color:  rgba(0,0,0,.8);
-}
-
-/* fix emojis in custom status */
-#app-mount .body-2wLx-E{
-    padding-top: 5px;
-}
-
-/* Fix for auto complete darkness */
-#app-mount ._6b0e07cbaf13ec4e-scroller[data-list-id="channel-autocomplete"]{
-    background-color:  rgba(0,0,0,.6);
-}
-
-/* Delete Sticker picker in emote menu */
-#app-mount ._084343c4f11eaaab-navButton[id="sticker-picker-tab"]{
-    display:  none;
-}
-
-#app-mount .anchor-1MIwyf[href="https://support.discord.com"]{
-    display: none;
-}
-
-#app-mount ._972a0d22c8afa7f0-closeIcon path{
-    fill: var(--warning-red) !important;
-}
-
-#app-mount .colorDefault-CDqZdO[id="user-context-block"],[id="user-context-remove-friend"]{
-    color:  var(--warning-red);
-}
-
-#app-mount .c8ffbb79449f399c-member{
-    background-color: transparent;
-}
-
-/*profile and other user settings */
-
-#app-mount ._6a919231d4bdfd4f-bioTextArea {
-    background-color: rgba(0,0,0,0.3);
-}
-
-#app-mount .colorPickerCustom-1swUKF[role="dialog"]{
-    background-color: rgba(0, 0, 0, 0.8);
-}
-
-#app-mount .input-2g-os5{
-    background-color: rgba(0, 0, 0, 0.2);
-    border: 1px solid rgba(255, 255, 255, 0.2);
-}
-
-#app-mount .status-b9jLr4{
-    background: rgba(0, 0, 0, 0.8);
-}
-
-#app-mount h3[data-text-variant="heading-xl/bold"]{
-    visibility: hidden;
-}
-
-#app-mount h3[data-text-variant="heading-xl/bold"]:after{
-    content: "Don't Try Out Nitro!";
-    visibility: visible;
-    display: block;
-    position: absolute;
-    top: -1%;
-}
-
-#app-mount .connectContainer_c7f964{
-    background-color: rgba(0, 0, 0, 0.4);
-}
-
-#app-mount h3[data-text-variant="heading-md/bold"]{
-    visibility: hidden;
-}
-
-#app-mount h3[data-text-variant="heading-md/bold"]:after{
-    visibility: visible;
-    content: "Add accounts to your profile to dox yourself!";
-    position: absolute;
-    left: 8%;
-}
-
-#app-mount .c7f964e7e0fc8b47-connectionHeader{
-    background-color: rgba(0, 0, 0, 0.4);
-}
-
-#app-mount .c7f964e7e0fc8b47-connectionDelete{
-    color: var(--warning-red);
-}
-
-#app-mount .c7f964e7e0fc8b47-integrationWrapper{
-    background: rgba(0,0,0,0.4);
-}
-
-#app-mount ._01014d2e38bd7c76-paymentPane{
-    background-color: rgba(0, 0, 0, 0.4);
-}
-
-#app-mount .paginator__01014[data-list-id="billing-history"]{
-    background: rgba(0,0,0,0.4);
-}
-
-#app-mount .e9cb00d6250845ad-payment{
-    background-color: transparent;
-}
-
-#app-mount .a706ba33cbeb179a-codeRedemptionRedirect{
-    background-color: rgba(0,0,0,0.4);
-}
-
-/* more server settings */
-#app-mount .lookFilled-1GseHa.select-1Ia3hD{
-    background-color: rgba(0, 0, 0, 0.6);
-}
-
-#app-mount .popout-1KHNAq[role="listbox"]{
-    background-color: rgba(0, 0, 0, 0.95);
-}
-
-#app-mount .c0e32c5cffed3d9f-emojiPicker{
-    background-color: rgba(0, 0, 0, 0.7);
-}
-
-#app-mount .c0e32c5cffed3d9f-header{
-    background-color: rgba(0, 0, 0, 0.7);
-}
-
-/* Browse Channels Tab */
-#app-mount .container_c2efea{
-    background-color: transparent;
-}
-#app-mount ._0b56311ebc6682e2-container, ._0b56311ebc6682e2-header{
-    background-color: rgba(0, 0, 0, 0.1) !important;
-}
-
-#app-mount ._0b56311ebc6682e2-innerHeader:after, ._9293f6b2fc12398a-children:after{
-    display: none;
-}
-#app-mount .lookOutlined-3yKVGo.colorPrimary-2AuQVo:hover{
-    background-color: rgba(0, 0, 0, 0.3);
-}
-
-/* Server Pill */
-#app-mount .f37cb1984c371ee5-communityInfoPill{
-    background: rgba(0, 0, 0, .75);
-}
-
-/* # of members in voice channels */
-#app-mount ._7aaec78b97ff00f7-bar{
-    background-color: rgba(0, 0, 0, .75);
-}
-
-/* Customize Community Tab */
-#app-mount ._5d7c9a81ac5dd074-emptyPage, .theme-dark .scrollerContainer_c6b11b{
-    background-color: rgba(0, 0, 0, 0.2) !important;
-}
-
-
-
-#app-mount ._5dec784a68542d60-panel{
-    background-color: rgba(0,0,0,0.2)
-}
-
-/* Streaming Popout modal */
-#app-mount ._49fc18ba07c5025f-root{
-    background-color: rgba(0,0,0,0.2);
-}
-
-#app-mount ._49fc18ba07c5025f-footer{
-    background-color: transparent;
-}
-
-#app-mount .modalHeader-X-sQsB{
-    padding-bottom: .5px;
-}
-
-/*Edit file upload popout modal */
-#app-mount ._0ed4fc708cdbac0d-input{
-    background-color: rgba(0, 0, 0, .5);
-    border: solid;
-    border-color: rgba(55, 55, 55, .3);
-    border-radius: 3px;
-}
-
-#app-mount .footer_b78547{
-    background-color: rgba(0, 0, 0, .5);
-}
-
-/* Channel Permission Settings */
-#app-mount .settingCard-xZSDjS.active-3EK-ed{
-    background-color: rgba(0, 0, 0, .5);
-}
-
-/* Popup context menu for right clicking */
-#app-mount .c1e9c47c23f12ca3-menu{
-    background-color: rgba(0, 0, 0, .8);
-}
-
-/* Delete Super Reaction Garbage */
-#app-mount .f7ecaca5c80dbf3a-button[aria-label="Add Super Reaction"]{
-    display: none;
-}
-
-/* Role picker on user popout */
-#app-mount ._3dde27fb71170aa9-container{
-    background-color: rgba(0, 0, 0, .9);
-}
-
-/* Selection menus */
-#app-mount .a16aea1526925c2c-popout{
-    background-color:rgba(0,0,0, .9);
-}
-#app-mount .lookFilled__3f413.a16aea1526925c2c-select{
-    background-color:rgba(0,0,0, .5);
-}
-
-
-
-#app-mount ._5dec784a68542d60-panel {
-    background-color: transparent;
-}
-
-#app-mount .e131a99484292a19-container{
-    background-color: transparent;
-}
-
-/* title bar */
-#app-mount ._421edea01cb52e16-wordmarkWindows{
-    /* change to whatever you want watermark image to be */
-    background-image: var(--wordmark-image);
-    background-size: contain;
-    background-repeat: no-repeat; 
-    padding-top: 3px;
-    width: 100%;
-}
-
-#app-mount g[fill="currentColor"]{
-    display: none;
-}
-
-#app-mount ._421edea01cb52e16-typeWindows{
-    background-color: rgba(0, 0, 0, 0.5);
-    margin: 0px;
-}
-
-/* server onboarding */
-#app-mount ._7449fa59699cedd9-background {
-    background: transparent;
-}
-
-#app-mount ._7449fa59699cedd9-title{
-    background-color: rgba(0, 0, 0, 0.45);
-}
-
-/* scroll bar for chats */
-#app-mount ._99f8cc7ad4790ce9-auto::-webkit-scrollbar-thumb{
-    background-color: rgba(0, 0, 0, .7);
-}
-
-#app-mount ._99f8cc7ad4790ce9-auto::-webkit-scrollbar-track{
-    background-color: rgba(0, 0, 0, 0.4);
-}
-
-/* Vencord Settings */
-#app-mount .vc-addon-card{
-    background-color: rgba(0, 0, 0, 0.6);
-}
-
-/* Apps (in textbar) */
-#app-mount .d1405bf11dcfb07a-categoryHeader{
-    background-color: rgba(0, 0, 0, 0.5);
-    border-radius: 8px;
-}
-
-/* remove sticker tab in emoji picker */
-#app-mount ._084343c4f11eaaab-stickersNavItem{
-    display: none;
-}
-#app-mount ._084343c4f11eaaab-navItem+._084343c4f11eaaab-navItem[id="sticker-picker-tab"]{
-    display: none;
-}
-
-/* remove gift button from chat window */
-#app-mount ._201d5e8a3c09670a-button._201d5e8a3c09670a-lookBlank._201d5e8a3c09670a-colorBrand._201d5e8a3c09670a-grow[aria-label="Send a gift"]{
-    display: none;
-}
-
-/* remove sticker button from chat window */
-#app-mount ._201d5e8a3c09670a-button._201d5e8a3c09670a-lookBlank._201d5e8a3c09670a-colorBrand._201d5e8a3c09670a-grow[aria-label="Open sticker picker"]{
-    display: none;
-}
-
-#app-mount ._421edea01cb52e16-typeWindows{
-    background-color: rgba(0, 0, 0, 0.5);
-}
-
-#app-mount ._841c8f861f7b2704-replyBar{
-    background-color: rgba(0, 0, 0, 0.5)
-}
-
-#app-mount ._49fc18ba07c5025f-footerSeparator{
-    background-color: rgba(0 ,0, 0, .5);
-}
-
-#app-mount ._49fc18ba07c5025f-focusLock{
-    background-color: rgba(0 ,0, 0, .5);
-}
-
-/* dm call gui header */
-#app-mount .cb9592ad77576717-wrapper.cb9592ad77576717-minimum{
-    background-color: rgba(0 ,0, 0, .2);
-}
-
-#app-mount .f1ceaca61b18918e-colorable.f1ceaca61b18918e-primaryDark, .f1ceaca61b18918e-colorable.f1ceaca61b18918e-primaryDark .f1ceaca61b18918e-centerIcon{
-    background-color: rgba(63, 63, 63, 0.5);
-}
-#app-mount .f1ceaca61b18918e-centerIcon{
+/* Text Drop Shadow */
+#app-mount
+    .header__14245                          /* Text header for server names in sticker and emoji picker */
+{
+    text-shadow: 2px 2px 3px rgba(0, 0, 0, 1) !important;
+    background: rgba(0,0,0,0.05) !important;
+}
+
+/* Transparent Background */
+#app-mount 
+    .upsell_ac65bb,                          /* Upsell for nitro in stickers popout */
+    .wrapper__14245,                         /* Header for server names (stickers and emojis) */
+    [class*="header"],                       /* Modal/Popout headers */
+    .emojiPicker_c0e32c,
+    [class^="react-datepicker"],             /* React date pickers */
+    [class*="recentMentionsPopout"],
+    .messages__1ccd1,                        /* Unread messages */
+    .guilds__5e434,                           /* Servers sidebar */
+    .chat_f75fb0,                           /* Main chat container window */
+    .content_f75fb0,                         /* Main chat container window (2) */
+    .container_c8ffbb,                      /* Members list container */
+    .members_c8ffbb,                         /* Members list */
+    .member_c8ffbb,                          /* Individual member name plate (outside of nitro cosmetics) */
+    .container__01ae2,
+    .channelTextArea_f75fb0,
+    .stackedBars__74017,
+    .clipContainer__841c8,
+    .layer__59d0d,
+    .size-xl__8a031,
+    .sectionContainer__61424,
+    .soundButtonWrapper__9be63,             /* Soundboard wrapper */
+    .progress__06283,                        /* Krisp mic test indicators */
+    .graphContainer_effb26,                  /* Voice channel connection graph */
+    .inner_c0bea0,
+    .content_e9e3ed,                        /* Settings popout main content */
+    .contentHeader_e9e3ed,                   /* Settings popout header */
+    .standardSidebarView__23e6b,            /* Server settings (server options sidebar) */
+    .sidebarRegionScroller__23e6b,          /* Server settings (server options region sidebar) */
+    .contentRegion__23e6b,                  /* Server settings (content options region) */
+    .contentRegionScroller__23e6b,           /* Server settings (content options scroller region) */
+    .container__89463,                      /* Server boost rewards (server boost management) */
+    .contentContainer__89463,               /* Server boost rewards (server boost management. This is the indvidual cards for each reward) */
+    .sidebarContainer__89463,               /* Server boost count (server boost management) */
+    .content_a8c622,                         /* Payment modal for boosting server */
+    .privateChannels_e6b769,                /* Active dm list */
+    .scroller__53543,                        /* Scroll container for rolls/members in channel settings */
+    [class*="guildSection"],
+    [class*="tabBody"]
+{
     background-color: transparent !important;
 }
 
-#app-mount .ebaca56eb4bb23eb-quickSelectPopout{
-    background-color: rgba(0 ,0, 0, .8);
-}
-
-#app-mount ._0ed4fc708cdbac0d-input{
-    background-color: rgba(0 ,0, 0, .6);
-}
-
-/* message preview when attempting to delete message */
-#app-mount .fd14e024a43b9049-message{
-    background-color: rgba(0 ,0, 0, .8);
-}
-
-/* choose new pfp ui */
-#app-mount .optionBox_edf440{
-    background-color: rgba(41, 41, 41, 0.5);
-}
-
-/* edit bio in user settings background */
-#app-mount ._6a919231d4bdfd4f-bioTextArea{
-    background-color: rgba(0 ,0, 0, .4);
-}
-
-/* pick profile banner color (color picker) */
-#app-mount .customColorPicker_bbc020{
-    background-color: rgba(0 ,0, 0, .8);
-}
-
-/* remove nitro/costmetic ad in editing profile */
-#app-mount ._8279f38edc620354-container{
-    display: none;
-}
-
-/* even creation GUI */
-#app-mount .d27f17593b8064c5-calendarPicker .react-datepicker{
-    background-color: rgba(0 ,0, 0, .8);
-}
-#app-mount .d27f17593b8064c5-calendarPicker .react-datepicker__header{
-    background-color: rgba(0 ,0, 0, .8);
-}
-#app-mount .react-datepicker__day--outside-month{
-    background-color: rgba(0 ,0, 0, .8);
-}
-
-#app-mount .react-datepicker__day--disabled{
-    background-color: rgba(255, 60, 60, 0.171);
-}
-
-/* profile small popout */
-#app-mount .biteSizeInnerThemed_c69a7b{
-    background: rgba(0,0,0,0.8);
-}
-
-/* remove status bubble on profile (this looked ugly as shit) */
-#app-mount .statusBubbleOuter_af9888:after{
-    display: none;
-}
-
-/* profile popout status */
-#app-mount .statusBubbleOuter_af9888:before{
-    display: none;
-}
-#app-mount .statusBubble_af9888{
-    background: rgba(0,0,0,0.5);
-}
-
-#app-mount .statusBubbleOuter_af9888{
-    background: transparent;
-}
-
-#app-mount ._201d5e8a3c09670a-lookFilled._201d5e8a3c09670a-colorPrimary{
-    background: rgba(54, 54, 54, 0.5);
-}
-
-/* profile big popout */
-#app-mount .fullSizeInnerThemed_c69a7b{
-    background: transparent;
-}
-
-/* small bio on full popout */
-#app-mount .fullSizeOverlayBackground_c69a7b{
-    background: rgba(34, 34, 34, 0.5);
-}
-
-#app-mount ._6e9f8dce4cc18de3-wrapper._6e9f8dce4cc18de3-selected ._6e9f8dce4cc18de3-childWrapper{
-    background: rgba(0,0,0,0.5);
-}
-
-/* UI REFRESH UPDATE (3/25/25) */
-.visual-refresh .ef3116c2da186559-wrapper {
-    background: transparent;
-}
-
-/* Sidebar with dms (full background) */
-.visual-refresh .e6b7699ce8339e1c-privateChannels {
-    background: rgba(0,0,0,0.5);
-    border-radius: 0px 0px 0px 10px;
-}
-
-/* sidebar in servers */
-.visual-refresh ._5e434347c823b592-sidebarListRounded {
-    padding-bottom: calc(var(--custom-app-panels-height, 0) + 15px); /* This covers the list for servers and open dm's */
-}
-.visual-refresh ._2637a2609f343032-container {
-    padding-bottom: 0px;
-    border-radius: 0px 0px 0px 10px !important;
-}
-
-/* Sidebar with dms (only dm names background) */
-.visual-refresh ._99e7cad8d4c55236-scroller{
-    background: transparent;
-    margin-bottom: 0px;
-}
-
-/* get rid of another layer on chat background */
-.theme-dark ._9293f6b2fc12398a-themed {
-    background: rgba(0,0,0,0.5);
-}
-
-/* main chat background */
-.visual-refresh .f75fb00fb7356cbe-chat {
-    background: rgba(0,0,0,0.5);
-}
-
-/* main chat background (need to remove because two layers for chat background) */
-.visual-refresh .f75fb00fb7356cbe-chatContent {
-    background: transparent;
-}
-
-/* chat bar background (not needed) */
-.visual-refresh .f75fb00fb7356cbe-channelTextArea {
-    background: transparent;
-}
-
-/* main chat bar background */
-:where(.visual-refresh) ._740174f3d6a2c8fe-themedBackground {
-    background: rgba(0,0,0,0.5);
-}
-
-/* attachment area in char bar */
-.visual-refresh .b77158512e0ab116-channelAttachmentArea {
-    background: transparent;
-}
-
-/* inner portion of attachment area */
-.visual-refresh .aa605f19898fe32e-upload {
-    background: transparent;
-}
-
-/* spoiler, edit, remove attachment selection */
-.visual-refresh .f7ecaca5c80dbf3a-wrapper {
-    background: rgba(0,0,0,0.7);
-}
-
-/* name of emojis (where server names are in the emoji picker) */
-.visual-refresh ._14245bb948377a25-wrapper {
-    background: transparent;
-}
-
-/* server picker in emoji picker */
-.visual-refresh ._4106ae7c1472c1de-wrapper {
-    background: transparent;
-}
-
-/* background of gif picker search bar */
-.visual-refresh .fed6d32841cc2da2-header {
-    background: transparent;
-}
-
-/* background of entire gif picker */
-.fed6d32841cc2da2-container {
-    background: transparent;
-}
-
-/* quick switcher */
-.visual-refresh .ac6cb02cd15b4b3b-quickswitcher, .visual-refresh .ac6cb02cd15b4b3b-scroller {
-    background: transparent;
-}
-
-/* highlighting background of previous channels in quick switcher */
-._71961da99d37ac57-result[aria-selected=true] {
-    background: rgba(61, 61, 61, 0.7)
-}
-
-/* remove the stupid padding at the bottom of the quick switcher */
-.container_ac6cb0 {
-    height: auto;
-}
-
-/* search area in dms */
-.visual-refresh .a9e7064fdee8e9b0-searchResultsWrap{
-    background: transparent;
-}
-
-/* individual message background found in search in dms */
-.visual-refresh ._02a39cb2980ceaaf-searchResult {
-    background: rgba(0,0,0,0.7)
-}
-
-.c0bea05627c5dc35-inner.user-profile-popout, .c0bea05627c5dc35-inner.user-profile-modal {
-    background: transparent;
-}
-
-/* remove pip when screensharing */
-.e4cb9af80253a521-pictureInPictureVideo {
-    display: none;
-}
-
-.buttonContainer-28fw2U .button-38aScr[aria-label="Open sticker picker"]{
-    display: none;
-}
-
-
-/* remove sticker button from chat */
-.abd7a8a2de1017e2-clickableSticker[role="button"]{
-    display: none;
-}
-.stickersNavItem-g1SJ0f{
-    display: none;
-}
-._740174f3d6a2c8fe-stickerButton{
-    display: none;
-}
-
-/* message container for messages display in the inbox tabs */
-.visual-refresh ._957962c2bd49881b-messageContainer {
-    background: rgba(66, 66, 66, 0.2);
-}
-
-/* for you and unreads background when no messages appear */
-.visual-refresh .container__2692d, .visual-refresh .fc561d3c125f6a2f-container {
-    background: rgba(0,0,0,0.7);
-} 
-
-/* main friends page background */
-.visual-refresh ._133bf5eea8e33a34-tabBody {
-    background: rgba(0,0,0,0.5);
-}
-
-/* remove the background of the "its quite for now" in the now playing column on the friends page */
-#app-mount ._133bf5eea8e33a34-nowPlayingColumn, ._7d20cf18f8a2784c-container, ._7e549558f336cddb-emptyCard {
-    background: transparent;
-}
-
-/* removing the top part where name and everything is listed in dms */
-.visual-refresh ._9293f6b2fc12398a-container{ 
-    background: transparent;
-}
-
-/* background for top part of "friends online all" */
-.visual-refresh ._9293f6b2fc12398a-container[aria-labelledby="uid_3247"]{ 
-    background: rgba(0,0,0,0.5);
-}
-
-._5ec2fb8b5de26b21-searchBar {
-    background: rgba(0,0,0,0.4);
-}
-
-/* hide temporary chat loading stuff */
-.visual-refresh ._6c79861fd96f56b1-wrapper {
-    background: transparent;
-}
-.visual-refresh .fc817765600a960a-wrapper {
-    background: transparent;
-}
-
-/* channels list */
-.visual-refresh ._2637a2609f343032-container {
-    background: rgba(0,0,0,0.5);
-}
-
-/* members list in servers */
-.c8ffbb79449f399c-members, .c8ffbb79449f399c-container {
-    background: transparent;
-}
-
-/* backgrounds from embeds from links */
-.visual-refresh ._623de82e76ad7f82-embedFull {
-    background: rgba(0,0,0,0.7);
-}
-
-/* profile popout background */
-.user-profile-popout {
-    background: rgba(0,0,0,0.7);
-}
-
-/* chat bubble on profile popout for status */
-.ab86098b36386ff7-inner {
-    background: transparent;
-}
-.ab86098b36386ff7-outer {
-    background: rgba(0,0,0,1)
-}
-
-/* full profile background */
-.user-profile-modal {
-    background: transparent;
-}
-
-._160d8e55254637e5-app {
-    background: transparent;
-}
-
-/* sidebar in settings */
-.visual-refresh ._23e6b439306f125a-sidebarRegionScroller {
-    background: transparent !important;
-}
-
-/* settings background content portion (right side of settings) */
-.visual-refresh ._23e6b439306f125a-contentRegionScroller, ._23e6b439306f125a-contentRegion {
-    background: rgba(0,0,0,0.3);
-}
-
-/* settings background */
-.visual-refresh ._23e6b439306f125a-standardSidebarView, ._960e4207cea8323e-layer {
-    background: transparent !important;
-}
-
-/* sidebar in settings menu */
-._23e6b439306f125a-sidebarRegion {
-    background: rgba(0,0,0,0.7);
-    flex: none;
-}
-
-/* top bar of application where close/windows stuff is */
-.c38106a3f0c3ca76-bar[data-windows=true] {
-    background: rgba(0,0,0,0.3) !important;
-}
-
-/* content area in settings/server settings */
-.visual-refresh.platform-win ._23e6b439306f125a-contentRegionScroller {
-    display: flex;
-    justify-content: center !important;
-}
-
-/* header of online, all, add friend on friends page */
-.visual-refresh ._9293f6b2fc12398a-container[role="navigation"] {
-    background: rgba(0,0,0,0.5);
-}
-
-/* background of account profile card in settings */
-._1fed1dd06c7aabf7-accountProfileCard {
-    background: rgba(0,0,0,0.5);
-}
-
-/* border of background of fields on editing profile in settins */
-._1fed1dd06c7aabf7-background {
-    background: rgba(0,0,0,0.8);
-}
-
-/* background of fields on editing profile in settings */
-._1fed1dd06c7aabf7-fieldList {
-    background: rgba(0,0,0,0.8);
-}
-
-/* nitro upsell areas in profile settings */
-._39749d1aeeec7c43-floatingNitroUpsell, ._65c15724a894a2e0-premiumFeatureBorder {
-    display: var(--nitro-garbage);
-}
-
-/* blocked users card */
-._5cea9da4c2ca012f-card {
-    background: rgba(0,0,0,0.6);
-}
-._5cea9da4c2ca012f-header {
-    background: rgba(0,0,0,0.6);
-}
-
-/* remove family center option from settings (if you use this, dont use my theme) */
-.aa8da23faa27393c-item[aria-label="Family Center"] {
-    display: none;
-}
-
-/* background of all cards on authorized app settings page */
-.visual-refresh ._730694f5672c9601-cardPrimary, .visual-refresh ._730694f5672c9601-cardPrimary._730694f5672c9601-editable {
-    background: rgba(0,0,0,0.5);
-}
-
-/* account connection cards */
-.c7f964e7e0fc8b47-connection {
-    background: rgba(0,0,0,0.6);
-}
-.c7f964e7e0fc8b47-metadataContainer {
-    background: rgba(34, 34, 34, 0.5)
-}
-
-/* account connection cards (actual connected accounts) */
-.c7f964e7e0fc8b47-accountButtonInner {
-    background-size: 36px 36px !important;
-    background-repeat: no-repeat !important;
-    background-position: 50% !important;
-    background: rgba(24, 24, 24, 0.6)
-}
-
-/* background of test video */
-.cameraWrapper_d41d5f {
-    background: rgba(0,0,0,0.5)
-}
-
-/* active now cards on friends page */
-.visual-refresh ._00943886e1cf89d1-wrapper {
-    background: rgba(0,0,0,0.6);
-}
-.visual-refresh ._00943886e1cf89d1-section {
-    background: transparent;
-}
-
-/* extra sticker slot tiers in server settings */
-.visual-refresh .a36dee84341ac9f5-tierBody, .visual-refresh .a36dee84341ac9f5-tierHeader {
-    background: rgba(0,0,0,0.2)
-}
-
-/* background of existing stickers in server settings */
-._83b1d7042b9be375-wrapper {
-    background: rgba(0,0,0,0.5)
-}
-
-/* remove server boost upsell banners in server settings */
-.ec75b344a807d94d-banner {
-    display: var(--nitro-garbage);
-}
-
-/* background of members page in server settings */
-.visual-refresh .c791b281f2fedc32-page {
-    background: transparent !important;
-}
-
-/* background of card on members page containing a list of members in server settings */
-.visual-refresh ._09a38002c6c2466d-mainTableContainer {
-    background: rgba(0,0,0,0.6);
-}
-
-.visual-refresh .d8f25bf4f76423e6-container, #app-mount ._5e434347c823b592-panels {
-    background: rgba(0,0,0,0.6)
-}
-
-/* roles settings page */
-.visual-refresh.platform-win ._23e6b439306f125a-contentRegionScroller[dir="ltr"]{
-    justify-content: space-between;
-}
-
-.c6bf1b7af480dfda-header, .e29cd7b93c4f1266-titleContainer {
-    background: transparent;
-}
-
-/* remove section under profile preview in dm's list */
-.visual-refresh ._5e434347c823b592-sidebar:after {
-    display: none;
-}
-
-/* dm call gui */
-.visual-refresh .bfe55a0aaaf62375-root {
-    background: transparent;
-}
-
-/* remove nameplates on users in dm list (im sorry ive had enough visual aids)*/
-._4bbc6dc06e75ad52-videoContainer{
-    display: none;
-}
-._4bbc6dc06e75ad52-container {
-    background: transparent !important;
-}
-._972a0d22c8afa7f0-innerCloseButtonPlated {
-    background: transparent !important;
-    border-radius: 0px;
-    backdrop-filter: none;
-}
-
-/* mp3 embed */
-.visual-refresh .cf09d85aafe7e124-wrapperAudio {
-    background: rgba(0,0,0,0.4) !important;
-}
-
-/* download button on attachments */
-._06ab41fd2ef7af3f-hoverButtonGroup {
-    background-color: rgba(0,0,0,0.4);
-}
-
-/* file embed */
-.visual-refresh ._0ccaee68b77c7469-file {
-    background-color: rgba(0,0,0,0.4) !important;
+/* Dark Background */
+#app-mount
+    .selectDropdown__5fa2f                 /* Poll Time DropDown */
+{
+    background-color: var(--black-80) !important;
+}
+
+/* Medium Background */
+#app-mount
+    .container__2637a,                  /* Channels list */
+    [class^="chatContent"],              /* Chat background */
+    .themed__9293f,
+    .container_fb64c9,                   /* Thread background */
+    .soundButton__9be63,
+    .pageBody__41ed7,                    /* Browse channels main content background */
+    .scroller__99e7c,
+    .container__133bf,
+    .nowPlayingColumn__133bf
+{
+    background-color: var(--black-10) !important;
+}
+
+
+/* Glass effect no borders */
+#app-mount 
+    .wrapper__4e6ce,                        /* Emoji picker (servers list) */
+    [class^="unicodeShortcut"],             /* Emoji picker (shortcut to default emojis) */
+    [class^="inspector"],                   /* Emoji picker (selected emoji information) */
+    .standardStickerShortcut__3ad28,        /* Sticker shortcut */
+    .wrapper_b1e4f3,                        /* Slash command auto complete (app select) */
+    .container_fed6d3,                      /* Body of sticker picker */
+    .header_fed6d3,                         /* Header for sticker picker */
+    .selectDropdown__5fa2f,                 /* Poll time select dropdown */
+    [class*="searchableSelect"],
+    [class*="footerSeparator"],              /* Footer for modal/popouts */
+    [class*="messageContainer"],
+    [class*="tutorial"],
+    .container__0f711,                       /* Inbox for you container */
+    .container__2637,                       /* Server channels sidebar */
+    [class*="messageGroupWrapper"],         /* Pinned messages (message embed) */
+    .footer_a55fdc,
+    .outer_ab8609,
+    .inner_ab8609,
+    .popout_a16aea,
+    .layer__960e4,
+    [class*="channelRow"],
+    .content__908e2,
+    .card__88264,
+    .cardFolder__1a4ef,                  /* Roles in channel settings */
+    .card_b651ff,                        /* Permission sync for roles notification in channel settings */
+    .body__6da2d
+{
+    background: var(--glass-bg) !important;
+    backdrop-filter: var(--glass-blur);
+}
+
+
+/* Glass Effect w Rounded Corners and Background */
+#app-mount 
+    .container__8a031,                      /* Poll creation modal */
+    [class^="contentWrapper"],              /* Content wrappers */
+    .autocomplete__13533,                   /* Autocomplete text (slash commands, emojis, etc) */
+    .menu_c1e9c4,                           /* Menu Dropdowns */
+    .emojiPicker__7b848,                    /* Emoji picker for poll */
+    [class*="root"],
+    [class*="calendarPicker"],
+    .wrapper_c0e32c,                         /* Emoji picker for channel/category popout */
+    .container_fc561d,
+    [class*="channelHeader"],
+    .messagesPopoutWrap_e8b59c,              /* Pinned messages popout */
+    .container_d9c882,                       /* Threads popout (in text channel) */
+    .popover_f84418,                        /* Message quick actions (react, reply, etc) */
+    .themedBackground__74017,                /* Chat bar background */
+    .replyBar__841c8,                       /* Reply bar above text bar */
+    .tooltip__4e35b,                        /* Tool tip for hovering (server, buttons, etc) */
+    .searchToken_bd8186,                    /* Search token in search bar (from, has, contains, etc) */
+    .panels__5e434,
+    .picker__09f65,                         /* Soundboard background picker */
+    [class*="noiseCancellationPopout"],
+    .container__50387,
+    .user-profile-popout,                   /* Small user popout */
+    .container__50e22,                      /* Container for changing status in small popout */
+    .user-profile-modal-v2,                 /* Large user popout */
+    .profile__9c3be,                        /* Profile display in large user popout */
+    .card__39ec2,                            /* Cards within large user popout */
+    .menuOverlay_ce8328,                     /* Buttons on profile card when clicking username on bottom left */
+    [class*="auditLog"],
+    .customColorPicker__459fb,
+    [class*="mainTableContainer"],
+    .container__5573a,
+    .prompt__5d7c9,                          /* Customization questions (Channels & Roles) */
+    .profileCard__5d7c9,                     /* Profile card (Channels & Roles, Customization Question) */
+    .actionButtons_cc1819,                  /* Buttons when clicking on image in chat */
+    .button_aec7ab,                          /* Close button when clicking on image in chat */
+    [class*="embedFull"],
+    .wrapper__44df5,
+    [class*="wrapperAudio"],
+    .container_dca174,
+    .row_d13feb,                            /* Row item on server onboarding/guide */
+    .reactionTooltip_b49891,                 /* Message reaction tooltip */
+    [class*="cardPrimary"],
+    .popoutContainer__0f481,
+    [class*="streamPreview"],
+    .user-profile-modal,                     /* Old profile popout view (for apps/bots) */
+    .itemCard__7e549
+{
+    background: var(--glass-bg) !important;
+    backdrop-filter: var(--glass-blur);
+    border: var(--glass-border);
+    border-top: var(--glass-border-top);
+    box-shadow: var(--glass-shadow);
+    border-radius: 8px;
+}
+
+
+/* Remove Elements */
+#app-mount 
+    .children__9293f:after,              /* Current text channel gradient effect */
+    .chatGradient__36d07,
+    .formWithLoadedChatInput_f75fb0:before,
+    .caretFill__4e35b,
+    .sidebar__5e434:after,
+    [class*="chatTypingGradient"]
+{
+    display:none;
+}
+
+
+#app-mount
+    .root_e529a0,
+    .root_a55fdc,
+    .root__9c3be
+{
+    backdrop-filter: none !important;
+    border: none !important;
+    border-top: none !important;
+    box-shadow: none !important;
+    border-radius: none !important;
 }
